@@ -1,0 +1,34 @@
+frameRate=12
+
+// colour values
+- left
+# start
+r=231
+g=133
+b=172
+a=1
+# left
+
+- down
+# start
+r=17
+g=145
+b=172
+a=1
+# left
+
+- up
+# start
+r=160
+g=132
+b=172
+a=1
+# left
+
+- right
+# start
+r=206
+g=125
+b=172
+a=1
+# left

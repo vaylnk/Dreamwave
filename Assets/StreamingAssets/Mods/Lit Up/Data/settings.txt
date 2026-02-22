@@ -1,0 +1,5 @@
+startScrollAtStep=0
+scrollSpeedMultiplier=4.654
+songPitch=1.0
+cameraXOffset=0
+cameraYOffset=0.5

@@ -1,0 +1,640 @@
+# start
+lane=3
+position=1920
+type=N
+# end
+# start
+lane=3
+position=2040
+type=N
+# end
+# start
+lane=3
+position=2160
+type=N
+# end
+# start
+lane=3
+position=2400
+type=N
+# end
+# start
+lane=3
+position=2640
+type=N
+# end
+# start
+lane=3
+position=2880
+type=N
+# end
+# start
+lane=3
+position=3240
+type=N
+# end
+# start
+lane=3
+position=3600
+type=N
+# end
+# start
+lane=1
+position=3720
+type=H
+length=240
+# end
+# start
+lane=1
+position=3960
+type=N
+# end
+# start
+lane=3
+position=4080
+type=N
+# end
+# start
+lane=3
+position=4320
+type=N
+# end
+# start
+lane=2
+position=4560
+type=N
+# end
+# start
+lane=3
+position=4800
+type=N
+# end
+# start
+lane=3
+position=5160
+type=H
+length=240
+# end
+# start
+lane=3
+position=5520
+type=N
+# end
+# start
+lane=3
+position=9600
+type=N
+# end
+# start
+lane=3
+position=9720
+type=N
+# end
+# start
+lane=3
+position=9840
+type=N
+# end
+# start
+lane=3
+position=10080
+type=N
+# end
+# start
+lane=3
+position=10320
+type=N
+# end
+# start
+lane=3
+position=10560
+type=N
+# end
+# start
+lane=3
+position=10920
+type=N
+# end
+# start
+lane=3
+position=11280
+type=N
+# end
+# start
+lane=1
+position=11400
+type=H
+length=240
+# end
+# start
+lane=3
+position=11760
+type=N
+# end
+# start
+lane=3
+position=12000
+type=N
+# end
+# start
+lane=2
+position=12240
+type=N
+# end
+# start
+lane=3
+position=12480
+type=N
+# end
+# start
+lane=3
+position=12840
+type=H
+length=240
+# end
+# start
+lane=3
+position=13200
+type=N
+# end
+# start
+lane=1
+position=16560
+type=N
+# end
+# start
+lane=0
+position=16800
+type=N
+# end
+# start
+lane=2
+position=17040
+type=N
+# end
+# start
+lane=3
+position=17280
+type=N
+# end
+# start
+lane=0
+position=17520
+type=N
+# end
+# start
+lane=2
+position=18480
+type=N
+# end
+# start
+lane=3
+position=18720
+type=N
+# end
+# start
+lane=0
+position=18960
+type=N
+# end
+# start
+lane=2
+position=19080
+type=N
+# end
+# start
+lane=2
+position=19440
+type=N
+# end
+# start
+lane=0
+position=19680
+type=N
+# end
+# start
+lane=1
+position=19920
+type=N
+# end
+# start
+lane=3
+position=20040
+type=H
+length=240
+# end
+# start
+lane=3
+position=20400
+type=N
+# end
+# start
+lane=2
+position=20520
+type=N
+# end
+# start
+lane=1
+position=20640
+type=N
+# end
+# start
+lane=0
+position=20760
+type=N
+# end
+# start
+lane=1
+position=20880
+type=N
+# end
+# start
+lane=2
+position=21000
+type=N
+# end
+# start
+lane=3
+position=21120
+type=N
+# end
+# start
+lane=3
+position=21360
+type=N
+# end
+# start
+lane=2
+position=21600
+type=N
+# end
+# start
+lane=3
+position=21840
+type=N
+# end
+# start
+lane=1
+position=21960
+type=N
+# end
+# start
+lane=3
+position=22320
+type=N
+# end
+# start
+lane=2
+position=22560
+type=N
+# end
+# start
+lane=1
+position=22680
+type=N
+# end
+# start
+lane=0
+position=22920
+type=N
+# end
+# start
+lane=0
+position=23280
+type=N
+# end
+# start
+lane=2
+position=23520
+type=N
+# end
+# start
+lane=3
+position=23640
+type=N
+# end
+# start
+lane=0
+position=23880
+type=N
+# end
+# start
+lane=3
+position=32640
+type=N
+# end
+# start
+lane=3
+position=32760
+type=N
+# end
+# start
+lane=3
+position=32880
+type=N
+# end
+# start
+lane=3
+position=33120
+type=N
+# end
+# start
+lane=3
+position=33360
+type=N
+# end
+# start
+lane=3
+position=33600
+type=N
+# end
+# start
+lane=3
+position=33960
+type=N
+# end
+# start
+lane=3
+position=34320
+type=N
+# end
+# start
+lane=1
+position=34440
+type=H
+length=240
+# end
+# start
+lane=3
+position=34680
+type=N
+# end
+# start
+lane=3
+position=34800
+type=N
+# end
+# start
+lane=3
+position=35040
+type=N
+# end
+# start
+lane=2
+position=35280
+type=N
+# end
+# start
+lane=3
+position=35520
+type=N
+# end
+# start
+lane=3
+position=35880
+type=H
+length=240
+# end
+# start
+lane=3
+position=36240
+type=N
+# end
+# start
+lane=3
+position=40320
+type=N
+# end
+# start
+lane=3
+position=40440
+type=N
+# end
+# start
+lane=3
+position=40560
+type=N
+# end
+# start
+lane=3
+position=40800
+type=N
+# end
+# start
+lane=3
+position=41040
+type=N
+# end
+# start
+lane=3
+position=41280
+type=N
+# end
+# start
+lane=3
+position=41640
+type=N
+# end
+# start
+lane=3
+position=42000
+type=N
+# end
+# start
+lane=1
+position=42120
+type=H
+length=240
+# end
+# start
+lane=3
+position=42480
+type=N
+# end
+# start
+lane=3
+position=42720
+type=N
+# end
+# start
+lane=2
+position=42960
+type=N
+# end
+# start
+lane=3
+position=43200
+type=N
+# end
+# start
+lane=3
+position=43560
+type=H
+length=240
+# end
+# start
+lane=3
+position=43920
+type=N
+# end
+# start
+lane=1
+position=47280
+type=N
+# end
+# start
+lane=0
+position=47520
+type=N
+# end
+# start
+lane=2
+position=47760
+type=N
+# end
+# start
+lane=3
+position=48000
+type=N
+# end
+# start
+lane=0
+position=48240
+type=N
+# end
+# start
+lane=2
+position=49200
+type=N
+# end
+# start
+lane=3
+position=49440
+type=N
+# end
+# start
+lane=0
+position=49680
+type=N
+# end
+# start
+lane=2
+position=49800
+type=N
+# end
+# start
+lane=2
+position=50160
+type=N
+# end
+# start
+lane=0
+position=50400
+type=N
+# end
+# start
+lane=1
+position=50640
+type=N
+# end
+# start
+lane=3
+position=50760
+type=H
+length=240
+# end
+# start
+lane=3
+position=51120
+type=N
+# end
+# start
+lane=2
+position=51240
+type=N
+# end
+# start
+lane=1
+position=51360
+type=N
+# end
+# start
+lane=0
+position=51480
+type=N
+# end
+# start
+lane=1
+position=51600
+type=N
+# end
+# start
+lane=2
+position=51720
+type=N
+# end
+# start
+lane=3
+position=51840
+type=N
+# end
+# start
+lane=3
+position=52080
+type=N
+# end
+# start
+lane=2
+position=52320
+type=N
+# end
+# start
+lane=3
+position=52560
+type=N
+# end
+# start
+lane=1
+position=52680
+type=N
+# end
+# start
+lane=3
+position=53040
+type=N
+# end
+# start
+lane=2
+position=53280
+type=N
+# end
+# start
+lane=1
+position=53400
+type=N
+# end
+# start
+lane=0
+position=53640
+type=N
+# end
+# start
+lane=0
+position=54000
+type=N
+# end
+# start
+lane=2
+position=54240
+type=N
+# end
+# start
+lane=3
+position=54360
+type=N
+# end
+# start
+lane=0
+position=54600
+type=N
+# end

@@ -1,0 +1,9 @@
+spriteWidth=876
+spriteHeight=640
+spriteScaleX=2000
+spriteScaleY=1200
+shouldFlip=false
+antiAliasing=true
+frameRate=15
+repeat=true
+lastingTime=0.2
