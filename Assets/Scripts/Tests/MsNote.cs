@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class MsNote : MonoBehaviour
 {
-    public float noteTimeMs;   // Authoritative hit time (chart time)
+    public float noteTimeMs;
     public float receptorY;
 
     [HideInInspector] public Transform cachedTransform;

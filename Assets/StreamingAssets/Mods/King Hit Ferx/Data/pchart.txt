@@ -1,0 +1,6802 @@
+# start
+lane=3
+position=30222
+type=N
+# end
+# start
+lane=2
+position=30333
+type=N
+# end
+# start
+lane=0
+position=30444
+type=N
+# end
+# start
+lane=3
+position=30778
+type=N
+# end
+# start
+lane=2
+position=30889
+type=N
+# end
+# start
+lane=3
+position=31222
+type=N
+# end
+# start
+lane=0
+position=31000
+type=N
+# end
+# start
+lane=1
+position=31111
+type=N
+# end
+# start
+lane=2
+position=31333
+type=N
+# end
+# start
+lane=0
+position=31444
+type=N
+# end
+# start
+lane=1
+position=31556
+type=N
+# end
+# start
+lane=3
+position=31667
+type=N
+# end
+# start
+lane=2
+position=31778
+type=N
+# end
+# start
+lane=0
+position=31889
+type=N
+# end
+# start
+lane=1
+position=30556
+type=H
+length=167
+# end
+# start
+lane=3
+position=32000
+type=H
+length=778
+# end
+# start
+lane=0
+position=34667
+type=N
+# end
+# start
+lane=1
+position=34722
+type=N
+# end
+# start
+lane=0
+position=34778
+type=N
+# end
+# start
+lane=2
+position=33778
+type=N
+# end
+# start
+lane=3
+position=33889
+type=N
+# end
+# start
+lane=1
+position=34000
+type=N
+# end
+# start
+lane=3
+position=34833
+type=N
+# end
+# start
+lane=2
+position=34889
+type=N
+# end
+# start
+lane=3
+position=34944
+type=N
+# end
+# start
+lane=1
+position=35000
+type=N
+# end
+# start
+lane=0
+position=35111
+type=N
+# end
+# start
+lane=3
+position=35222
+type=N
+# end
+# start
+lane=2
+position=35333
+type=N
+# end
+# start
+lane=1
+position=35444
+type=N
+# end
+# start
+lane=3
+position=34333
+type=N
+# end
+# start
+lane=1
+position=34444
+type=N
+# end
+# start
+lane=2
+position=34556
+type=N
+# end
+# start
+lane=0
+position=34111
+type=H
+length=167
+# end
+# start
+lane=0
+position=35556
+type=H
+length=778
+# end
+# start
+lane=3
+position=37333
+type=N
+# end
+# start
+lane=0
+position=37444
+type=N
+# end
+# start
+lane=1
+position=37500
+type=N
+# end
+# start
+lane=0
+position=37556
+type=N
+# end
+# start
+lane=1
+position=37611
+type=N
+# end
+# start
+lane=2
+position=37667
+type=N
+# end
+# start
+lane=3
+position=37722
+type=N
+# end
+# start
+lane=2
+position=37778
+type=N
+# end
+# start
+lane=2
+position=37389
+type=N
+# end
+# start
+lane=3
+position=37833
+type=N
+# end
+# start
+lane=0
+position=37889
+type=N
+# end
+# start
+lane=1
+position=37944
+type=N
+# end
+# start
+lane=3
+position=38056
+type=N
+# end
+# start
+lane=2
+position=38111
+type=N
+# end
+# start
+lane=3
+position=38333
+type=N
+# end
+# start
+lane=2
+position=38389
+type=N
+# end
+# start
+lane=0
+position=38444
+type=N
+# end
+# start
+lane=1
+position=38500
+type=N
+# end
+# start
+lane=2
+position=38889
+type=N
+# end
+# start
+lane=0
+position=38000
+type=N
+# end
+# start
+lane=3
+position=38167
+type=N
+# end
+# start
+lane=0
+position=38222
+type=N
+# end
+# start
+lane=1
+position=38278
+type=N
+# end
+# start
+lane=3
+position=38556
+type=N
+# end
+# start
+lane=0
+position=38778
+type=N
+# end
+# start
+lane=1
+position=39000
+type=N
+# end
+# start
+lane=2
+position=38611
+type=N
+# end
+# start
+lane=3
+position=41889
+type=N
+# end
+# start
+lane=2
+position=41944
+type=N
+# end
+# start
+lane=1
+position=42000
+type=N
+# end
+# start
+lane=2
+position=42167
+type=N
+# end
+# start
+lane=3
+position=42444
+type=N
+# end
+# start
+lane=3
+position=42556
+type=N
+# end
+# start
+lane=3
+position=42111
+type=N
+# end
+# start
+lane=0
+position=42056
+type=N
+# end
+# start
+lane=0
+position=42222
+type=N
+# end
+# start
+lane=1
+position=42278
+type=N
+# end
+# start
+lane=2
+position=42333
+type=N
+# end
+# start
+lane=0
+position=40889
+type=N
+# end
+# start
+lane=1
+position=40944
+type=N
+# end
+# start
+lane=0
+position=41000
+type=N
+# end
+# start
+lane=1
+position=41778
+type=N
+# end
+# start
+lane=2
+position=41444
+type=N
+# end
+# start
+lane=2
+position=41556
+type=N
+# end
+# start
+lane=0
+position=41667
+type=N
+# end
+# start
+lane=3
+position=41056
+type=N
+# end
+# start
+lane=2
+position=41111
+type=N
+# end
+# start
+lane=1
+position=41222
+type=H
+length=167
+# end
+# start
+lane=1
+position=42667
+type=H
+length=333
+# end
+# start
+lane=3
+position=44444
+type=N
+# end
+# start
+lane=2
+position=44556
+type=N
+# end
+# start
+lane=0
+position=44667
+type=N
+# end
+# start
+lane=3
+position=45000
+type=N
+# end
+# start
+lane=2
+position=45111
+type=N
+# end
+# start
+lane=3
+position=45444
+type=N
+# end
+# start
+lane=0
+position=45222
+type=N
+# end
+# start
+lane=1
+position=45333
+type=N
+# end
+# start
+lane=2
+position=45556
+type=N
+# end
+# start
+lane=0
+position=45667
+type=N
+# end
+# start
+lane=1
+position=45778
+type=N
+# end
+# start
+lane=3
+position=45889
+type=N
+# end
+# start
+lane=2
+position=46000
+type=N
+# end
+# start
+lane=0
+position=46111
+type=N
+# end
+# start
+lane=1
+position=44778
+type=H
+length=167
+# end
+# start
+lane=3
+position=46222
+type=H
+length=778
+# end
+# start
+lane=0
+position=48889
+type=N
+# end
+# start
+lane=1
+position=48944
+type=N
+# end
+# start
+lane=0
+position=49000
+type=N
+# end
+# start
+lane=2
+position=48000
+type=N
+# end
+# start
+lane=3
+position=48111
+type=N
+# end
+# start
+lane=1
+position=48222
+type=N
+# end
+# start
+lane=3
+position=49056
+type=N
+# end
+# start
+lane=2
+position=49111
+type=N
+# end
+# start
+lane=3
+position=49167
+type=N
+# end
+# start
+lane=1
+position=49222
+type=N
+# end
+# start
+lane=0
+position=49333
+type=N
+# end
+# start
+lane=3
+position=49444
+type=N
+# end
+# start
+lane=2
+position=49556
+type=N
+# end
+# start
+lane=1
+position=49667
+type=N
+# end
+# start
+lane=3
+position=48556
+type=N
+# end
+# start
+lane=1
+position=48667
+type=N
+# end
+# start
+lane=2
+position=48778
+type=N
+# end
+# start
+lane=0
+position=48333
+type=H
+length=167
+# end
+# start
+lane=0
+position=51056
+type=N
+# end
+# start
+lane=1
+position=51111
+type=N
+# end
+# start
+lane=2
+position=51167
+type=N
+# end
+# start
+lane=3
+position=51222
+type=N
+# end
+# start
+lane=0
+position=51278
+type=N
+# end
+# start
+lane=1
+position=51333
+type=N
+# end
+# start
+lane=0
+position=51389
+type=N
+# end
+# start
+lane=1
+position=51444
+type=N
+# end
+# start
+lane=3
+position=50222
+type=N
+# end
+# start
+lane=2
+position=50278
+type=N
+# end
+# start
+lane=1
+position=50333
+type=N
+# end
+# start
+lane=0
+position=50389
+type=N
+# end
+# start
+lane=3
+position=50444
+type=N
+# end
+# start
+lane=2
+position=50500
+type=N
+# end
+# start
+lane=3
+position=50556
+type=N
+# end
+# start
+lane=3
+position=51556
+type=N
+# end
+# start
+lane=2
+position=51611
+type=N
+# end
+# start
+lane=1
+position=52111
+type=N
+# end
+# start
+lane=1
+position=52222
+type=N
+# end
+# start
+lane=0
+position=52167
+type=N
+# end
+# start
+lane=0
+position=52278
+type=N
+# end
+# start
+lane=3
+position=52333
+type=N
+# end
+# start
+lane=2
+position=52389
+type=N
+# end
+# start
+lane=3
+position=52444
+type=N
+# end
+# start
+lane=2
+position=52500
+type=N
+# end
+# start
+lane=0
+position=52556
+type=N
+# end
+# start
+lane=1
+position=52611
+type=N
+# end
+# start
+lane=0
+position=52667
+type=N
+# end
+# start
+lane=1
+position=51667
+type=N
+# end
+# start
+lane=0
+position=51722
+type=N
+# end
+# start
+lane=2
+position=51778
+type=N
+# end
+# start
+lane=1
+position=51833
+type=N
+# end
+# start
+lane=3
+position=51889
+type=N
+# end
+# start
+lane=2
+position=51944
+type=N
+# end
+# start
+lane=3
+position=52000
+type=N
+# end
+# start
+lane=2
+position=52778
+type=N
+# end
+# start
+lane=3
+position=52889
+type=N
+# end
+# start
+lane=0
+position=53000
+type=N
+# end
+# start
+lane=2
+position=53111
+type=N
+# end
+# start
+lane=1
+position=53222
+type=N
+# end
+# start
+lane=3
+position=54611
+type=N
+# end
+# start
+lane=2
+position=54667
+type=N
+# end
+# start
+lane=1
+position=54722
+type=N
+# end
+# start
+lane=0
+position=54778
+type=N
+# end
+# start
+lane=3
+position=54833
+type=N
+# end
+# start
+lane=2
+position=54889
+type=N
+# end
+# start
+lane=3
+position=54944
+type=N
+# end
+# start
+lane=2
+position=55000
+type=N
+# end
+# start
+lane=0
+position=53778
+type=N
+# end
+# start
+lane=1
+position=53833
+type=N
+# end
+# start
+lane=2
+position=53889
+type=N
+# end
+# start
+lane=3
+position=53944
+type=N
+# end
+# start
+lane=0
+position=54000
+type=N
+# end
+# start
+lane=1
+position=54056
+type=N
+# end
+# start
+lane=0
+position=54111
+type=N
+# end
+# start
+lane=3
+position=55333
+type=N
+# end
+# start
+lane=3
+position=56111
+type=N
+# end
+# start
+lane=2
+position=56167
+type=N
+# end
+# start
+lane=1
+position=56222
+type=N
+# end
+# start
+lane=2
+position=56389
+type=N
+# end
+# start
+lane=3
+position=56667
+type=N
+# end
+# start
+lane=3
+position=56778
+type=N
+# end
+# start
+lane=3
+position=56333
+type=N
+# end
+# start
+lane=0
+position=56278
+type=N
+# end
+# start
+lane=0
+position=56444
+type=N
+# end
+# start
+lane=1
+position=56500
+type=N
+# end
+# start
+lane=2
+position=56556
+type=N
+# end
+# start
+lane=0
+position=55111
+type=N
+# end
+# start
+lane=1
+position=55167
+type=N
+# end
+# start
+lane=0
+position=55222
+type=N
+# end
+# start
+lane=1
+position=55278
+type=N
+# end
+# start
+lane=0
+position=55667
+type=N
+# end
+# start
+lane=0
+position=55778
+type=N
+# end
+# start
+lane=2
+position=55889
+type=N
+# end
+# start
+lane=1
+position=56000
+type=N
+# end
+# start
+lane=2
+position=55389
+type=N
+# end
+# start
+lane=1
+position=55444
+type=H
+length=167
+# end
+# start
+lane=1
+position=56889
+type=H
+length=394
+# end
+# start
+lane=0
+position=60444
+type=N
+# end
+# start
+lane=1
+position=60500
+type=N
+# end
+# start
+lane=2
+position=60556
+type=N
+# end
+# start
+lane=1
+position=60611
+type=N
+# end
+# start
+lane=0
+position=60667
+type=N
+# end
+# start
+lane=0
+position=60778
+type=N
+# end
+# start
+lane=3
+position=60889
+type=N
+# end
+# start
+lane=2
+position=60944
+type=N
+# end
+# start
+lane=1
+position=61000
+type=N
+# end
+# start
+lane=2
+position=61056
+type=N
+# end
+# start
+lane=3
+position=61222
+type=N
+# end
+# start
+lane=3
+position=61111
+type=N
+# end
+# start
+lane=0
+position=61333
+type=N
+# end
+# start
+lane=0
+position=61444
+type=N
+# end
+# start
+lane=1
+position=61556
+type=N
+# end
+# start
+lane=2
+position=61667
+type=N
+# end
+# start
+lane=1
+position=61778
+type=H
+length=222
+# end
+# start
+lane=0
+position=62444
+type=N
+# end
+# start
+lane=3
+position=62222
+type=N
+# end
+# start
+lane=2
+position=62278
+type=N
+# end
+# start
+lane=0
+position=62556
+type=N
+# end
+# start
+lane=1
+position=62333
+type=N
+# end
+# start
+lane=2
+position=62389
+type=N
+# end
+# start
+lane=2
+position=62889
+type=H
+length=333
+# end
+# start
+lane=1
+position=63444
+type=N
+# end
+# start
+lane=1
+position=63333
+type=N
+# end
+# start
+lane=3
+position=63556
+type=N
+# end
+# start
+lane=3
+position=63667
+type=N
+# end
+# start
+lane=0
+position=63778
+type=N
+# end
+# start
+lane=0
+position=63889
+type=N
+# end
+# start
+lane=3
+position=62667
+type=N
+# end
+# start
+lane=2
+position=62722
+type=N
+# end
+# start
+lane=3
+position=62778
+type=N
+# end
+# start
+lane=1
+position=64000
+type=H
+length=337
+# end
+# start
+lane=3
+position=68222
+type=N
+# end
+# start
+lane=3
+position=68333
+type=N
+# end
+# start
+lane=0
+position=68000
+type=N
+# end
+# start
+lane=0
+position=68111
+type=N
+# end
+# start
+lane=1
+position=67556
+type=H
+length=333
+# end
+# start
+lane=1
+position=68667
+type=N
+# end
+# start
+lane=1
+position=68778
+type=N
+# end
+# start
+lane=3
+position=68889
+type=N
+# end
+# start
+lane=2
+position=68944
+type=N
+# end
+# start
+lane=3
+position=69000
+type=N
+# end
+# start
+lane=2
+position=69056
+type=N
+# end
+# start
+lane=0
+position=69111
+type=N
+# end
+# start
+lane=0
+position=69222
+type=N
+# end
+# start
+lane=0
+position=68444
+type=H
+length=167
+# end
+# start
+lane=1
+position=69333
+type=H
+length=335
+# end
+# start
+lane=3
+position=70000
+type=H
+length=333
+# end
+# start
+lane=2
+position=70444
+type=N
+# end
+# start
+lane=2
+position=70556
+type=N
+# end
+# start
+lane=0
+position=70667
+type=H
+length=111
+# end
+# start
+lane=2
+position=70889
+type=N
+# end
+# start
+lane=3
+position=71000
+type=N
+# end
+# start
+lane=0
+position=69778
+type=H
+length=167
+# end
+# start
+lane=1
+position=71111
+type=H
+length=392
+# end
+# start
+lane=3
+position=72889
+type=N
+# end
+# start
+lane=0
+position=73000
+type=N
+# end
+# start
+lane=1
+position=73056
+type=N
+# end
+# start
+lane=3
+position=73778
+type=N
+# end
+# start
+lane=2
+position=72944
+type=N
+# end
+# start
+lane=1
+position=74000
+type=N
+# end
+# start
+lane=3
+position=73333
+type=N
+# end
+# start
+lane=3
+position=73111
+type=N
+# end
+# start
+lane=2
+position=73167
+type=N
+# end
+# start
+lane=0
+position=73222
+type=N
+# end
+# start
+lane=1
+position=73278
+type=N
+# end
+# start
+lane=2
+position=73389
+type=N
+# end
+# start
+lane=3
+position=73444
+type=N
+# end
+# start
+lane=0
+position=73500
+type=N
+# end
+# start
+lane=1
+position=73556
+type=N
+# end
+# start
+lane=0
+position=73611
+type=N
+# end
+# start
+lane=1
+position=73667
+type=N
+# end
+# start
+lane=0
+position=73889
+type=N
+# end
+# start
+lane=2
+position=74111
+type=N
+# end
+# start
+lane=0
+position=74222
+type=N
+# end
+# start
+lane=3
+position=74333
+type=N
+# end
+# start
+lane=1
+position=74556
+type=N
+# end
+# start
+lane=2
+position=74444
+type=N
+# end
+# start
+lane=3
+position=76444
+type=N
+# end
+# start
+lane=0
+position=76556
+type=N
+# end
+# start
+lane=1
+position=76611
+type=N
+# end
+# start
+lane=1
+position=77222
+type=N
+# end
+# start
+lane=2
+position=76500
+type=N
+# end
+# start
+lane=2
+position=76667
+type=N
+# end
+# start
+lane=1
+position=76778
+type=N
+# end
+# start
+lane=0
+position=76833
+type=N
+# end
+# start
+lane=1
+position=76889
+type=N
+# end
+# start
+lane=0
+position=76944
+type=N
+# end
+# start
+lane=2
+position=77000
+type=N
+# end
+# start
+lane=3
+position=77056
+type=N
+# end
+# start
+lane=3
+position=76722
+type=N
+# end
+# start
+lane=2
+position=77111
+type=N
+# end
+# start
+lane=3
+position=77167
+type=N
+# end
+# start
+lane=0
+position=77278
+type=N
+# end
+# start
+lane=1
+position=77333
+type=N
+# end
+# start
+lane=3
+position=77444
+type=N
+# end
+# start
+lane=3
+position=77833
+type=N
+# end
+# start
+lane=2
+position=78056
+type=N
+# end
+# start
+lane=2
+position=77585
+type=N
+# end
+# start
+lane=0
+position=77722
+type=N
+# end
+# start
+lane=1
+position=77944
+type=N
+# end
+# start
+lane=0
+position=78167
+type=N
+# end
+# start
+lane=0
+position=77389
+type=N
+# end
+# start
+lane=3
+position=78222
+type=N
+# end
+# start
+lane=0
+position=78333
+type=N
+# end
+# start
+lane=1
+position=78389
+type=N
+# end
+# start
+lane=1
+position=79000
+type=N
+# end
+# start
+lane=2
+position=78278
+type=N
+# end
+# start
+lane=2
+position=78444
+type=N
+# end
+# start
+lane=1
+position=78556
+type=N
+# end
+# start
+lane=0
+position=78611
+type=N
+# end
+# start
+lane=1
+position=78667
+type=N
+# end
+# start
+lane=0
+position=78722
+type=N
+# end
+# start
+lane=2
+position=78778
+type=N
+# end
+# start
+lane=3
+position=78833
+type=N
+# end
+# start
+lane=3
+position=78500
+type=N
+# end
+# start
+lane=2
+position=78889
+type=N
+# end
+# start
+lane=3
+position=78944
+type=N
+# end
+# start
+lane=0
+position=79056
+type=N
+# end
+# start
+lane=1
+position=79111
+type=N
+# end
+# start
+lane=2
+position=79167
+type=N
+# end
+# start
+lane=3
+position=79222
+type=N
+# end
+# start
+lane=2
+position=79278
+type=N
+# end
+# start
+lane=0
+position=79333
+type=N
+# end
+# start
+lane=0
+position=79444
+type=N
+# end
+# start
+lane=3
+position=79556
+type=N
+# end
+# start
+lane=2
+position=79611
+type=N
+# end
+# start
+lane=3
+position=79667
+type=N
+# end
+# start
+lane=2
+position=79722
+type=N
+# end
+# start
+lane=1
+position=79778
+type=N
+# end
+# start
+lane=1
+position=79889
+type=N
+# end
+# start
+lane=3
+position=80000
+type=N
+# end
+# start
+lane=0
+position=80111
+type=N
+# end
+# start
+lane=1
+position=80167
+type=N
+# end
+# start
+lane=1
+position=80778
+type=N
+# end
+# start
+lane=2
+position=80056
+type=N
+# end
+# start
+lane=2
+position=80222
+type=N
+# end
+# start
+lane=1
+position=80333
+type=N
+# end
+# start
+lane=0
+position=80389
+type=N
+# end
+# start
+lane=1
+position=80444
+type=N
+# end
+# start
+lane=0
+position=80500
+type=N
+# end
+# start
+lane=2
+position=80556
+type=N
+# end
+# start
+lane=3
+position=80611
+type=N
+# end
+# start
+lane=3
+position=80278
+type=N
+# end
+# start
+lane=2
+position=80667
+type=N
+# end
+# start
+lane=3
+position=80722
+type=N
+# end
+# start
+lane=1
+position=81722
+type=N
+# end
+# start
+lane=0
+position=80833
+type=N
+# end
+# start
+lane=1
+position=80889
+type=N
+# end
+# start
+lane=2
+position=80944
+type=N
+# end
+# start
+lane=0
+position=81278
+type=N
+# end
+# start
+lane=3
+position=81056
+type=N
+# end
+# start
+lane=1
+position=81167
+type=N
+# end
+# start
+lane=2
+position=81389
+type=N
+# end
+# start
+lane=0
+position=81500
+type=N
+# end
+# start
+lane=3
+position=81611
+type=N
+# end
+# start
+lane=3
+position=81778
+type=N
+# end
+# start
+lane=0
+position=81889
+type=N
+# end
+# start
+lane=1
+position=81944
+type=N
+# end
+# start
+lane=1
+position=82556
+type=N
+# end
+# start
+lane=2
+position=81833
+type=N
+# end
+# start
+lane=2
+position=82000
+type=N
+# end
+# start
+lane=1
+position=82111
+type=N
+# end
+# start
+lane=0
+position=82167
+type=N
+# end
+# start
+lane=1
+position=82222
+type=N
+# end
+# start
+lane=0
+position=82278
+type=N
+# end
+# start
+lane=2
+position=82333
+type=N
+# end
+# start
+lane=3
+position=82389
+type=N
+# end
+# start
+lane=3
+position=82056
+type=N
+# end
+# start
+lane=2
+position=82444
+type=N
+# end
+# start
+lane=3
+position=82500
+type=N
+# end
+# start
+lane=0
+position=82611
+type=N
+# end
+# start
+lane=1
+position=82667
+type=N
+# end
+# start
+lane=2
+position=82722
+type=N
+# end
+# start
+lane=3
+position=82778
+type=N
+# end
+# start
+lane=2
+position=82833
+type=N
+# end
+# start
+lane=0
+position=82889
+type=N
+# end
+# start
+lane=0
+position=83000
+type=N
+# end
+# start
+lane=3
+position=83111
+type=N
+# end
+# start
+lane=2
+position=83167
+type=N
+# end
+# start
+lane=3
+position=83222
+type=N
+# end
+# start
+lane=2
+position=83278
+type=N
+# end
+# start
+lane=1
+position=83333
+type=N
+# end
+# start
+lane=1
+position=83444
+type=N
+# end
+# start
+lane=3
+position=83556
+type=N
+# end
+# start
+lane=2
+position=83667
+type=N
+# end
+# start
+lane=1
+position=83778
+type=N
+# end
+# start
+lane=3
+position=83889
+type=N
+# end
+# start
+lane=2
+position=84000
+type=N
+# end
+# start
+lane=0
+position=84111
+type=N
+# end
+# start
+lane=1
+position=84222
+type=N
+# end
+# start
+lane=2
+position=84333
+type=N
+# end
+# start
+lane=0
+position=84444
+type=N
+# end
+# start
+lane=3
+position=84556
+type=N
+# end
+# start
+lane=1
+position=84667
+type=N
+# end
+# start
+lane=3
+position=84778
+type=N
+# end
+# start
+lane=0
+position=84889
+type=N
+# end
+# start
+lane=2
+position=85000
+type=N
+# end
+# start
+lane=1
+position=85111
+type=N
+# end
+# start
+lane=1
+position=85222
+type=N
+# end
+# start
+lane=3
+position=86000
+type=N
+# end
+# start
+lane=3
+position=86111
+type=N
+# end
+# start
+lane=0
+position=86222
+type=N
+# end
+# start
+lane=3
+position=85333
+type=N
+# end
+# start
+lane=1
+position=86278
+type=N
+# end
+# start
+lane=3
+position=86333
+type=N
+# end
+# start
+lane=2
+position=86389
+type=N
+# end
+# start
+lane=0
+position=86444
+type=N
+# end
+# start
+lane=3
+position=86556
+type=N
+# end
+# start
+lane=1
+position=86667
+type=H
+length=167
+# end
+# start
+lane=2
+position=86889
+type=H
+length=167
+# end
+# start
+lane=2
+position=85389
+type=N
+# end
+# start
+lane=0
+position=85444
+type=N
+# end
+# start
+lane=1
+position=85500
+type=N
+# end
+# start
+lane=3
+position=85611
+type=N
+# end
+# start
+lane=2
+position=85722
+type=H
+length=222
+# end
+# start
+lane=0
+position=88000
+type=N
+# end
+# start
+lane=3
+position=88111
+type=N
+# end
+# start
+lane=2
+position=88222
+type=N
+# end
+# start
+lane=0
+position=88333
+type=N
+# end
+# start
+lane=2
+position=87889
+type=N
+# end
+# start
+lane=2
+position=87778
+type=N
+# end
+# start
+lane=2
+position=87667
+type=N
+# end
+# start
+lane=2
+position=87556
+type=N
+# end
+# start
+lane=1
+position=87444
+type=N
+# end
+# start
+lane=1
+position=87333
+type=N
+# end
+# start
+lane=1
+position=87222
+type=N
+# end
+# start
+lane=1
+position=87111
+type=N
+# end
+# start
+lane=2
+position=88667
+type=H
+length=167
+# end
+# start
+lane=1
+position=88444
+type=H
+length=167
+# end
+# start
+lane=3
+position=89556
+type=N
+# end
+# start
+lane=2
+position=89778
+type=N
+# end
+# start
+lane=2
+position=89889
+type=N
+# end
+# start
+lane=1
+position=90000
+type=N
+# end
+# start
+lane=1
+position=90111
+type=N
+# end
+# start
+lane=0
+position=88889
+type=N
+# end
+# start
+lane=1
+position=89667
+type=N
+# end
+# start
+lane=3
+position=90222
+type=H
+length=167
+# end
+# start
+lane=0
+position=90444
+type=H
+length=167
+# end
+# start
+lane=1
+position=88944
+type=N
+# end
+# start
+lane=3
+position=89000
+type=N
+# end
+# start
+lane=0
+position=89111
+type=N
+# end
+# start
+lane=1
+position=89222
+type=H
+length=222
+# end
+# start
+lane=3
+position=90667
+type=N
+# end
+# start
+lane=3
+position=90778
+type=N
+# end
+# start
+lane=0
+position=90889
+type=N
+# end
+# start
+lane=0
+position=91000
+type=N
+# end
+# start
+lane=2
+position=91444
+type=N
+# end
+# start
+lane=0
+position=91556
+type=N
+# end
+# start
+lane=1
+position=91611
+type=N
+# end
+# start
+lane=0
+position=91667
+type=N
+# end
+# start
+lane=1
+position=91722
+type=N
+# end
+# start
+lane=2
+position=91778
+type=N
+# end
+# start
+lane=3
+position=91833
+type=N
+# end
+# start
+lane=2
+position=91889
+type=N
+# end
+# start
+lane=3
+position=91944
+type=N
+# end
+# start
+lane=1
+position=92000
+type=N
+# end
+# start
+lane=0
+position=92056
+type=N
+# end
+# start
+lane=1
+position=92111
+type=N
+# end
+# start
+lane=0
+position=92167
+type=N
+# end
+# start
+lane=3
+position=92222
+type=N
+# end
+# start
+lane=2
+position=92278
+type=N
+# end
+# start
+lane=3
+position=92333
+type=N
+# end
+# start
+lane=2
+position=91222
+type=N
+# end
+# start
+lane=3
+position=91111
+type=N
+# end
+# start
+lane=3
+position=91333
+type=N
+# end
+# start
+lane=3
+position=93333
+type=N
+# end
+# start
+lane=2
+position=93389
+type=N
+# end
+# start
+lane=2
+position=93111
+type=N
+# end
+# start
+lane=2
+position=93222
+type=N
+# end
+# start
+lane=0
+position=92444
+type=N
+# end
+# start
+lane=1
+position=92500
+type=N
+# end
+# start
+lane=3
+position=92556
+type=N
+# end
+# start
+lane=2
+position=92611
+type=N
+# end
+# start
+lane=0
+position=93444
+type=N
+# end
+# start
+lane=0
+position=92667
+type=N
+# end
+# start
+lane=1
+position=92778
+type=H
+length=222
+# end
+# start
+lane=1
+position=93556
+type=N
+# end
+# start
+lane=2
+position=93667
+type=N
+# end
+# start
+lane=3
+position=93778
+type=H
+length=167
+# end
+# start
+lane=0
+position=94000
+type=H
+length=167
+# end
+# start
+lane=0
+position=95111
+type=N
+# end
+# start
+lane=3
+position=95222
+type=N
+# end
+# start
+lane=0
+position=95444
+type=N
+# end
+# start
+lane=2
+position=94667
+type=N
+# end
+# start
+lane=1
+position=94556
+type=N
+# end
+# start
+lane=1
+position=94444
+type=N
+# end
+# start
+lane=1
+position=94333
+type=N
+# end
+# start
+lane=1
+position=94222
+type=N
+# end
+# start
+lane=2
+position=94778
+type=N
+# end
+# start
+lane=2
+position=94889
+type=N
+# end
+# start
+lane=2
+position=95000
+type=N
+# end
+# start
+lane=1
+position=95333
+type=N
+# end
+# start
+lane=1
+position=95556
+type=H
+length=167
+# end
+# start
+lane=3
+position=95778
+type=H
+length=167
+# end
+# start
+lane=2
+position=96000
+type=H
+length=444
+# end
+# start
+lane=1
+position=96556
+type=N
+# end
+# start
+lane=2
+position=97111
+type=N
+# end
+# start
+lane=2
+position=97222
+type=N
+# end
+# start
+lane=0
+position=97333
+type=N
+# end
+# start
+lane=1
+position=97389
+type=N
+# end
+# start
+lane=3
+position=97611
+type=N
+# end
+# start
+lane=3
+position=97722
+type=N
+# end
+# start
+lane=1
+position=96778
+type=N
+# end
+# start
+lane=1
+position=96667
+type=N
+# end
+# start
+lane=0
+position=96889
+type=N
+# end
+# start
+lane=0
+position=97000
+type=N
+# end
+# start
+lane=1
+position=97500
+type=N
+# end
+# start
+lane=0
+position=97444
+type=N
+# end
+# start
+lane=0
+position=97833
+type=N
+# end
+# start
+lane=2
+position=97944
+type=N
+# end
+# start
+lane=1
+position=98056
+type=N
+# end
+# start
+lane=3
+position=98833
+type=N
+# end
+# start
+lane=3
+position=98944
+type=N
+# end
+# start
+lane=0
+position=99000
+type=N
+# end
+# start
+lane=0
+position=99111
+type=N
+# end
+# start
+lane=2
+position=99222
+type=N
+# end
+# start
+lane=2
+position=99333
+type=N
+# end
+# start
+lane=3
+position=99389
+type=N
+# end
+# start
+lane=3
+position=99500
+type=N
+# end
+# start
+lane=3
+position=98167
+type=N
+# end
+# start
+lane=1
+position=98278
+type=H
+length=56
+# end
+# start
+lane=1
+position=98500
+type=H
+length=56
+# end
+# start
+lane=1
+position=99611
+type=H
+length=1624
+# end
+# start
+lane=2
+position=102833
+type=H
+length=111
+# end
+# start
+lane=2
+position=102556
+type=H
+length=111
+# end
+# start
+lane=3
+position=101333
+type=H
+length=111
+# end
+# start
+lane=3
+position=101667
+type=H
+length=111
+# end
+# start
+lane=3
+position=102000
+type=H
+length=111
+# end
+# start
+lane=2
+position=102278
+type=H
+length=111
+# end
+# start
+lane=0
+position=104000
+type=H
+length=556
+# end
+# start
+lane=2
+position=104667
+type=H
+length=167
+# end
+# start
+lane=1
+position=103111
+type=H
+length=778
+# end
+# start
+lane=3
+position=104944
+type=N
+# end
+# start
+lane=1
+position=105056
+type=N
+# end
+# start
+lane=2
+position=105167
+type=N
+# end
+# start
+lane=0
+position=105278
+type=N
+# end
+# start
+lane=2
+position=105389
+type=N
+# end
+# start
+lane=1
+position=105500
+type=N
+# end
+# start
+lane=0
+position=105611
+type=N
+# end
+# start
+lane=2
+position=105722
+type=N
+# end
+# start
+lane=1
+position=105833
+type=N
+# end
+# start
+lane=3
+position=105889
+type=N
+# end
+# start
+lane=0
+position=106000
+type=N
+# end
+# start
+lane=1
+position=106167
+type=N
+# end
+# start
+lane=3
+position=106278
+type=N
+# end
+# start
+lane=2
+position=106389
+type=N
+# end
+# start
+lane=0
+position=106500
+type=N
+# end
+# start
+lane=3
+position=106611
+type=N
+# end
+# start
+lane=1
+position=106722
+type=H
+length=1624
+# end
+# start
+lane=2
+position=109389
+type=H
+length=111
+# end
+# start
+lane=2
+position=109667
+type=H
+length=111
+# end
+# start
+lane=2
+position=109944
+type=H
+length=111
+# end
+# start
+lane=3
+position=108444
+type=H
+length=111
+# end
+# start
+lane=3
+position=108778
+type=H
+length=111
+# end
+# start
+lane=3
+position=109111
+type=H
+length=111
+# end
+# start
+lane=1
+position=110278
+type=H
+length=840
+# end
+# start
+lane=3
+position=111222
+type=H
+length=504
+# end
+# start
+lane=2
+position=111833
+type=H
+length=111
+# end
+# start
+lane=3
+position=112056
+type=N
+# end
+# start
+lane=1
+position=112167
+type=N
+# end
+# start
+lane=0
+position=112278
+type=N
+# end
+# start
+lane=2
+position=112333
+type=N
+# end
+# start
+lane=3
+position=112444
+type=N
+# end
+# start
+lane=1
+position=112778
+type=N
+# end
+# start
+lane=3
+position=112833
+type=N
+# end
+# start
+lane=0
+position=113722
+type=N
+# end
+# start
+lane=1
+position=112556
+type=N
+# end
+# start
+lane=0
+position=112667
+type=N
+# end
+# start
+lane=0
+position=112944
+type=N
+# end
+# start
+lane=2
+position=113056
+type=N
+# end
+# start
+lane=3
+position=113167
+type=N
+# end
+# start
+lane=1
+position=113278
+type=N
+# end
+# start
+lane=0
+position=113389
+type=N
+# end
+# start
+lane=2
+position=113500
+type=N
+# end
+# start
+lane=1
+position=113611
+type=N
+# end
+# start
+lane=3
+position=115556
+type=N
+# end
+# start
+lane=2
+position=115667
+type=N
+# end
+# start
+lane=0
+position=115778
+type=N
+# end
+# start
+lane=3
+position=116111
+type=N
+# end
+# start
+lane=2
+position=116222
+type=N
+# end
+# start
+lane=3
+position=116556
+type=N
+# end
+# start
+lane=0
+position=116333
+type=N
+# end
+# start
+lane=1
+position=116444
+type=N
+# end
+# start
+lane=2
+position=116667
+type=N
+# end
+# start
+lane=0
+position=116778
+type=N
+# end
+# start
+lane=1
+position=116889
+type=N
+# end
+# start
+lane=3
+position=117000
+type=N
+# end
+# start
+lane=2
+position=117111
+type=N
+# end
+# start
+lane=0
+position=117222
+type=N
+# end
+# start
+lane=1
+position=115889
+type=H
+length=167
+# end
+# start
+lane=3
+position=117333
+type=H
+length=778
+# end
+# start
+lane=0
+position=120000
+type=N
+# end
+# start
+lane=1
+position=120056
+type=N
+# end
+# start
+lane=0
+position=120111
+type=N
+# end
+# start
+lane=2
+position=119111
+type=N
+# end
+# start
+lane=3
+position=119222
+type=N
+# end
+# start
+lane=1
+position=119333
+type=N
+# end
+# start
+lane=3
+position=120167
+type=N
+# end
+# start
+lane=2
+position=120222
+type=N
+# end
+# start
+lane=2
+position=120667
+type=N
+# end
+# start
+lane=1
+position=120778
+type=N
+# end
+# start
+lane=3
+position=119667
+type=N
+# end
+# start
+lane=1
+position=119778
+type=N
+# end
+# start
+lane=2
+position=119889
+type=N
+# end
+# start
+lane=1
+position=120278
+type=N
+# end
+# start
+lane=1
+position=120556
+type=N
+# end
+# start
+lane=0
+position=120333
+type=N
+# end
+# start
+lane=3
+position=120444
+type=N
+# end
+# start
+lane=0
+position=119444
+type=H
+length=167
+# end
+# start
+lane=0
+position=120889
+type=H
+length=778
+# end
+# start
+lane=3
+position=122667
+type=N
+# end
+# start
+lane=0
+position=122778
+type=N
+# end
+# start
+lane=1
+position=122833
+type=N
+# end
+# start
+lane=1
+position=123444
+type=N
+# end
+# start
+lane=2
+position=123500
+type=N
+# end
+# start
+lane=3
+position=123556
+type=N
+# end
+# start
+lane=0
+position=123778
+type=N
+# end
+# start
+lane=2
+position=123833
+type=N
+# end
+# start
+lane=2
+position=122722
+type=N
+# end
+# start
+lane=2
+position=122889
+type=N
+# end
+# start
+lane=1
+position=123000
+type=N
+# end
+# start
+lane=0
+position=123056
+type=N
+# end
+# start
+lane=1
+position=123111
+type=N
+# end
+# start
+lane=0
+position=123167
+type=N
+# end
+# start
+lane=2
+position=123222
+type=N
+# end
+# start
+lane=3
+position=123278
+type=N
+# end
+# start
+lane=3
+position=122944
+type=N
+# end
+# start
+lane=2
+position=123667
+type=N
+# end
+# start
+lane=1
+position=123722
+type=N
+# end
+# start
+lane=0
+position=123611
+type=N
+# end
+# start
+lane=3
+position=123889
+type=N
+# end
+# start
+lane=2
+position=123333
+type=N
+# end
+# start
+lane=3
+position=123389
+type=N
+# end
+# start
+lane=0
+position=124111
+type=N
+# end
+# start
+lane=1
+position=123944
+type=N
+# end
+# start
+lane=2
+position=124222
+type=N
+# end
+# start
+lane=1
+position=124333
+type=N
+# end
+# start
+lane=0
+position=126222
+type=N
+# end
+# start
+lane=0
+position=127667
+type=N
+# end
+# start
+lane=1
+position=127722
+type=N
+# end
+# start
+lane=1
+position=127056
+type=N
+# end
+# start
+lane=0
+position=127278
+type=N
+# end
+# start
+lane=0
+position=126833
+type=N
+# end
+# start
+lane=0
+position=126944
+type=N
+# end
+# start
+lane=3
+position=127167
+type=N
+# end
+# start
+lane=1
+position=126278
+type=N
+# end
+# start
+lane=2
+position=126333
+type=N
+# end
+# start
+lane=1
+position=126500
+type=N
+# end
+# start
+lane=0
+position=126556
+type=N
+# end
+# start
+lane=3
+position=126444
+type=N
+# end
+# start
+lane=1
+position=127333
+type=N
+# end
+# start
+lane=2
+position=127389
+type=N
+# end
+# start
+lane=2
+position=127556
+type=N
+# end
+# start
+lane=3
+position=127611
+type=N
+# end
+# start
+lane=3
+position=127833
+type=N
+# end
+# start
+lane=1
+position=127500
+type=N
+# end
+# start
+lane=3
+position=127944
+type=N
+# end
+# start
+lane=3
+position=126611
+type=H
+length=167
+# end
+# start
+lane=1
+position=128000
+type=H
+length=448
+# end
+# start
+lane=0
+position=129833
+type=N
+# end
+# start
+lane=2
+position=129944
+type=N
+# end
+# start
+lane=0
+position=130778
+type=N
+# end
+# start
+lane=2
+position=131278
+type=N
+# end
+# start
+lane=0
+position=131389
+type=N
+# end
+# start
+lane=1
+position=131500
+type=N
+# end
+# start
+lane=3
+position=130056
+type=N
+# end
+# start
+lane=3
+position=130944
+type=N
+# end
+# start
+lane=1
+position=131111
+type=N
+# end
+# start
+lane=3
+position=130333
+type=N
+# end
+# start
+lane=0
+position=130444
+type=N
+# end
+# start
+lane=2
+position=130556
+type=N
+# end
+# start
+lane=1
+position=130667
+type=N
+# end
+# start
+lane=1
+position=130111
+type=H
+length=167
+# end
+# start
+lane=3
+position=131556
+type=H
+length=778
+# end
+# start
+lane=3
+position=133444
+type=N
+# end
+# start
+lane=0
+position=134222
+type=N
+# end
+# start
+lane=1
+position=134278
+type=N
+# end
+# start
+lane=0
+position=134333
+type=N
+# end
+# start
+lane=1
+position=134389
+type=N
+# end
+# start
+lane=3
+position=134444
+type=N
+# end
+# start
+lane=2
+position=134500
+type=N
+# end
+# start
+lane=2
+position=134611
+type=N
+# end
+# start
+lane=1
+position=133722
+type=H
+length=112
+# end
+# start
+lane=1
+position=133333
+type=N
+# end
+# start
+lane=2
+position=133556
+type=H
+length=56
+# end
+# start
+lane=3
+position=134111
+type=N
+# end
+# start
+lane=0
+position=133944
+type=N
+# end
+# start
+lane=2
+position=134000
+type=N
+# end
+# start
+lane=3
+position=134556
+type=N
+# end
+# start
+lane=0
+position=134667
+type=N
+# end
+# start
+lane=1
+position=134778
+type=N
+# end
+# start
+lane=3
+position=134889
+type=N
+# end
+# start
+lane=0
+position=135000
+type=N
+# end
+# start
+lane=3
+position=135611
+type=N
+# end
+# start
+lane=2
+position=135667
+type=N
+# end
+# start
+lane=1
+position=135722
+type=N
+# end
+# start
+lane=0
+position=135778
+type=N
+# end
+# start
+lane=3
+position=135833
+type=N
+# end
+# start
+lane=2
+position=135889
+type=N
+# end
+# start
+lane=3
+position=135944
+type=N
+# end
+# start
+lane=0
+position=136389
+type=N
+# end
+# start
+lane=1
+position=136444
+type=N
+# end
+# start
+lane=2
+position=136500
+type=N
+# end
+# start
+lane=3
+position=136556
+type=N
+# end
+# start
+lane=0
+position=136611
+type=N
+# end
+# start
+lane=1
+position=136667
+type=N
+# end
+# start
+lane=0
+position=136722
+type=N
+# end
+# start
+lane=3
+position=136889
+type=N
+# end
+# start
+lane=2
+position=136944
+type=N
+# end
+# start
+lane=1
+position=137444
+type=N
+# end
+# start
+lane=1
+position=137556
+type=N
+# end
+# start
+lane=0
+position=137500
+type=N
+# end
+# start
+lane=0
+position=137611
+type=N
+# end
+# start
+lane=3
+position=137667
+type=N
+# end
+# start
+lane=2
+position=137722
+type=N
+# end
+# start
+lane=3
+position=137778
+type=N
+# end
+# start
+lane=2
+position=137833
+type=N
+# end
+# start
+lane=0
+position=137889
+type=N
+# end
+# start
+lane=1
+position=137944
+type=N
+# end
+# start
+lane=0
+position=138000
+type=N
+# end
+# start
+lane=2
+position=138056
+type=N
+# end
+# start
+lane=1
+position=137000
+type=N
+# end
+# start
+lane=0
+position=137056
+type=N
+# end
+# start
+lane=2
+position=137111
+type=N
+# end
+# start
+lane=1
+position=137167
+type=N
+# end
+# start
+lane=3
+position=137222
+type=N
+# end
+# start
+lane=2
+position=137278
+type=N
+# end
+# start
+lane=3
+position=137333
+type=N
+# end
+# start
+lane=3
+position=138111
+type=N
+# end
+# start
+lane=2
+position=138167
+type=N
+# end
+# start
+lane=2
+position=138500
+type=N
+# end
+# start
+lane=3
+position=138222
+type=N
+# end
+# start
+lane=0
+position=138333
+type=N
+# end
+# start
+lane=1
+position=138611
+type=N
+# end
+# start
+lane=3
+position=139167
+type=N
+# end
+# start
+lane=2
+position=139222
+type=N
+# end
+# start
+lane=1
+position=139278
+type=N
+# end
+# start
+lane=0
+position=139333
+type=N
+# end
+# start
+lane=3
+position=139389
+type=N
+# end
+# start
+lane=2
+position=139444
+type=N
+# end
+# start
+lane=3
+position=139500
+type=N
+# end
+# start
+lane=0
+position=139944
+type=N
+# end
+# start
+lane=1
+position=140000
+type=N
+# end
+# start
+lane=2
+position=140056
+type=N
+# end
+# start
+lane=3
+position=140111
+type=N
+# end
+# start
+lane=0
+position=140167
+type=N
+# end
+# start
+lane=1
+position=140222
+type=N
+# end
+# start
+lane=0
+position=140278
+type=N
+# end
+# start
+lane=1
+position=140389
+type=N
+# end
+# start
+lane=0
+position=140667
+type=N
+# end
+# start
+lane=1
+position=140722
+type=N
+# end
+# start
+lane=0
+position=140778
+type=N
+# end
+# start
+lane=3
+position=140444
+type=N
+# end
+# start
+lane=2
+position=140500
+type=N
+# end
+# start
+lane=3
+position=140556
+type=N
+# end
+# start
+lane=2
+position=140611
+type=N
+# end
+# start
+lane=3
+position=141056
+type=N
+# end
+# start
+lane=3
+position=141167
+type=H
+length=56
+# end
+# start
+lane=0
+position=141444
+type=N
+# end
+# start
+lane=1
+position=141500
+type=N
+# end
+# start
+lane=2
+position=141556
+type=N
+# end
+# start
+lane=1
+position=141722
+type=N
+# end
+# start
+lane=0
+position=141667
+type=N
+# end
+# start
+lane=3
+position=141611
+type=N
+# end
+# start
+lane=3
+position=141778
+type=N
+# end
+# start
+lane=2
+position=141833
+type=N
+# end
+# start
+lane=1
+position=141889
+type=N
+# end
+# start
+lane=1
+position=140833
+type=H
+length=112
+# end
+# start
+lane=0
+position=141944
+type=N
+# end
+# start
+lane=2
+position=142000
+type=H
+length=112
+# end
+# start
+lane=2
+position=141333
+type=N
+# end
+# start
+lane=1
+position=142222
+type=H
+length=92
+# end
+# start
+lane=2
+position=142889
+type=N
+# end
+# start
+lane=3
+position=143000
+type=N
+# end
+# start
+lane=1
+position=143556
+type=H
+length=112
+# end
+# start
+lane=2
+position=143778
+type=H
+length=112
+# end
+# start
+lane=1
+position=142667
+type=H
+length=112
+# end
+# start
+lane=0
+position=142444
+type=N
+# end
+# start
+lane=0
+position=142556
+type=N
+# end
+# start
+lane=0
+position=143111
+type=N
+# end
+# start
+lane=3
+position=143222
+type=N
+# end
+# start
+lane=2
+position=143333
+type=N
+# end
+# start
+lane=2
+position=143444
+type=N
+# end
+# start
+lane=1
+position=144000
+type=N
+# end
+# start
+lane=0
+position=144222
+type=N
+# end
+# start
+lane=0
+position=144722
+type=N
+# end
+# start
+lane=3
+position=144667
+type=N
+# end
+# start
+lane=1
+position=144944
+type=H
+length=56
+# end
+# start
+lane=2
+position=145111
+type=H
+length=56
+# end
+# start
+lane=0
+position=145278
+type=N
+# end
+# start
+lane=3
+position=145333
+type=N
+# end
+# start
+lane=1
+position=145389
+type=H
+length=112
+# end
+# start
+lane=3
+position=145611
+type=H
+length=112
+# end
+# start
+lane=3
+position=144389
+type=N
+# end
+# start
+lane=3
+position=144111
+type=N
+# end
+# start
+lane=1
+position=144333
+type=N
+# end
+# start
+lane=2
+position=144500
+type=N
+# end
+# start
+lane=2
+position=144833
+type=N
+# end
+# start
+lane=0
+position=145833
+type=N
+# end
+# start
+lane=1
+position=145889
+type=N
+# end
+# start
+lane=0
+position=145944
+type=N
+# end
+# start
+lane=1
+position=146000
+type=N
+# end
+# start
+lane=3
+position=146056
+type=N
+# end
+# start
+lane=3
+position=146167
+type=N
+# end
+# start
+lane=2
+position=146222
+type=N
+# end
+# start
+lane=1
+position=146278
+type=N
+# end
+# start
+lane=2
+position=146333
+type=N
+# end
+# start
+lane=2
+position=146778
+type=N
+# end
+# start
+lane=1
+position=147111
+type=H
+length=112
+# end
+# start
+lane=0
+position=147333
+type=H
+length=112
+# end
+# start
+lane=0
+position=146444
+type=N
+# end
+# start
+lane=0
+position=146556
+type=N
+# end
+# start
+lane=1
+position=146667
+type=N
+# end
+# start
+lane=1
+position=146889
+type=N
+# end
+# start
+lane=2
+position=147000
+type=N
+# end
+# start
+lane=1
+position=147556
+type=N
+# end
+# start
+lane=1
+position=147667
+type=N
+# end
+# start
+lane=0
+position=147889
+type=N
+# end
+# start
+lane=0
+position=147778
+type=N
+# end
+# start
+lane=1
+position=148000
+type=H
+length=111
+# end
+# start
+lane=3
+position=148222
+type=H
+length=111
+# end
+# start
+lane=0
+position=148444
+type=N
+# end
+# start
+lane=1
+position=148556
+type=N
+# end
+# start
+lane=3
+position=148667
+type=N
+# end
+# start
+lane=2
+position=148778
+type=N
+# end
+# start
+lane=0
+position=148889
+type=H
+length=111
+# end
+# start
+lane=2
+position=149111
+type=H
+length=111
+# end
+# start
+lane=3
+position=150000
+type=N
+# end
+# start
+lane=3
+position=150111
+type=N
+# end
+# start
+lane=2
+position=150667
+type=H
+length=112
+# end
+# start
+lane=1
+position=150889
+type=H
+length=112
+# end
+# start
+lane=1
+position=149333
+type=H
+length=333
+# end
+# start
+lane=2
+position=150333
+type=N
+# end
+# start
+lane=2
+position=150222
+type=N
+# end
+# start
+lane=0
+position=150444
+type=N
+# end
+# start
+lane=0
+position=150556
+type=N
+# end
+# start
+lane=0
+position=151167
+type=N
+# end
+# start
+lane=1
+position=151222
+type=N
+# end
+# start
+lane=0
+position=151278
+type=N
+# end
+# start
+lane=1
+position=151333
+type=N
+# end
+# start
+lane=3
+position=151389
+type=N
+# end
+# start
+lane=3
+position=151500
+type=N
+# end
+# start
+lane=2
+position=151556
+type=N
+# end
+# start
+lane=1
+position=151611
+type=N
+# end
+# start
+lane=2
+position=151667
+type=N
+# end
+# start
+lane=1
+position=151722
+type=N
+# end
+# start
+lane=0
+position=151833
+type=N
+# end
+# start
+lane=3
+position=151944
+type=N
+# end
+# start
+lane=0
+position=152667
+type=H
+length=112
+# end
+# start
+lane=3
+position=152444
+type=H
+length=111
+# end
+# start
+lane=2
+position=152000
+type=N
+# end
+# start
+lane=2
+position=152111
+type=N
+# end
+# start
+lane=1
+position=152222
+type=N
+# end
+# start
+lane=1
+position=152333
+type=N
+# end
+# start
+lane=3
+position=153556
+type=N
+# end
+# start
+lane=3
+position=153667
+type=N
+# end
+# start
+lane=1
+position=153944
+type=N
+# end
+# start
+lane=0
+position=154056
+type=N
+# end
+# start
+lane=0
+position=154167
+type=N
+# end
+# start
+lane=1
+position=154222
+type=H
+length=112
+# end
+# start
+lane=2
+position=154444
+type=H
+length=112
+# end
+# start
+lane=2
+position=153833
+type=N
+# end
+# start
+lane=1
+position=152889
+type=H
+length=333
+# end
+# start
+lane=0
+position=155611
+type=H
+length=56
+# end
+# start
+lane=3
+position=156056
+type=H
+length=112
+# end
+# start
+lane=1
+position=154667
+type=N
+# end
+# start
+lane=1
+position=154778
+type=N
+# end
+# start
+lane=0
+position=155167
+type=N
+# end
+# start
+lane=1
+position=155222
+type=N
+# end
+# start
+lane=0
+position=155278
+type=N
+# end
+# start
+lane=1
+position=155333
+type=N
+# end
+# start
+lane=3
+position=155389
+type=N
+# end
+# start
+lane=3
+position=155500
+type=N
+# end
+# start
+lane=2
+position=155000
+type=N
+# end
+# start
+lane=2
+position=154889
+type=N
+# end
+# start
+lane=3
+position=155111
+type=N
+# end
+# start
+lane=2
+position=155778
+type=N
+# end
+# start
+lane=1
+position=155889
+type=N
+# end
+# start
+lane=1
+position=156000
+type=N
+# end
+# start
+lane=2
+position=156278
+type=N
+# end
+# start
+lane=0
+position=156389
+type=N
+# end
+# start
+lane=1
+position=156444
+type=H
+length=448
+# end
+# start
+lane=0
+position=158278
+type=N
+# end
+# start
+lane=2
+position=158389
+type=N
+# end
+# start
+lane=0
+position=159222
+type=N
+# end
+# start
+lane=2
+position=159722
+type=N
+# end
+# start
+lane=0
+position=159833
+type=N
+# end
+# start
+lane=1
+position=159944
+type=N
+# end
+# start
+lane=3
+position=158500
+type=N
+# end
+# start
+lane=1
+position=158556
+type=H
+length=112
+# end
+# start
+lane=3
+position=159389
+type=N
+# end
+# start
+lane=1
+position=159556
+type=N
+# end
+# start
+lane=3
+position=158778
+type=N
+# end
+# start
+lane=0
+position=158889
+type=N
+# end
+# start
+lane=2
+position=159000
+type=N
+# end
+# start
+lane=1
+position=159111
+type=N
+# end
+# start
+lane=3
+position=160000
+type=H
+length=778
+# end
+# start
+lane=3
+position=161889
+type=N
+# end
+# start
+lane=0
+position=162667
+type=N
+# end
+# start
+lane=1
+position=162722
+type=N
+# end
+# start
+lane=0
+position=162778
+type=N
+# end
+# start
+lane=1
+position=162833
+type=N
+# end
+# start
+lane=3
+position=162889
+type=N
+# end
+# start
+lane=2
+position=162944
+type=N
+# end
+# start
+lane=2
+position=163056
+type=N
+# end
+# start
+lane=1
+position=162167
+type=H
+length=112
+# end
+# start
+lane=1
+position=161778
+type=N
+# end
+# start
+lane=2
+position=162000
+type=H
+length=56
+# end
+# start
+lane=3
+position=162556
+type=N
+# end
+# start
+lane=0
+position=162389
+type=N
+# end
+# start
+lane=2
+position=162444
+type=N
+# end
+# start
+lane=0
+position=163111
+type=H
+length=56
+# end
+# start
+lane=2
+position=163444
+type=N
+# end
+# start
+lane=3
+position=163278
+type=H
+length=56
+# end
+# start
+lane=3
+position=163000
+type=N
+# end
+# start
+lane=1
+position=163556
+type=H
+length=840
+# end
+# start
+lane=3
+position=165333
+type=N
+# end
+# start
+lane=0
+position=165444
+type=N
+# end
+# start
+lane=1
+position=165500
+type=N
+# end
+# start
+lane=1
+position=166111
+type=N
+# end
+# start
+lane=2
+position=166167
+type=N
+# end
+# start
+lane=3
+position=166222
+type=N
+# end
+# start
+lane=0
+position=166444
+type=N
+# end
+# start
+lane=2
+position=166500
+type=N
+# end
+# start
+lane=0
+position=166667
+type=H
+length=56
+# end
+# start
+lane=2
+position=165389
+type=N
+# end
+# start
+lane=2
+position=165556
+type=N
+# end
+# start
+lane=1
+position=165667
+type=N
+# end
+# start
+lane=0
+position=165722
+type=N
+# end
+# start
+lane=1
+position=165778
+type=N
+# end
+# start
+lane=0
+position=165833
+type=N
+# end
+# start
+lane=2
+position=165889
+type=N
+# end
+# start
+lane=3
+position=165944
+type=N
+# end
+# start
+lane=3
+position=165611
+type=N
+# end
+# start
+lane=2
+position=166333
+type=N
+# end
+# start
+lane=1
+position=166389
+type=N
+# end
+# start
+lane=0
+position=166278
+type=N
+# end
+# start
+lane=3
+position=166556
+type=N
+# end
+# start
+lane=1
+position=166611
+type=N
+# end
+# start
+lane=2
+position=166000
+type=N
+# end
+# start
+lane=3
+position=166056
+type=N
+# end
+# start
+lane=2
+position=166833
+type=N
+# end
+# start
+lane=1
+position=166944
+type=N
+# end
+# start
+lane=3
+position=167056
+type=N
+# end
+# start
+lane=0
+position=168889
+type=N
+# end
+# start
+lane=3
+position=169278
+type=H
+length=112
+# end
+# start
+lane=0
+position=170333
+type=N
+# end
+# start
+lane=1
+position=170389
+type=N
+# end
+# start
+lane=1
+position=169722
+type=N
+# end
+# start
+lane=0
+position=169944
+type=N
+# end
+# start
+lane=0
+position=169500
+type=N
+# end
+# start
+lane=0
+position=169611
+type=N
+# end
+# start
+lane=3
+position=169833
+type=N
+# end
+# start
+lane=1
+position=168944
+type=N
+# end
+# start
+lane=2
+position=169000
+type=N
+# end
+# start
+lane=1
+position=169167
+type=N
+# end
+# start
+lane=0
+position=169222
+type=N
+# end
+# start
+lane=3
+position=169111
+type=N
+# end
+# start
+lane=1
+position=170000
+type=N
+# end
+# start
+lane=2
+position=170056
+type=N
+# end
+# start
+lane=2
+position=170222
+type=N
+# end
+# start
+lane=3
+position=170278
+type=N
+# end
+# start
+lane=3
+position=170500
+type=N
+# end
+# start
+lane=1
+position=170167
+type=N
+# end
+# start
+lane=0
+position=170611
+type=N
+# end
+# start
+lane=1
+position=170667
+type=H
+length=394
+# end
+# start
+lane=3
+position=175389
+type=N
+# end
+# start
+lane=0
+position=175500
+type=N
+# end
+# start
+lane=1
+position=175611
+type=H
+length=224
+# end
+# start
+lane=0
+position=174222
+type=N
+# end
+# start
+lane=1
+position=174278
+type=N
+# end
+# start
+lane=2
+position=174333
+type=N
+# end
+# start
+lane=1
+position=174389
+type=N
+# end
+# start
+lane=0
+position=174444
+type=N
+# end
+# start
+lane=0
+position=174556
+type=N
+# end
+# start
+lane=3
+position=174667
+type=N
+# end
+# start
+lane=2
+position=174722
+type=N
+# end
+# start
+lane=1
+position=174778
+type=N
+# end
+# start
+lane=2
+position=174833
+type=N
+# end
+# start
+lane=3
+position=175000
+type=N
+# end
+# start
+lane=3
+position=174889
+type=N
+# end
+# start
+lane=0
+position=175167
+type=N
+# end
+# start
+lane=0
+position=175278
+type=N
+# end
+# start
+lane=1
+position=177222
+type=N
+# end
+# start
+lane=1
+position=177333
+type=N
+# end
+# start
+lane=0
+position=176222
+type=N
+# end
+# start
+lane=3
+position=176000
+type=N
+# end
+# start
+lane=2
+position=176056
+type=N
+# end
+# start
+lane=3
+position=177389
+type=N
+# end
+# start
+lane=3
+position=177500
+type=N
+# end
+# start
+lane=0
+position=177556
+type=N
+# end
+# start
+lane=0
+position=177667
+type=N
+# end
+# start
+lane=0
+position=176333
+type=N
+# end
+# start
+lane=3
+position=176667
+type=H
+length=448
+# end
+# start
+lane=1
+position=176111
+type=N
+# end
+# start
+lane=2
+position=176167
+type=N
+# end
+# start
+lane=1
+position=176500
+type=N
+# end
+# start
+lane=3
+position=176389
+type=N
+# end
+# start
+lane=2
+position=176444
+type=N
+# end
+# start
+lane=2
+position=176556
+type=N
+# end
+# start
+lane=1
+position=177778
+type=H
+length=337
+# end
+# start
+lane=3
+position=182000
+type=N
+# end
+# start
+lane=3
+position=182111
+type=N
+# end
+# start
+lane=1
+position=182222
+type=H
+length=112
+# end
+# start
+lane=1
+position=181333
+type=H
+length=336
+# end
+# start
+lane=0
+position=181778
+type=N
+# end
+# start
+lane=0
+position=181889
+type=N
+# end
+# start
+lane=1
+position=182500
+type=N
+# end
+# start
+lane=1
+position=182611
+type=N
+# end
+# start
+lane=3
+position=182722
+type=N
+# end
+# start
+lane=2
+position=182778
+type=N
+# end
+# start
+lane=3
+position=182833
+type=N
+# end
+# start
+lane=2
+position=182889
+type=N
+# end
+# start
+lane=0
+position=182944
+type=N
+# end
+# start
+lane=0
+position=183056
+type=N
+# end
+# start
+lane=3
+position=183833
+type=H
+length=224
+# end
+# start
+lane=1
+position=183111
+type=H
+length=335
+# end
+# start
+lane=0
+position=183556
+type=H
+length=112
+# end
+# start
+lane=3
+position=184778
+type=N
+# end
+# start
+lane=2
+position=184667
+type=N
+# end
+# start
+lane=2
+position=184222
+type=N
+# end
+# start
+lane=2
+position=184333
+type=N
+# end
+# start
+lane=0
+position=184444
+type=H
+length=111
+# end
+# start
+lane=1
+position=184889
+type=H
+length=392
+# end
+# start
+lane=3
+position=186667
+type=N
+# end
+# start
+lane=0
+position=186778
+type=N
+# end
+# start
+lane=1
+position=186833
+type=N
+# end
+# start
+lane=3
+position=187556
+type=N
+# end
+# start
+lane=2
+position=186722
+type=N
+# end
+# start
+lane=3
+position=186944
+type=N
+# end
+# start
+lane=2
+position=187667
+type=N
+# end
+# start
+lane=0
+position=187889
+type=N
+# end
+# start
+lane=1
+position=187778
+type=N
+# end
+# start
+lane=0
+position=187222
+type=N
+# end
+# start
+lane=1
+position=187278
+type=N
+# end
+# start
+lane=3
+position=187333
+type=N
+# end
+# start
+lane=2
+position=187389
+type=N
+# end
+# start
+lane=0
+position=187444
+type=N
+# end
+# start
+lane=1
+position=187500
+type=N
+# end
+# start
+lane=0
+position=187056
+type=N
+# end
+# start
+lane=3
+position=187111
+type=N
+# end
+# start
+lane=2
+position=187167
+type=N
+# end
+# start
+lane=3
+position=188333
+type=N
+# end
+# start
+lane=2
+position=188056
+type=N
+# end
+# start
+lane=1
+position=188222
+type=N
+# end
+# start
+lane=3
+position=190222
+type=N
+# end
+# start
+lane=0
+position=190333
+type=N
+# end
+# start
+lane=1
+position=190389
+type=N
+# end
+# start
+lane=1
+position=191000
+type=N
+# end
+# start
+lane=2
+position=190278
+type=N
+# end
+# start
+lane=2
+position=190444
+type=N
+# end
+# start
+lane=1
+position=190556
+type=N
+# end
+# start
+lane=0
+position=190611
+type=N
+# end
+# start
+lane=1
+position=190667
+type=N
+# end
+# start
+lane=0
+position=190722
+type=N
+# end
+# start
+lane=2
+position=190778
+type=N
+# end
+# start
+lane=3
+position=190833
+type=N
+# end
+# start
+lane=3
+position=190500
+type=N
+# end
+# start
+lane=2
+position=190889
+type=N
+# end
+# start
+lane=3
+position=190944
+type=N
+# end
+# start
+lane=0
+position=191056
+type=N
+# end
+# start
+lane=1
+position=191111
+type=N
+# end
+# start
+lane=3
+position=191222
+type=N
+# end
+# start
+lane=3
+position=191611
+type=N
+# end
+# start
+lane=2
+position=191833
+type=N
+# end
+# start
+lane=2
+position=191362
+type=N
+# end
+# start
+lane=0
+position=191500
+type=N
+# end
+# start
+lane=1
+position=191722
+type=N
+# end
+# start
+lane=0
+position=191944
+type=N
+# end
+# start
+lane=3
+position=192000
+type=N
+# end
+# start
+lane=0
+position=192111
+type=N
+# end
+# start
+lane=1
+position=192167
+type=N
+# end
+# start
+lane=1
+position=192778
+type=N
+# end
+# start
+lane=2
+position=192056
+type=N
+# end
+# start
+lane=2
+position=192222
+type=N
+# end
+# start
+lane=1
+position=192333
+type=N
+# end
+# start
+lane=0
+position=192389
+type=N
+# end
+# start
+lane=1
+position=192444
+type=N
+# end
+# start
+lane=0
+position=192500
+type=N
+# end
+# start
+lane=2
+position=192556
+type=N
+# end
+# start
+lane=3
+position=192611
+type=N
+# end
+# start
+lane=3
+position=192278
+type=N
+# end
+# start
+lane=2
+position=192667
+type=N
+# end
+# start
+lane=3
+position=192722
+type=N
+# end
+# start
+lane=0
+position=192833
+type=N
+# end
+# start
+lane=1
+position=192889
+type=N
+# end
+# start
+lane=2
+position=192944
+type=N
+# end
+# start
+lane=3
+position=193000
+type=N
+# end
+# start
+lane=2
+position=193056
+type=N
+# end
+# start
+lane=0
+position=193111
+type=N
+# end
+# start
+lane=0
+position=193222
+type=N
+# end
+# start
+lane=3
+position=193333
+type=N
+# end
+# start
+lane=2
+position=193389
+type=N
+# end
+# start
+lane=3
+position=193444
+type=N
+# end
+# start
+lane=1
+position=193667
+type=N
+# end
+# start
+lane=1
+position=193556
+type=N
+# end
+# start
+lane=3
+position=193778
+type=N
+# end
+# start
+lane=1
+position=193944
+type=N
+# end
+# start
+lane=3
+position=194444
+type=N
+# end
+# start
+lane=0
+position=194944
+type=N
+# end
+# start
+lane=1
+position=195111
+type=N
+# end
+# start
+lane=3
+position=195222
+type=N
+# end
+# start
+lane=0
+position=194222
+type=N
+# end
+# start
+lane=2
+position=194278
+type=N
+# end
+# start
+lane=1
+position=194333
+type=N
+# end
+# start
+lane=3
+position=194111
+type=N
+# end
+# start
+lane=1
+position=194611
+type=N
+# end
+# start
+lane=2
+position=194722
+type=N
+# end
+# start
+lane=3
+position=194833
+type=N
+# end
+# start
+lane=0
+position=195333
+type=N
+# end
+# start
+lane=1
+position=195444
+type=N
+# end
+# start
+lane=3
+position=195556
+type=N
+# end
+# start
+lane=0
+position=195667
+type=N
+# end
+# start
+lane=1
+position=195722
+type=N
+# end
+# start
+lane=2
+position=195611
+type=N
+# end
+# start
+lane=2
+position=195778
+type=N
+# end
+# start
+lane=1
+position=195889
+type=N
+# end
+# start
+lane=0
+position=195944
+type=N
+# end
+# start
+lane=1
+position=196000
+type=N
+# end
+# start
+lane=0
+position=196056
+type=N
+# end
+# start
+lane=2
+position=196111
+type=N
+# end
+# start
+lane=3
+position=196167
+type=N
+# end
+# start
+lane=3
+position=195833
+type=N
+# end
+# start
+lane=3
+position=196944
+type=N
+# end
+# start
+lane=2
+position=197000
+type=N
+# end
+# start
+lane=3
+position=197056
+type=N
+# end
+# start
+lane=2
+position=197111
+type=N
+# end
+# start
+lane=3
+position=196056
+type=N
+# end
+# start
+lane=0
+position=196222
+type=N
+# end
+# start
+lane=1
+position=196278
+type=N
+# end
+# start
+lane=2
+position=196333
+type=N
+# end
+# start
+lane=0
+position=196389
+type=N
+# end
+# start
+lane=1
+position=196444
+type=N
+# end
+# start
+lane=2
+position=196500
+type=N
+# end
+# start
+lane=3
+position=196556
+type=N
+# end
+# start
+lane=2
+position=196611
+type=N
+# end
+# start
+lane=3
+position=196667
+type=N
+# end
+# start
+lane=0
+position=196722
+type=N
+# end
+# start
+lane=0
+position=196833
+type=N
+# end
+# start
+lane=1
+position=197167
+type=N
+# end
+# start
+lane=1
+position=197278
+type=N
+# end
+# start
+lane=3
+position=197333
+type=N
+# end
+# start
+lane=1
+position=198667
+type=N
+# end
+# start
+lane=2
+position=197444
+type=N
+# end
+# start
+lane=1
+position=197556
+type=N
+# end
+# start
+lane=3
+position=197667
+type=N
+# end
+# start
+lane=0
+position=197778
+type=N
+# end
+# start
+lane=1
+position=197889
+type=N
+# end
+# start
+lane=2
+position=198000
+type=N
+# end
+# start
+lane=3
+position=198111
+type=N
+# end
+# start
+lane=1
+position=198222
+type=N
+# end
+# start
+lane=2
+position=198333
+type=N
+# end
+# start
+lane=0
+position=198444
+type=N
+# end
+# start
+lane=3
+position=198556
+type=N
+# end
+# start
+lane=0
+position=198944
+type=N
+# end
+# start
+lane=0
+position=199056
+type=N
+# end
+# start
+lane=2
+position=198833
+type=N
+# end
+# start
+lane=0
+position=200000
+type=N
+# end
+# start
+lane=1
+position=200056
+type=N
+# end
+# start
+lane=3
+position=199167
+type=N
+# end
+# start
+lane=2
+position=199222
+type=N
+# end
+# start
+lane=2
+position=199111
+type=N
+# end
+# start
+lane=0
+position=199333
+type=N
+# end
+# start
+lane=1
+position=199444
+type=H
+length=222
+# end
+# start
+lane=2
+position=199778
+type=N
+# end
+# start
+lane=2
+position=199889
+type=N
+# end
+# start
+lane=2
+position=200333
+type=N
+# end
+# start
+lane=1
+position=200444
+type=H
+length=111
+# end
+# start
+lane=2
+position=200667
+type=H
+length=111
+# end
+# start
+lane=0
+position=200111
+type=N
+# end
+# start
+lane=1
+position=200222
+type=N
+# end
+# start
+lane=0
+position=201778
+type=N
+# end
+# start
+lane=0
+position=202111
+type=N
+# end
+# start
+lane=1
+position=200889
+type=N
+# end
+# start
+lane=1
+position=201000
+type=N
+# end
+# start
+lane=1
+position=201111
+type=N
+# end
+# start
+lane=1
+position=201222
+type=N
+# end
+# start
+lane=2
+position=201333
+type=N
+# end
+# start
+lane=2
+position=201444
+type=N
+# end
+# start
+lane=2
+position=201556
+type=N
+# end
+# start
+lane=2
+position=201667
+type=N
+# end
+# start
+lane=2
+position=201889
+type=N
+# end
+# start
+lane=1
+position=202000
+type=N
+# end
+# start
+lane=1
+position=202222
+type=H
+length=167
+# end
+# start
+lane=3
+position=202444
+type=H
+length=167
+# end
+# start
+lane=1
+position=202722
+type=N
+# end
+# start
+lane=2
+position=203333
+type=N
+# end
+# start
+lane=0
+position=203556
+type=N
+# end
+# start
+lane=0
+position=203667
+type=N
+# end
+# start
+lane=1
+position=203778
+type=N
+# end
+# start
+lane=1
+position=203889
+type=N
+# end
+# start
+lane=3
+position=204000
+type=H
+length=111
+# end
+# start
+lane=0
+position=204222
+type=H
+length=111
+# end
+# start
+lane=3
+position=203444
+type=N
+# end
+# start
+lane=3
+position=202889
+type=N
+# end
+# start
+lane=1
+position=203000
+type=H
+length=222
+# end
+# start
+lane=0
+position=202667
+type=N
+# end
+# start
+lane=2
+position=202778
+type=N
+# end
+# start
+lane=2
+position=205611
+type=N
+# end
+# start
+lane=0
+position=205833
+type=N
+# end
+# start
+lane=1
+position=205889
+type=N
+# end
+# start
+lane=0
+position=205944
+type=N
+# end
+# start
+lane=1
+position=206000
+type=N
+# end
+# start
+lane=0
+position=205389
+type=N
+# end
+# start
+lane=1
+position=205444
+type=N
+# end
+# start
+lane=0
+position=205500
+type=N
+# end
+# start
+lane=1
+position=205556
+type=N
+# end
+# start
+lane=2
+position=205722
+type=N
+# end
+# start
+lane=3
+position=206056
+type=N
+# end
+# start
+lane=3
+position=205667
+type=N
+# end
+# start
+lane=2
+position=204444
+type=N
+# end
+# start
+lane=2
+position=204556
+type=N
+# end
+# start
+lane=3
+position=204667
+type=N
+# end
+# start
+lane=3
+position=204778
+type=N
+# end
+# start
+lane=1
+position=205000
+type=N
+# end
+# start
+lane=0
+position=204889
+type=N
+# end
+# start
+lane=3
+position=205111
+type=N
+# end
+# start
+lane=2
+position=205222
+type=N
+# end
+# start
+lane=2
+position=206167
+type=N
+# end
+# start
+lane=1
+position=206556
+type=H
+length=222
+# end
+# start
+lane=2
+position=206889
+type=N
+# end
+# start
+lane=2
+position=207000
+type=N
+# end
+# start
+lane=2
+position=207778
+type=H
+length=111
+# end
+# start
+lane=1
+position=207556
+type=H
+length=111
+# end
+# start
+lane=0
+position=207111
+type=N
+# end
+# start
+lane=1
+position=207167
+type=N
+# end
+# start
+lane=0
+position=207222
+type=N
+# end
+# start
+lane=3
+position=207333
+type=N
+# end
+# start
+lane=2
+position=207444
+type=N
+# end
+# start
+lane=0
+position=206222
+type=N
+# end
+# start
+lane=1
+position=206278
+type=N
+# end
+# start
+lane=0
+position=206333
+type=N
+# end
+# start
+lane=3
+position=206444
+type=N
+# end
+# start
+lane=1
+position=208000
+type=N
+# end
+# start
+lane=1
+position=208111
+type=N
+# end
+# start
+lane=1
+position=208222
+type=N
+# end
+# start
+lane=1
+position=208333
+type=N
+# end
+# start
+lane=2
+position=208444
+type=N
+# end
+# start
+lane=2
+position=208556
+type=N
+# end
+# start
+lane=2
+position=208667
+type=N
+# end
+# start
+lane=2
+position=208778
+type=N
+# end
+# start
+lane=1
+position=209333
+type=H
+length=111
+# end
+# start
+lane=3
+position=209556
+type=H
+length=111
+# end
+# start
+lane=1
+position=209111
+type=N
+# end
+# start
+lane=2
+position=209222
+type=N
+# end
+# start
+lane=0
+position=208889
+type=N
+# end
+# start
+lane=3
+position=209000
+type=N
+# end
+# start
+lane=3
+position=211056
+type=N
+# end
+# start
+lane=0
+position=211111
+type=N
+# end
+# start
+lane=1
+position=211167
+type=N
+# end
+# start
+lane=2
+position=211222
+type=N
+# end
+# start
+lane=0
+position=211278
+type=N
+# end
+# start
+lane=1
+position=211333
+type=N
+# end
+# start
+lane=3
+position=211389
+type=N
+# end
+# start
+lane=3
+position=211500
+type=N
+# end
+# start
+lane=2
+position=209778
+type=H
+length=444
+# end
+# start
+lane=1
+position=210333
+type=N
+# end
+# start
+lane=1
+position=210500
+type=N
+# end
+# start
+lane=1
+position=210611
+type=N
+# end
+# start
+lane=0
+position=210722
+type=N
+# end
+# start
+lane=0
+position=210833
+type=N
+# end
+# start
+lane=2
+position=210889
+type=N
+# end
+# start
+lane=2
+position=211000
+type=N
+# end
+# start
+lane=0
+position=211611
+type=N
+# end
+# start
+lane=2
+position=211722
+type=N
+# end
+# start
+lane=1
+position=211833
+type=N
+# end
+# start
+lane=0
+position=211944
+type=N
+# end
+# start
+lane=1
+position=212056
+type=H
+length=112
+# end
+# start
+lane=1
+position=212333
+type=H
+length=112
+# end
+# start
+lane=3
+position=212611
+type=N
+# end
+# start
+lane=3
+position=212722
+type=N
+# end
+# start
+lane=0
+position=212778
+type=N
+# end
+# start
+lane=0
+position=212889
+type=N
+# end
+# start
+lane=2
+position=213000
+type=N
+# end
+# start
+lane=2
+position=213111
+type=N
+# end
+# start
+lane=3
+position=213167
+type=N
+# end
+# start
+lane=3
+position=213278
+type=N
+# end
+# start
+lane=1
+position=213333
+type=H
+length=1667
+# end
+# start
+lane=2
+position=216056
+type=H
+length=111
+# end
+# start
+lane=2
+position=216333
+type=H
+length=111
+# end
+# start
+lane=3
+position=215111
+type=H
+length=111
+# end
+# start
+lane=3
+position=215444
+type=H
+length=111
+# end
+# start
+lane=3
+position=215778
+type=H
+length=111
+# end
+# start
+lane=2
+position=216611
+type=H
+length=111
+# end
+# start
+lane=1
+position=216944
+type=H
+length=728
+# end
+# start
+lane=0
+position=217778
+type=H
+length=560
+# end
+# start
+lane=2
+position=218500
+type=H
+length=111
+# end
+# start
+lane=3
+position=218722
+type=N
+# end
+# start
+lane=1
+position=218833
+type=N
+# end
+# start
+lane=2
+position=218944
+type=N
+# end
+# start
+lane=0
+position=219056
+type=N
+# end
+# start
+lane=2
+position=219167
+type=N
+# end
+# start
+lane=1
+position=219278
+type=N
+# end
+# start
+lane=0
+position=219389
+type=N
+# end
+# start
+lane=2
+position=219500
+type=N
+# end
+# start
+lane=1
+position=219611
+type=N
+# end
+# start
+lane=3
+position=219667
+type=N
+# end
+# start
+lane=0
+position=219778
+type=N
+# end
+# start
+lane=1
+position=219944
+type=N
+# end
+# start
+lane=3
+position=220056
+type=N
+# end
+# start
+lane=2
+position=220167
+type=N
+# end
+# start
+lane=0
+position=220278
+type=N
+# end
+# start
+lane=3
+position=220389
+type=N
+# end
+# start
+lane=1
+position=220500
+type=H
+length=1624
+# end
+# start
+lane=3
+position=222222
+type=H
+length=111
+# end
+# start
+lane=3
+position=222556
+type=H
+length=111
+# end
+# start
+lane=3
+position=222889
+type=H
+length=111
+# end
+# start
+lane=2
+position=223167
+type=H
+length=111
+# end
+# start
+lane=2
+position=223444
+type=H
+length=111
+# end
+# start
+lane=2
+position=223722
+type=H
+length=111
+# end
+# start
+lane=1
+position=224056
+type=H
+length=840
+# end
+# start
+lane=3
+position=225000
+type=H
+length=504
+# end
+# start
+lane=2
+position=225611
+type=H
+length=111
+# end
+# start
+lane=3
+position=225833
+type=N
+# end
+# start
+lane=1
+position=225944
+type=N
+# end
+# start
+lane=0
+position=226056
+type=N
+# end
+# start
+lane=2
+position=226111
+type=N
+# end
+# start
+lane=3
+position=226222
+type=N
+# end
+# start
+lane=1
+position=226556
+type=N
+# end
+# start
+lane=3
+position=226611
+type=N
+# end
+# start
+lane=0
+position=227500
+type=N
+# end
+# start
+lane=1
+position=226333
+type=N
+# end
+# start
+lane=0
+position=226444
+type=N
+# end
+# start
+lane=0
+position=226722
+type=N
+# end
+# start
+lane=2
+position=226833
+type=N
+# end
+# start
+lane=3
+position=226944
+type=N
+# end
+# start
+lane=1
+position=227056
+type=N
+# end
+# start
+lane=0
+position=227167
+type=N
+# end
+# start
+lane=2
+position=227278
+type=N
+# end
+# start
+lane=1
+position=227389
+type=N
+# end
+# start
+lane=2
+position=227556
+type=H
+length=1722
+# end

@@ -1,0 +1,1884 @@
+# start
+position=0
+type=MOV
+axis=X
+moveAmount=0
+moveTime=0.4
+# end
+
+# start
+position=0
+type=MOV
+axis=Y
+moveAmount=0
+moveTime=0.4
+# end
+
+# start
+position=0
+type=PF-c
+# end
+
+# start
+position=0
+type=PP
+effectName=saturation
+effectValue=-18
+effectSpeed=1.2
+# end
+
+# start
+position=0
+type=PP
+effectName=bloom
+effectValue=0.25
+effectSpeed=0.8
+# end
+
+# start
+position=0
+type=R
+repeatRate=1
+repeatTime=0.28
+# end
+
+# start
+position=0
+type=RC
+rotateAmount=0
+rotateTime=0.5
+# end
+
+# start
+position=5455
+type=MOV
+axis=X
+moveAmount=0.16
+moveTime=0.35
+# end
+
+# start
+position=5455
+type=PF-e
+# end
+
+# start
+position=5455
+type=PP
+effectName=saturation
+effectValue=-28
+effectSpeed=0.8
+# end
+
+# start
+position=5455
+type=R
+repeatRate=1.12
+repeatTime=0.35
+# end
+
+# start
+position=5455
+type=RC
+rotateAmount=-1.2
+rotateTime=0.45
+# end
+
+# start
+position=6100
+type=PP
+effectName=bloom
+effectValue=0.7
+effectSpeed=0.55
+# end
+
+# start
+position=10910
+type=MOV
+axis=X
+moveAmount=0
+moveTime=0.45
+# end
+
+# start
+position=10910
+type=PF-p
+# end
+
+# start
+position=10910
+type=PP
+effectName=saturation
+effectValue=-12
+effectSpeed=0.7
+# end
+
+# start
+position=10910
+type=PP
+effectName=bloom
+effectValue=0.45
+effectSpeed=0.8
+# end
+
+# start
+position=10910
+type=R
+repeatRate=1
+repeatTime=0.5
+# end
+
+# start
+position=10910
+type=RC
+rotateAmount=0
+rotateTime=0.55
+# end
+
+# start
+position=13636
+type=MOV
+axis=X
+moveAmount=-0.12
+moveTime=0.35
+# end
+
+# start
+position=13636
+type=PF-e
+# end
+
+# start
+position=13636
+type=PP
+effectName=saturation
+effectValue=-24
+effectSpeed=0.8
+# end
+
+# start
+position=13636
+type=R
+repeatRate=1.08
+repeatTime=0.35
+# end
+
+# start
+position=13636
+type=RC
+rotateAmount=1
+rotateTime=0.45
+# end
+
+# start
+position=16363
+type=MOV
+axis=X
+moveAmount=0
+moveTime=0.4
+# end
+
+# start
+position=16363
+type=PF-p
+# end
+
+# start
+position=16363
+type=PP
+effectName=bloom
+effectValue=0.55
+effectSpeed=0.8
+# end
+
+# start
+position=16363
+type=R
+repeatRate=1
+repeatTime=0.55
+# end
+
+# start
+position=16363
+type=RC
+rotateAmount=0
+rotateTime=0.55
+# end
+
+# start
+position=19091
+type=MOV
+axis=X
+moveAmount=0.14
+moveTime=0.35
+# end
+
+# start
+position=19091
+type=PF-e
+# end
+
+# start
+position=19091
+type=PP
+effectName=saturation
+effectValue=-26
+effectSpeed=0.8
+# end
+
+# start
+position=19091
+type=R
+repeatRate=1.1
+repeatTime=0.35
+# end
+
+# start
+position=19091
+type=RC
+rotateAmount=-1
+rotateTime=0.45
+# end
+
+# start
+position=21818
+type=MOV
+axis=Y
+moveAmount=0.08
+moveTime=0.35
+# end
+
+# start
+position=21818
+type=PF-c
+# end
+
+# start
+position=21818
+type=PP
+effectName=bloom
+effectValue=0.85
+effectSpeed=0.6
+# end
+
+# start
+position=21818
+type=R
+repeatRate=1.03
+repeatTime=0.4
+# end
+
+# start
+position=21818
+type=RC
+rotateAmount=0.6
+rotateTime=0.5
+# end
+
+# start
+position=24545
+type=MOV
+axis=X
+moveAmount=0.22
+moveTime=0.3
+# end
+
+# start
+position=24545
+type=PF-e
+# end
+
+# start
+position=24545
+type=PP
+effectName=saturation
+effectValue=-34
+effectSpeed=0.7
+# end
+
+# start
+position=24545
+type=R
+repeatRate=1.16
+repeatTime=0.3
+# end
+
+# start
+position=24545
+type=RC
+rotateAmount=-1.5
+rotateTime=0.4
+# end
+
+# start
+position=25568
+type=PP
+effectName=bloom
+effectValue=1.15
+effectSpeed=0.7
+# end
+
+# start
+position=27273
+type=MOV
+axis=X
+moveAmount=0.02
+moveTime=0.4
+# end
+
+# start
+position=27273
+type=PF-c
+# end
+
+# start
+position=27273
+type=PP
+effectName=saturation
+effectValue=-18
+effectSpeed=0.9
+# end
+
+# start
+position=27273
+type=R
+repeatRate=1.04
+repeatTime=0.45
+# end
+
+# start
+position=27273
+type=RC
+rotateAmount=0
+rotateTime=0.55
+# end
+
+# start
+position=32727
+type=AFI
+player=right
+flipX=true
+flipY=false
+zIndex=0
+display=true
+speed=20
+duration=0.12
+red=230
+green=230
+blue=255
+alpha=0.15
+# end
+
+# start
+position=32727
+type=MOV
+axis=X
+moveAmount=-0.16
+moveTime=0.35
+# end
+
+# start
+position=32727
+type=MOV
+axis=Y
+moveAmount=0.1
+moveTime=0.3
+# end
+
+# start
+position=32727
+type=PF-c
+# end
+
+# start
+position=32727
+type=PP
+effectName=saturation
+effectValue=-42
+effectSpeed=0.6
+# end
+
+# start
+position=32727
+type=PP
+effectName=bloom
+effectValue=1.2
+effectSpeed=0.5
+# end
+
+# start
+position=32727
+type=R
+repeatRate=1.07
+repeatTime=0.35
+# end
+
+# start
+position=32727
+type=RC
+rotateAmount=1.2
+rotateTime=0.5
+# end
+
+# start
+position=33250
+type=AFI
+player=right
+flipX=true
+flipY=false
+zIndex=0
+display=false
+speed=8
+duration=0.1
+red=253
+green=61
+blue=144
+alpha=0
+# end
+
+# start
+position=35454
+type=MOV
+axis=X
+moveAmount=0.14
+moveTime=0.32
+# end
+
+# start
+position=35454
+type=MOV
+axis=Y
+moveAmount=-0.06
+moveTime=0.32
+# end
+
+# start
+position=35454
+type=PF-c
+# end
+
+# start
+position=35454
+type=PP
+effectName=bloom
+effectValue=1
+effectSpeed=0.55
+# end
+
+# start
+position=35454
+type=R
+repeatRate=1.08
+repeatTime=0.34
+# end
+
+# start
+position=35454
+type=RC
+rotateAmount=-1.2
+rotateTime=0.45
+# end
+
+# start
+position=38181
+type=MOV
+axis=X
+moveAmount=-0.18
+moveTime=0.32
+# end
+
+# start
+position=38181
+type=MOV
+axis=Y
+moveAmount=0.06
+moveTime=0.32
+# end
+
+# start
+position=38181
+type=PF-c
+# end
+
+# start
+position=38181
+type=PP
+effectName=bloom
+effectValue=1
+effectSpeed=0.55
+# end
+
+# start
+position=38181
+type=R
+repeatRate=1.08
+repeatTime=0.34
+# end
+
+# start
+position=38181
+type=RC
+rotateAmount=1.4
+rotateTime=0.45
+# end
+
+# start
+position=40909
+type=MOV
+axis=X
+moveAmount=0.12
+moveTime=0.32
+# end
+
+# start
+position=40909
+type=MOV
+axis=Y
+moveAmount=-0.06
+moveTime=0.32
+# end
+
+# start
+position=40909
+type=PF-c
+# end
+
+# start
+position=40909
+type=PP
+effectName=bloom
+effectValue=1
+effectSpeed=0.55
+# end
+
+# start
+position=40909
+type=R
+repeatRate=1.08
+repeatTime=0.34
+# end
+
+# start
+position=40909
+type=RC
+rotateAmount=-1
+rotateTime=0.45
+# end
+
+# start
+position=43636
+type=MOV
+axis=X
+moveAmount=0
+moveTime=0.45
+# end
+
+# start
+position=43636
+type=MOV
+axis=Y
+moveAmount=0
+moveTime=0.45
+# end
+
+# start
+position=43636
+type=PF-c
+# end
+
+# start
+position=43636
+type=PP
+effectName=saturation
+effectValue=-20
+effectSpeed=0.8
+# end
+
+# start
+position=43636
+type=PP
+effectName=bloom
+effectValue=0.6
+effectSpeed=0.7
+# end
+
+# start
+position=43636
+type=R
+repeatRate=1.02
+repeatTime=0.5
+# end
+
+# start
+position=43636
+type=RC
+rotateAmount=0
+rotateTime=0.6
+# end
+
+# start
+position=49091
+type=MOV
+axis=Y
+moveAmount=0.12
+moveTime=0.28
+# end
+
+# start
+position=49091
+type=PF-c
+# end
+
+# start
+position=49091
+type=PP
+effectName=saturation
+effectValue=-26
+effectSpeed=0.7
+# end
+
+# start
+position=49091
+type=R
+repeatRate=1.06
+repeatTime=0.35
+# end
+
+# start
+position=49091
+type=RC
+rotateAmount=0.8
+rotateTime=0.45
+# end
+
+# start
+position=53181
+type=PP
+effectName=bloom
+effectValue=0.95
+effectSpeed=0.45
+# end
+
+# start
+position=54545
+type=MOV
+axis=X
+moveAmount=-0.08
+moveTime=0.28
+# end
+
+# start
+position=54545
+type=PF-c
+# end
+
+# start
+position=54545
+type=PP
+effectName=bloom
+effectValue=0.9
+effectSpeed=0.45
+# end
+
+# start
+position=54545
+type=R
+repeatRate=1.05
+repeatTime=0.35
+# end
+
+# start
+position=54545
+type=RC
+rotateAmount=0.8
+rotateTime=0.42
+# end
+
+# start
+position=60000
+type=MOV
+axis=X
+moveAmount=0.1
+moveTime=0.28
+# end
+
+# start
+position=60000
+type=PF-c
+# end
+
+# start
+position=60000
+type=PP
+effectName=saturation
+effectValue=-32
+effectSpeed=0.6
+# end
+
+# start
+position=60000
+type=R
+repeatRate=1.08
+repeatTime=0.3
+# end
+
+# start
+position=60000
+type=RC
+rotateAmount=-1
+rotateTime=0.38
+# end
+
+# start
+position=62727
+type=PP
+effectName=bloom
+effectValue=1
+effectSpeed=0.45
+# end
+
+# start
+position=64943
+type=PP
+effectName=bloom
+effectValue=1.2
+effectSpeed=0.45
+# end
+
+# start
+position=65455
+type=MOV
+axis=X
+moveAmount=0.22
+moveTime=0.25
+# end
+
+# start
+position=65455
+type=PF-e
+# end
+
+# start
+position=65455
+type=PP
+effectName=saturation
+effectValue=-36
+effectSpeed=0.55
+# end
+
+# start
+position=65455
+type=PP
+effectName=bloom
+effectValue=1.35
+effectSpeed=0.4
+# end
+
+# start
+position=65455
+type=R
+repeatRate=1.14
+repeatTime=0.28
+# end
+
+# start
+position=65455
+type=RC
+rotateAmount=-1.6
+rotateTime=0.32
+# end
+
+# start
+position=68182
+type=MOV
+axis=X
+moveAmount=-0.12
+moveTime=0.3
+# end
+
+# start
+position=68182
+type=PF-c
+# end
+
+# start
+position=68182
+type=PP
+effectName=bloom
+effectValue=0.95
+effectSpeed=0.55
+# end
+
+# start
+position=68182
+type=R
+repeatRate=1.08
+repeatTime=0.34
+# end
+
+# start
+position=68182
+type=RC
+rotateAmount=1.1
+rotateTime=0.38
+# end
+
+# start
+position=70910
+type=MOV
+axis=X
+moveAmount=0
+moveTime=0.38
+# end
+
+# start
+position=70910
+type=PF-p
+# end
+
+# start
+position=70910
+type=PP
+effectName=saturation
+effectValue=-10
+effectSpeed=0.7
+# end
+
+# start
+position=70910
+type=PP
+effectName=bloom
+effectValue=0.4
+effectSpeed=0.7
+# end
+
+# start
+position=70910
+type=R
+repeatRate=1
+repeatTime=0.45
+# end
+
+# start
+position=70910
+type=RC
+rotateAmount=0
+rotateTime=0.5
+# end
+
+# start
+position=73637
+type=MOV
+axis=Y
+moveAmount=0.08
+moveTime=0.26
+# end
+
+# start
+position=73637
+type=PF-c
+# end
+
+# start
+position=73637
+type=PP
+effectName=saturation
+effectValue=-22
+effectSpeed=0.65
+# end
+
+# start
+position=73637
+type=PP
+effectName=bloom
+effectValue=1
+effectSpeed=0.45
+# end
+
+# start
+position=73637
+type=R
+repeatRate=1.07
+repeatTime=0.33
+# end
+
+# start
+position=73637
+type=RC
+rotateAmount=-0.9
+rotateTime=0.36
+# end
+
+# start
+position=76363
+type=AFI
+player=right
+flipX=true
+flipY=false
+zIndex=0
+display=true
+speed=24
+duration=0.14
+red=253
+green=61
+blue=144
+alpha=0.18
+# end
+
+# start
+position=76363
+type=MOV
+axis=X
+moveAmount=0.14
+moveTime=0.24
+# end
+
+# start
+position=76363
+type=PF-c
+# end
+
+# start
+position=76363
+type=PP
+effectName=saturation
+effectValue=-30
+effectSpeed=0.55
+# end
+
+# start
+position=76363
+type=PP
+effectName=bloom
+effectValue=1.4
+effectSpeed=0.4
+# end
+
+# start
+position=76363
+type=R
+repeatRate=1.1
+repeatTime=0.28
+# end
+
+# start
+position=76363
+type=RC
+rotateAmount=1.4
+rotateTime=0.3
+# end
+
+# start
+position=76720
+type=AFI
+player=right
+flipX=true
+flipY=false
+zIndex=0
+display=false
+speed=8
+duration=0.1
+red=253
+green=61
+blue=144
+alpha=0
+# end
+
+# start
+position=81818
+type=MOV
+axis=X
+moveAmount=0.04
+moveTime=0.34
+# end
+
+# start
+position=81818
+type=PF-c
+# end
+
+# start
+position=81818
+type=PP
+effectName=saturation
+effectValue=-18
+effectSpeed=0.8
+# end
+
+# start
+position=81818
+type=PP
+effectName=bloom
+effectValue=0.55
+effectSpeed=0.7
+# end
+
+# start
+position=81818
+type=R
+repeatRate=1.04
+repeatTime=0.38
+# end
+
+# start
+position=81818
+type=RC
+rotateAmount=0.4
+rotateTime=0.42
+# end
+
+# start
+position=87273
+type=MOV
+axis=Y
+moveAmount=-0.06
+moveTime=0.28
+# end
+
+# start
+position=87273
+type=PF-c
+# end
+
+# start
+position=87273
+type=PP
+effectName=saturation
+effectValue=-22
+effectSpeed=0.7
+# end
+
+# start
+position=87273
+type=PP
+effectName=bloom
+effectValue=0.8
+effectSpeed=0.55
+# end
+
+# start
+position=87273
+type=R
+repeatRate=1.06
+repeatTime=0.34
+# end
+
+# start
+position=87273
+type=RC
+rotateAmount=-0.8
+rotateTime=0.38
+# end
+
+# start
+position=90000
+type=AFI
+player=right
+flipX=true
+flipY=false
+zIndex=0
+display=true
+speed=22
+duration=0.12
+red=255
+green=255
+blue=255
+alpha=0.12
+# end
+
+# start
+position=90000
+type=MOV
+axis=X
+moveAmount=-0.14
+moveTime=0.26
+# end
+
+# start
+position=90000
+type=PF-c
+# end
+
+# start
+position=90000
+type=PP
+effectName=saturation
+effectValue=-34
+effectSpeed=0.55
+# end
+
+# start
+position=90000
+type=PP
+effectName=bloom
+effectValue=1.45
+effectSpeed=0.38
+# end
+
+# start
+position=90000
+type=R
+repeatRate=1.1
+repeatTime=0.28
+# end
+
+# start
+position=90000
+type=RC
+rotateAmount=1.2
+rotateTime=0.32
+# end
+
+# start
+position=90320
+type=AFI
+player=right
+flipX=true
+flipY=false
+zIndex=0
+display=false
+speed=8
+duration=0.1
+red=253
+green=61
+blue=144
+alpha=0
+# end
+
+# start
+position=92727
+type=MOV
+axis=X
+moveAmount=0.08
+moveTime=0.28
+# end
+
+# start
+position=92727
+type=PF-c
+# end
+
+# start
+position=92727
+type=PP
+effectName=bloom
+effectValue=1.1
+effectSpeed=0.45
+# end
+
+# start
+position=92727
+type=R
+repeatRate=1.07
+repeatTime=0.3
+# end
+
+# start
+position=92727
+type=RC
+rotateAmount=-1
+rotateTime=0.34
+# end
+
+# start
+position=95454
+type=MOV
+axis=X
+moveAmount=0.26
+moveTime=0.22
+# end
+
+# start
+position=95454
+type=PF-e
+# end
+
+# start
+position=95454
+type=PP
+effectName=saturation
+effectValue=-40
+effectSpeed=0.45
+# end
+
+# start
+position=95454
+type=PP
+effectName=bloom
+effectValue=1.6
+effectSpeed=0.32
+# end
+
+# start
+position=95454
+type=R
+repeatRate=1.15
+repeatTime=0.24
+# end
+
+# start
+position=95454
+type=RC
+rotateAmount=-1.8
+rotateTime=0.28
+# end
+
+# start
+position=98181
+type=MOV
+axis=X
+moveAmount=0
+moveTime=0.5
+# end
+
+# start
+position=98181
+type=MOV
+axis=Y
+moveAmount=0
+moveTime=0.5
+# end
+
+# start
+position=98181
+type=PF-p
+# end
+
+# start
+position=98181
+type=PP
+effectName=saturation
+effectValue=-8
+effectSpeed=0.7
+# end
+
+# start
+position=98181
+type=PP
+effectName=bloom
+effectValue=0.45
+effectSpeed=0.8
+# end
+
+# start
+position=98181
+type=R
+repeatRate=1
+repeatTime=0.55
+# end
+
+# start
+position=98181
+type=RC
+rotateAmount=0
+rotateTime=0.65
+# end
+
+# start
+position=102272
+type=MOV
+axis=X
+moveAmount=-0.08
+moveTime=0.3
+# end
+
+# start
+position=102272
+type=PF-c
+# end
+
+# start
+position=102272
+type=PP
+effectName=saturation
+effectValue=-28
+effectSpeed=0.6
+# end
+
+# start
+position=102272
+type=PP
+effectName=bloom
+effectValue=1.15
+effectSpeed=0.42
+# end
+
+# start
+position=102272
+type=R
+repeatRate=1.08
+repeatTime=0.34
+# end
+
+# start
+position=102272
+type=RC
+rotateAmount=0.8
+rotateTime=0.38
+# end
+
+# start
+position=106704
+type=AFI
+player=right
+flipX=true
+flipY=false
+zIndex=0
+display=true
+speed=26
+duration=0.1
+red=255
+green=255
+blue=255
+alpha=0.1
+# end
+
+# start
+position=106704
+type=PP
+effectName=bloom
+effectValue=1.9
+effectSpeed=0.3
+# end
+
+# start
+position=106884
+type=AFI
+player=right
+flipX=true
+flipY=false
+zIndex=0
+display=false
+speed=8
+duration=0.1
+red=253
+green=61
+blue=144
+alpha=0
+# end
+
+# start
+position=108408
+type=AFI
+player=right
+flipX=true
+flipY=false
+zIndex=0
+display=true
+speed=26
+duration=0.1
+red=255
+green=255
+blue=255
+alpha=0.1
+# end
+
+# start
+position=108408
+type=PP
+effectName=bloom
+effectValue=1.9
+effectSpeed=0.3
+# end
+
+# start
+position=108588
+type=AFI
+player=right
+flipX=true
+flipY=false
+zIndex=0
+display=false
+speed=8
+duration=0.1
+red=253
+green=61
+blue=144
+alpha=0
+# end
+
+# start
+position=109090
+type=MOV
+axis=X
+moveAmount=0.32
+moveTime=0.2
+# end
+
+# start
+position=109090
+type=MOV
+axis=Y
+moveAmount=0.1
+moveTime=0.22
+# end
+
+# start
+position=109090
+type=PF-e
+# end
+
+# start
+position=109090
+type=PP
+effectName=saturation
+effectValue=-48
+effectSpeed=0.38
+# end
+
+# start
+position=109090
+type=PP
+effectName=bloom
+effectValue=1.8
+effectSpeed=0.28
+# end
+
+# start
+position=109090
+type=R
+repeatRate=1.18
+repeatTime=0.22
+# end
+
+# start
+position=109090
+type=RC
+rotateAmount=2
+rotateTime=0.25
+# end
+
+# start
+position=111136
+type=MOV
+axis=X
+moveAmount=0.2
+moveTime=0.2
+# end
+
+# start
+position=111136
+type=PF-e
+# end
+
+# start
+position=111136
+type=PP
+effectName=bloom
+effectValue=1.55
+effectSpeed=0.26
+# end
+
+# start
+position=111136
+type=R
+repeatRate=1.2
+repeatTime=0.2
+# end
+
+# start
+position=111136
+type=RC
+rotateAmount=-1.2
+rotateTime=0.22
+# end
+
+# start
+position=111817
+type=MOV
+axis=X
+moveAmount=-0.24
+moveTime=0.2
+# end
+
+# start
+position=111817
+type=PF-e
+# end
+
+# start
+position=111817
+type=PP
+effectName=bloom
+effectValue=1.55
+effectSpeed=0.26
+# end
+
+# start
+position=111817
+type=R
+repeatRate=1.2
+repeatTime=0.2
+# end
+
+# start
+position=111817
+type=RC
+rotateAmount=1.6
+rotateTime=0.22
+# end
+
+# start
+position=113863
+type=MOV
+axis=X
+moveAmount=0.18
+moveTime=0.2
+# end
+
+# start
+position=113863
+type=PF-e
+# end
+
+# start
+position=113863
+type=PP
+effectName=bloom
+effectValue=1.55
+effectSpeed=0.26
+# end
+
+# start
+position=113863
+type=R
+repeatRate=1.2
+repeatTime=0.2
+# end
+
+# start
+position=113863
+type=RC
+rotateAmount=-1.2
+rotateTime=0.22
+# end
+
+# start
+position=114545
+type=MOV
+axis=X
+moveAmount=-0.28
+moveTime=0.2
+# end
+
+# start
+position=114545
+type=PF-e
+# end
+
+# start
+position=114545
+type=PP
+effectName=bloom
+effectValue=1.55
+effectSpeed=0.26
+# end
+
+# start
+position=114545
+type=R
+repeatRate=1.2
+repeatTime=0.2
+# end
+
+# start
+position=114545
+type=RC
+rotateAmount=1.8
+rotateTime=0.22
+# end
+
+# start
+position=117272
+type=MOV
+axis=X
+moveAmount=0.18
+moveTime=0.22
+# end
+
+# start
+position=117272
+type=PF-e
+# end
+
+# start
+position=117272
+type=PP
+effectName=saturation
+effectValue=-38
+effectSpeed=0.45
+# end
+
+# start
+position=117272
+type=PP
+effectName=bloom
+effectValue=1.25
+effectSpeed=0.34
+# end
+
+# start
+position=117272
+type=R
+repeatRate=1.14
+repeatTime=0.26
+# end
+
+# start
+position=117272
+type=RC
+rotateAmount=-1.2
+rotateTime=0.28
+# end
+
+# start
+position=119999
+type=AFI
+player=right
+flipX=true
+flipY=false
+zIndex=0
+display=true
+speed=20
+duration=0.15
+red=253
+green=61
+blue=144
+alpha=0.22
+# end
+
+# start
+position=119999
+type=MOV
+axis=Y
+moveAmount=0.08
+moveTime=0.22
+# end
+
+# start
+position=119999
+type=PF-c
+# end
+
+# start
+position=119999
+type=PP
+effectName=saturation
+effectValue=-28
+effectSpeed=0.5
+# end
+
+# start
+position=119999
+type=PP
+effectName=bloom
+effectValue=1.7
+effectSpeed=0.32
+# end
+
+# start
+position=119999
+type=R
+repeatRate=1.1
+repeatTime=0.24
+# end
+
+# start
+position=119999
+type=RC
+rotateAmount=1
+rotateTime=0.28
+# end
+
+# start
+position=120400
+type=AFI
+player=right
+flipX=true
+flipY=false
+zIndex=0
+display=false
+speed=8
+duration=0.1
+red=253
+green=61
+blue=144
+alpha=0
+# end
+
+# start
+position=122727
+type=MOV
+axis=X
+moveAmount=-0.18
+moveTime=0.22
+# end
+
+# start
+position=122727
+type=PF-c
+# end
+
+# start
+position=122727
+type=PP
+effectName=saturation
+effectValue=-34
+effectSpeed=0.45
+# end
+
+# start
+position=122727
+type=PP
+effectName=bloom
+effectValue=1.4
+effectSpeed=0.34
+# end
+
+# start
+position=122727
+type=R
+repeatRate=1.14
+repeatTime=0.22
+# end
+
+# start
+position=122727
+type=RC
+rotateAmount=-1.4
+rotateTime=0.25
+# end
+
+# start
+position=125454
+type=AFI
+player=right
+flipX=true
+flipY=false
+zIndex=0
+display=true
+speed=28
+duration=0.18
+red=255
+green=255
+blue=255
+alpha=0.12
+# end
+
+# start
+position=125454
+type=MOV
+axis=X
+moveAmount=0.3
+moveTime=0.18
+# end
+
+# start
+position=125454
+type=MOV
+axis=Y
+moveAmount=0.12
+moveTime=0.2
+# end
+
+# start
+position=125454
+type=PF-c
+# end
+
+# start
+position=125454
+type=PP
+effectName=saturation
+effectValue=-55
+effectSpeed=0.32
+# end
+
+# start
+position=125454
+type=PP
+effectName=bloom
+effectValue=2.3
+effectSpeed=0.2
+# end
+
+# start
+position=125454
+type=R
+repeatRate=1.18
+repeatTime=0.18
+# end
+
+# start
+position=125454
+type=RC
+rotateAmount=2.2
+rotateTime=0.2
+# end
+
+# start
+position=125820
+type=AFI
+player=right
+flipX=true
+flipY=false
+zIndex=0
+display=false
+speed=8
+duration=0.1
+red=253
+green=61
+blue=144
+alpha=0
+# end
+
+# start
+position=128181
+type=MOV
+axis=X
+moveAmount=0
+moveTime=0.5
+# end
+
+# start
+position=128181
+type=MOV
+axis=Y
+moveAmount=0
+moveTime=0.5
+# end
+
+# start
+position=128181
+type=PF-p
+# end
+
+# start
+position=128181
+type=PP
+effectName=saturation
+effectValue=-12
+effectSpeed=0.6
+# end
+
+# start
+position=128181
+type=PP
+effectName=bloom
+effectValue=0.35
+effectSpeed=0.7
+# end
+
+# start
+position=128181
+type=R
+repeatRate=1
+repeatTime=0.55
+# end
+
+# start
+position=128181
+type=RC
+rotateAmount=0
+rotateTime=0.65
+# end
