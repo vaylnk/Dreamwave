@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using static GameManager;
 
@@ -14,9 +15,18 @@ public class NoteHitbox : MonoBehaviour
     public delegate void HitNote(string scoreType, float msDelay, float dummy, string direction);
     public static event HitNote NoteHit;
 
+    public delegate void BotLaneInput(WhichSide side);
+    public static event BotLaneInput BotLanePressed;
+    public static event BotLaneInput BotLaneReleased;
+
     public KeyCode keyForSide;
     public string buttonForSide;
     public GameObject NoteHitParticle;
+
+    [Header("Bot Visuals")]
+    [SerializeField] private float botLaneReleaseDelay = 0.05f;
+
+    private Coroutine botReleaseRoutine;
 
     private void Awake()
     {
@@ -74,7 +84,6 @@ public class NoteHitbox : MonoBehaviour
 
         MsNote earliest = null;
 
-        // always target the earliest unjudged note
         foreach (var note in notesWithinHitBox)
         {
             if (note == null || note.wasJudged) continue;
@@ -113,10 +122,33 @@ public class NoteHitbox : MonoBehaviour
 
         float signedDelta = songTime - earliest.noteTimeMs;
 
+        // wait until note time is reached
         if (signedDelta < 0f) return;
 
         Judge(earliest, "Dreamy", 0f, false);
         notesWithinHitBox.Remove(earliest);
+
+        EmitBotPressAndRelease();
+    }
+
+    private void EmitBotPressAndRelease()
+    {
+        if (PlayerPrefs.GetInt("botPlay") == 0) return;
+
+        BotLanePressed?.Invoke(side);
+
+        if (botReleaseRoutine != null) StopCoroutine(botReleaseRoutine);
+
+        botReleaseRoutine = StartCoroutine(BotReleaseAfterDelay());
+    }
+
+    private IEnumerator BotReleaseAfterDelay()
+    {
+        yield return new WaitForSecondsRealtime(botLaneReleaseDelay);
+
+        if (PlayerPrefs.GetInt("botPlay") != 0) BotLaneReleased?.Invoke(side);
+
+        botReleaseRoutine = null;
     }
 
     private void Judge(MsNote note, string rating, float delta, bool isMiss)
@@ -153,8 +185,6 @@ public class NoteHitbox : MonoBehaviour
         if (!notesWithinHitBox.Contains(note))
         {
             notesWithinHitBox.Add(note);
-
-            // leep notes ordered by time - helps consistency
             notesWithinHitBox.Sort((a, b) => a.noteTimeMs.CompareTo(b.noteTimeMs));
         }
     }
@@ -165,5 +195,14 @@ public class NoteHitbox : MonoBehaviour
         if (note == null || note.wasJudged) return;
 
         notesWithinHitBox.Remove(note);
+    }
+
+    private void OnDisable()
+    {
+        if (botReleaseRoutine != null)
+        {
+            StopCoroutine(botReleaseRoutine);
+            botReleaseRoutine = null;
+        }
     }
 }

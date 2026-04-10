@@ -11,12 +11,18 @@ public class NoteController : MonoBehaviour
     [SerializeField] private Animator plrAnim;
     [SerializeField] private string currentAnimationPlaying;
 
-    [Header("Animtion Settings")]
+    [Header("Animation Settings")]
     [SerializeField] private float noteAnimSpeed = 0.1f;
+
+    private Coroutine[] downCoroutines;
+    private Coroutine[] releaseCoroutines;
 
     private void Awake()
     {
-        if (Application.platform == RuntimePlatform.Android) // disable those noties for mobile players as UI replaces their placement
+        downCoroutines = new Coroutine[noteRenderers.Length];
+        releaseCoroutines = new Coroutine[noteRenderers.Length];
+
+        if (Application.platform == RuntimePlatform.Android)
         {
             for (int i = 0; i < noteRenderers.Length; i++)
             {
@@ -28,70 +34,102 @@ public class NoteController : MonoBehaviour
     private void OnEnable()
     {
         PauseMenu.Pause += OnPause;
+        NoteHitbox.BotLanePressed += OnBotLanePressed;
+        NoteHitbox.BotLaneReleased += OnBotLaneReleased;
     }
 
     private void OnDisable()
     {
         PauseMenu.Pause -= OnPause;
+        NoteHitbox.BotLanePressed -= OnBotLanePressed;
+        NoteHitbox.BotLaneReleased -= OnBotLaneReleased;
     }
 
     private void OnDestroy()
     {
         PauseMenu.Pause -= OnPause;
+        NoteHitbox.BotLanePressed -= OnBotLanePressed;
+        NoteHitbox.BotLaneReleased -= OnBotLaneReleased;
     }
 
-    void Update()
+    private void Update()
     {
         if (PauseMenu.instance._isPaused) return;
 
-        ControlInput();
+        if (PlayerPrefs.GetInt("botPlay") == 0) ControlInput();
     }
 
-    private void ControlInput() // why the fuck did I invert this shit - fix soon
+    private void ControlInput()
     {
-        if (Input.GetKeyDown(GameManager.Instance.left))
+        if (Input.GetKeyDown(GameManager.Instance.left)) PlayPressed(0);
+        else if (Input.GetKeyUp(GameManager.Instance.left)) PlayReleased(0);
+
+        if (Input.GetKeyDown(GameManager.Instance.down)) PlayPressed(1);
+        else if (Input.GetKeyUp(GameManager.Instance.down)) PlayReleased(1);
+
+        if (Input.GetKeyDown(GameManager.Instance.up)) PlayPressed(2);
+        else if (Input.GetKeyUp(GameManager.Instance.up)) PlayReleased(2);
+
+        if (Input.GetKeyDown(GameManager.Instance.right)) PlayPressed(3);
+        else if (Input.GetKeyUp(GameManager.Instance.right)) PlayReleased(3);
+    }
+
+    private void OnBotLanePressed(WhichSide side)
+    {
+        if (PlayerPrefs.GetInt("botPlay") == 0) return;
+
+        int index = SideToIndex(side);
+        if (index < 0 || index >= noteRenderers.Length) return;
+
+        PlayPressed(index);
+    }
+
+    private void OnBotLaneReleased(WhichSide side)
+    {
+        if (PlayerPrefs.GetInt("botPlay") == 0) return;
+
+        int index = SideToIndex(side);
+        if (index < 0 || index >= noteRenderers.Length) return;
+
+        PlayReleased(index);
+    }
+
+    private int SideToIndex(WhichSide side)
+    {
+        switch (side)
         {
-            StopCoroutine(KeyReleaseSpriteFlick(0));
-            StartCoroutine(KeyDownSpriteFlick(0));
+            case WhichSide.Left: return 0;
+            case WhichSide.Down: return 2;
+            case WhichSide.Up: return 1;
+            case WhichSide.Right: return 3;
+            default: return -1;
         }
-        else if (Input.GetKeyUp(GameManager.Instance.left))
+    }
+
+    private void PlayPressed(int index)
+    {
+        if (releaseCoroutines[index] != null)
         {
-            StopCoroutine(KeyDownSpriteFlick(0));
-            StartCoroutine(KeyReleaseSpriteFlick(0));
+            StopCoroutine(releaseCoroutines[index]);
+            releaseCoroutines[index] = null;
         }
 
-        if (Input.GetKeyDown(GameManager.Instance.down))
+        if (downCoroutines[index] != null) StopCoroutine(downCoroutines[index]);
+
+        downCoroutines[index] = StartCoroutine(KeyDownSpriteFlick(index));
+    }
+
+    private void PlayReleased(int index)
+    {
+        if (downCoroutines[index] != null)
         {
-            StopCoroutine(KeyReleaseSpriteFlick(1));
-            StartCoroutine(KeyDownSpriteFlick(1));
-        }
-        else if (Input.GetKeyUp(GameManager.Instance.down))
-        {
-            StopCoroutine(KeyDownSpriteFlick(1));
-            StartCoroutine(KeyReleaseSpriteFlick(1));
+            StopCoroutine(downCoroutines[index]);
+            downCoroutines[index] = null;
         }
 
-        if (Input.GetKeyDown(GameManager.Instance.up))
-        {
-            StopCoroutine(KeyReleaseSpriteFlick(2));
-            StartCoroutine(KeyDownSpriteFlick(2));
-        }
-        else if (Input.GetKeyUp(GameManager.Instance.up))
-        {
-            StopCoroutine(KeyDownSpriteFlick(2));
-            StartCoroutine(KeyReleaseSpriteFlick(2));
-        }
+        if (releaseCoroutines[index] != null) StopCoroutine(releaseCoroutines[index]);
 
-        if (Input.GetKeyDown(GameManager.Instance.right)) // pressed - says it here but I think I am retarded so I need easier visuals
-        {
-            StopCoroutine(KeyReleaseSpriteFlick(3));
-            StartCoroutine(KeyDownSpriteFlick(3));
-        }
-        else if (Input.GetKeyUp(GameManager.Instance.right)) // released
-        {
-            StopCoroutine(KeyDownSpriteFlick(3));
-            StartCoroutine(KeyReleaseSpriteFlick(3));
-        }
+        releaseCoroutines[index] = StartCoroutine(KeyReleaseSpriteFlick(index));
     }
 
     private IEnumerator KeyDownSpriteFlick(int index)
@@ -101,12 +139,10 @@ public class NoteController : MonoBehaviour
             noteRenderers[index].sprite = noteSpritesDown[i];
 
             yield return new WaitForSecondsRealtime(noteAnimSpeed);
-
-            if (i == noteSpritesDown.Count - 1) yield break;
         }
 
         noteRenderers[index].sprite = noteSpritesDown[noteSpritesDown.Count - 1];
-        yield break;
+        downCoroutines[index] = null;
     }
 
     private IEnumerator KeyReleaseSpriteFlick(int index)
@@ -116,16 +152,20 @@ public class NoteController : MonoBehaviour
             noteRenderers[index].sprite = noteSpritesRelease[i];
 
             yield return new WaitForSecondsRealtime(noteAnimSpeed);
-
-            if (i == noteSpritesRelease.Count - 1) yield break;
         }
 
         noteRenderers[index].sprite = noteSpritesRelease[noteSpritesRelease.Count - 1];
-        yield break;
+        releaseCoroutines[index] = null;
     }
 
     private void OnPause(bool paused)
     {
-        if (paused) StopAllCoroutines(); // temp - will add a way soon to store what the last frame was and play from there - as goes for all types of this fix
+        if (!paused) return;
+
+        StopAllCoroutines();
+
+        for (int i = 0; i < downCoroutines.Length; i++) downCoroutines[i] = null;
+
+        for (int i = 0; i < releaseCoroutines.Length; i++) releaseCoroutines[i] = null;
     }
 }
