@@ -309,15 +309,10 @@ public class DreamwaveModLoader : MonoBehaviour
                     evNote.noteTimeMs = currentEvent.GetComponent<MsNote>().noteTimeMs;
                     evNote.isEvent = true; // never score events
                     StrumManager.SM_Instance.activeNotes.Add(evNote);
-                    rc.transform.position = currentEvent.transform.position;
+                    rc.transform.localPosition = currentEvent.transform.localPosition;
                     rc.layer = 6;
                     currentEventI = rc.GetComponent<ScrollEvents>();
                     currentEventI.typeOfScrollEvent = TypeOfScrollEvent.MoveTiles;
-
-                    if (axis == "x")
-                        currentEventI.Axis = "X";
-                    else if (axis == "y")
-                        currentEventI.Axis = "Y";
                 }
                 else if (splitEv[0] == "PP") // POST PROCESS EFFECT
                 {
@@ -378,12 +373,7 @@ public class DreamwaveModLoader : MonoBehaviour
             }
             else if (eventType == "MOV" && line.StartsWith("axis="))
             {
-                currentEventI.Axis = line.Split('=')[1];
-
-                if (currentEventI.Axis.ToUpper() == "X")
-                    axis = "x";
-                else if (currentEventI.Axis.ToUpper() == "Y")
-                    axis = "y";
+                currentEventI.Axis = line.Split('=')[1].Trim().ToUpperInvariant();
             }
             else if (eventType == "MOV" && line.StartsWith("moveAmount="))
             {

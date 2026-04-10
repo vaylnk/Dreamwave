@@ -115,12 +115,12 @@ Material:
     - _GlossyReflections: 0
     - _Metallic: 0
     - _OcclusionStrength: 1
-    - _OffsetX: 0.03880416
-    - _OffsetY: 0.000018926645
+    - _OffsetX: -4.3e-44
+    - _OffsetY: 0
     - _Parallax: 0.005
     - _QueueOffset: 0
     - _ReceiveShadows: 1
-    - _Rotation: -0.23482253
+    - _Rotation: -1.7599847
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
@@ -130,7 +130,7 @@ Material:
     - _WorkflowMode: 1
     - _XRMotionVectorsPass: 1
     - _ZWrite: 1
-    - _Zoom: 1.0048517
+    - _Zoom: 6.6148615
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}

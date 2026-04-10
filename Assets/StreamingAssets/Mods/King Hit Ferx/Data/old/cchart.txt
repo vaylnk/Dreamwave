@@ -1,25 +1,101 @@
-// Playable cchart v2 - cinematic ultra slow pass
-// Slower camera drift, slower repeat settle, subtler offsets, expanded dramatic repeats.
+// Playable cchart v2
+// Revised for orthographic gameplay: no Z/FOV, slower repeat zooms, smaller safer offsets, added readable resets + freestyle setpieces.
 # start
 position=0
 type=PP
 effectName=saturation
 effectValue=-100
-effectSpeed=0.05
+effectSpeed=0.08
 # end
 
 # start
 position=0
 type=R
-repeatRate=8
-repeatTime=0
+repeatRate=6
+repeatTime=0.45
 # end
 
 # start
-position=5
+position=222.222
+type=PP
+effectName=saturation
+effectValue=-85
+effectSpeed=0.12
+# end
+
+# start
+position=222.222
+type=R
+repeatRate=4.5
+repeatTime=0.42
+# end
+
+# start
+position=444.444
+type=PP
+effectName=saturation
+effectValue=-65
+effectSpeed=0.16
+# end
+
+# start
+position=444.444
+type=R
+repeatRate=3
+repeatTime=0.38
+# end
+
+# start
+position=666.667
+type=PP
+effectName=saturation
+effectValue=-45
+effectSpeed=0.18
+# end
+
+# start
+position=666.667
+type=R
+repeatRate=2
+repeatTime=0.32
+# end
+
+# start
+position=888.889
+type=PP
+effectName=saturation
+effectValue=-20
+effectSpeed=0.22
+# end
+
+# start
+position=888.889
+type=R
+repeatRate=1.35
+repeatTime=0.22
+# end
+
+# start
+position=1111.11
+type=PP
+effectName=saturation
+effectValue=-5
+effectSpeed=0.28
+# end
+
+# start
+position=1111.11
 type=R
 repeatRate=1
-repeatTime=16
+repeatTime=0.16
+# end
+
+# start
+position=0
+type=PP
+effectName=saturation
+effectValue=-35
+effectSpeed=0.25
 # end
 
 # start
@@ -27,7 +103,7 @@ position=0
 type=PP
 effectName=bloom
 effectValue=0.8
-effectSpeed=0.122
+effectSpeed=0.35
 # end
 
 # start
@@ -35,7 +111,7 @@ position=0
 type=PP
 effectName=bloom
 effectValue=1.5
-effectSpeed=0.077
+effectSpeed=0.22
 # end
 
 # start
@@ -43,46 +119,22 @@ position=0
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
-# end
-
-# start
-position=222.222
-type=PP
-effectName=saturation
-effectValue=-100
-effectSpeed=0.06
+effectSpeed=0.55
 # end
 
 # start
 position=222.222
 type=RC
-rotateAmount=-0.66
-rotateTime=0.768
-# end
-
-# start
-position=444.444
-type=PP
-effectName=saturation
-effectValue=-92
-effectSpeed=0.07
+rotateAmount=-1.2
+rotateTime=0.24
 # end
 
 # start
 position=444.444
 type=MOV
 axis=X
-moveAmount=-0.024
-moveTime=0.68
-# end
-
-# start
-position=666.667
-type=PP
-effectName=saturation
-effectValue=-80
-effectSpeed=0.08
+moveAmount=-0.054
+moveTime=0.2
 # end
 
 # start
@@ -90,15 +142,7 @@ position=666.667
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
-# end
-
-# start
-position=888.889
-type=PP
-effectName=saturation
-effectValue=-60
-effectSpeed=0.09
+effectSpeed=0.55
 # end
 
 # start
@@ -106,38 +150,22 @@ position=888.889
 type=PP
 effectName=bloom
 effectValue=2.6
-effectSpeed=0.168
+effectSpeed=0.48
 # end
 
 # start
 position=888.889
 type=RC
-rotateAmount=0.66
-rotateTime=0.768
-# end
-
-# start
-position=1111.11
-type=PP
-effectName=saturation
-effectValue=-40
-effectSpeed=0.1
+rotateAmount=1.2
+rotateTime=0.24
 # end
 
 # start
 position=1111.11
 type=MOV
 axis=X
-moveAmount=0.024
-moveTime=0.68
-# end
-
-# start
-position=1333.33
-type=PP
-effectName=saturation
-effectValue=-22
-effectSpeed=0.11
+moveAmount=0.054
+moveTime=0.2
 # end
 
 # start
@@ -145,22 +173,14 @@ position=1333.33
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
-# end
-
-# start
-position=1555.56
-type=PP
-effectName=saturation
-effectValue=-8
-effectSpeed=0.12
+effectSpeed=0.55
 # end
 
 # start
 position=1555.56
 type=RC
-rotateAmount=-0.66
-rotateTime=0.768
+rotateAmount=-1.2
+rotateTime=0.24
 # end
 
 # start
@@ -168,15 +188,15 @@ position=1777.78
 type=PP
 effectName=bloom
 effectValue=2.6
-effectSpeed=0.168
+effectSpeed=0.48
 # end
 
 # start
 position=1777.78
 type=MOV
 axis=X
-moveAmount=-0.024
-moveTime=0.68
+moveAmount=-0.054
+moveTime=0.2
 # end
 
 # start
@@ -184,7 +204,7 @@ position=1777.78
 type=PP
 effectName=bloom
 effectValue=0.7
-effectSpeed=0.077
+effectSpeed=0.22
 # end
 
 # start
@@ -192,22 +212,22 @@ position=2000
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=2222.22
 type=RC
-rotateAmount=0.66
-rotateTime=0.768
+rotateAmount=1.2
+rotateTime=0.24
 # end
 
 # start
 position=2444.44
 type=MOV
 axis=X
-moveAmount=0.024
-moveTime=0.68
+moveAmount=0.054
+moveTime=0.2
 # end
 
 # start
@@ -215,7 +235,7 @@ position=2666.67
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
@@ -223,22 +243,22 @@ position=2777.78
 type=PP
 effectName=bloom
 effectValue=1.2
-effectSpeed=0.105
+effectSpeed=0.3
 # end
 
 # start
 position=2888.89
 type=RC
-rotateAmount=-0.66
-rotateTime=0.768
+rotateAmount=-1.2
+rotateTime=0.24
 # end
 
 # start
 position=3111.11
 type=MOV
 axis=X
-moveAmount=-0.024
-moveTime=0.68
+moveAmount=-0.054
+moveTime=0.2
 # end
 
 # start
@@ -246,14 +266,14 @@ position=3333.33
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=3555.56
 type=RC
-rotateAmount=0.66
-rotateTime=0.768
+rotateAmount=1.2
+rotateTime=0.24
 # end
 
 # start
@@ -261,15 +281,15 @@ position=3555.56
 type=PP
 effectName=bloom
 effectValue=1.8
-effectSpeed=0.133
+effectSpeed=0.38
 # end
 
 # start
 position=3777.78
 type=MOV
 axis=X
-moveAmount=0.024
-moveTime=0.68
+moveAmount=0.054
+moveTime=0.2
 # end
 
 # start
@@ -277,22 +297,22 @@ position=4000
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=4222.22
 type=RC
-rotateAmount=-0.66
-rotateTime=0.768
+rotateAmount=-1.2
+rotateTime=0.24
 # end
 
 # start
 position=4444.44
 type=MOV
 axis=X
-moveAmount=-0.024
-moveTime=0.68
+moveAmount=-0.054
+moveTime=0.2
 # end
 
 # start
@@ -300,22 +320,22 @@ position=4666.67
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=4888.89
 type=RC
-rotateAmount=0.66
-rotateTime=0.768
+rotateAmount=1.2
+rotateTime=0.24
 # end
 
 # start
 position=5111.11
 type=MOV
 axis=X
-moveAmount=0.024
-moveTime=0.68
+moveAmount=0.054
+moveTime=0.2
 # end
 
 # start
@@ -323,22 +343,22 @@ position=5333.33
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=5555.56
 type=RC
-rotateAmount=-0.66
-rotateTime=0.768
+rotateAmount=-1.2
+rotateTime=0.24
 # end
 
 # start
 position=5777.78
 type=MOV
 axis=X
-moveAmount=-0.024
-moveTime=0.68
+moveAmount=-0.054
+moveTime=0.2
 # end
 
 # start
@@ -346,7 +366,7 @@ position=6000
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
@@ -354,22 +374,22 @@ position=6222.22
 type=PP
 effectName=bloom
 effectValue=1.2
-effectSpeed=0.105
+effectSpeed=0.3
 # end
 
 # start
 position=6222.22
 type=RC
-rotateAmount=0.66
-rotateTime=0.768
+rotateAmount=1.2
+rotateTime=0.24
 # end
 
 # start
 position=6444.44
 type=MOV
 axis=X
-moveAmount=0.024
-moveTime=0.68
+moveAmount=0.054
+moveTime=0.2
 # end
 
 # start
@@ -377,14 +397,14 @@ position=6666.67
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=6888.89
 type=RC
-rotateAmount=-0.66
-rotateTime=0.768
+rotateAmount=-1.2
+rotateTime=0.24
 # end
 
 # start
@@ -392,15 +412,15 @@ position=7111.11
 type=PP
 effectName=bloom
 effectValue=1.8
-effectSpeed=0.133
+effectSpeed=0.38
 # end
 
 # start
 position=7111.11
 type=MOV
 axis=X
-moveAmount=-0.024
-moveTime=0.68
+moveAmount=-0.054
+moveTime=0.2
 # end
 
 # start
@@ -408,22 +428,22 @@ position=7333.33
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=7555.56
 type=RC
-rotateAmount=0.66
-rotateTime=0.768
+rotateAmount=1.2
+rotateTime=0.24
 # end
 
 # start
 position=7777.78
 type=MOV
 axis=X
-moveAmount=0.024
-moveTime=0.68
+moveAmount=0.054
+moveTime=0.2
 # end
 
 # start
@@ -431,22 +451,22 @@ position=8000
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=8222.22
 type=RC
-rotateAmount=-0.66
-rotateTime=0.768
+rotateAmount=-1.2
+rotateTime=0.24
 # end
 
 # start
 position=8444.44
 type=MOV
 axis=X
-moveAmount=-0.024
-moveTime=0.68
+moveAmount=-0.054
+moveTime=0.2
 # end
 
 # start
@@ -454,7 +474,7 @@ position=8666.67
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
@@ -462,22 +482,22 @@ position=8888.89
 type=PP
 effectName=bloom
 effectValue=1.2
-effectSpeed=0.105
+effectSpeed=0.3
 # end
 
 # start
 position=8888.89
 type=RC
-rotateAmount=0.66
-rotateTime=0.768
+rotateAmount=1.2
+rotateTime=0.24
 # end
 
 # start
 position=9111.11
 type=MOV
 axis=X
-moveAmount=0.024
-moveTime=0.68
+moveAmount=0.054
+moveTime=0.2
 # end
 
 # start
@@ -485,14 +505,14 @@ position=9333.33
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=9555.56
 type=RC
-rotateAmount=-0.66
-rotateTime=0.768
+rotateAmount=-1.2
+rotateTime=0.24
 # end
 
 # start
@@ -500,15 +520,15 @@ position=9777.78
 type=PP
 effectName=bloom
 effectValue=1.8
-effectSpeed=0.133
+effectSpeed=0.38
 # end
 
 # start
 position=9777.78
 type=MOV
 axis=X
-moveAmount=-0.024
-moveTime=0.68
+moveAmount=-0.054
+moveTime=0.2
 # end
 
 # start
@@ -516,22 +536,22 @@ position=10000
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=10222.2
 type=RC
-rotateAmount=0.66
-rotateTime=0.768
+rotateAmount=1.2
+rotateTime=0.24
 # end
 
 # start
 position=10444.4
 type=MOV
 axis=X
-moveAmount=0.024
-moveTime=0.68
+moveAmount=0.054
+moveTime=0.2
 # end
 
 # start
@@ -539,7 +559,7 @@ position=10666.7
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
@@ -547,22 +567,22 @@ position=10666.7
 type=PP
 effectName=bloom
 effectValue=2.6
-effectSpeed=0.168
+effectSpeed=0.48
 # end
 
 # start
 position=10888.9
 type=RC
-rotateAmount=-0.66
-rotateTime=0.768
+rotateAmount=-1.2
+rotateTime=0.24
 # end
 
 # start
 position=11111.1
 type=MOV
 axis=X
-moveAmount=-0.024
-moveTime=0.68
+moveAmount=-0.054
+moveTime=0.2
 # end
 
 # start
@@ -570,22 +590,22 @@ position=11333.3
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=11555.6
 type=RC
-rotateAmount=0.66
-rotateTime=0.768
+rotateAmount=1.2
+rotateTime=0.24
 # end
 
 # start
 position=11777.8
 type=MOV
 axis=X
-moveAmount=0.024
-moveTime=0.68
+moveAmount=0.054
+moveTime=0.2
 # end
 
 # start
@@ -593,22 +613,22 @@ position=12000
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=12222.2
 type=RC
-rotateAmount=-0.66
-rotateTime=0.768
+rotateAmount=-1.2
+rotateTime=0.24
 # end
 
 # start
 position=12444.4
 type=MOV
 axis=X
-moveAmount=-0.024
-moveTime=0.68
+moveAmount=-0.054
+moveTime=0.2
 # end
 
 # start
@@ -616,22 +636,22 @@ position=12666.7
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=12888.9
 type=RC
-rotateAmount=0.66
-rotateTime=0.768
+rotateAmount=1.2
+rotateTime=0.24
 # end
 
 # start
 position=13111.1
 type=MOV
 axis=X
-moveAmount=0.024
-moveTime=0.68
+moveAmount=0.054
+moveTime=0.2
 # end
 
 # start
@@ -639,7 +659,7 @@ position=13333.3
 type=PP
 effectName=bloom
 effectValue=2.6
-effectSpeed=0.168
+effectSpeed=0.48
 # end
 
 # start
@@ -647,22 +667,22 @@ position=13333.3
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=13555.6
 type=RC
-rotateAmount=-0.66
-rotateTime=0.768
+rotateAmount=-1.2
+rotateTime=0.24
 # end
 
 # start
 position=13777.8
 type=MOV
 axis=X
-moveAmount=-0.024
-moveTime=0.68
+moveAmount=-0.054
+moveTime=0.2
 # end
 
 # start
@@ -670,7 +690,7 @@ position=14000
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
@@ -678,22 +698,22 @@ position=14222.2
 type=PP
 effectName=bloom
 effectValue=2.6
-effectSpeed=0.168
+effectSpeed=0.48
 # end
 
 # start
 position=14222.2
 type=RC
-rotateAmount=0.66
-rotateTime=0.768
+rotateAmount=1.2
+rotateTime=0.24
 # end
 
 # start
 position=14444.4
 type=MOV
 axis=X
-moveAmount=0.024
-moveTime=0.68
+moveAmount=0.054
+moveTime=0.2
 # end
 
 # start
@@ -701,22 +721,22 @@ position=14666.7
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=14888.9
 type=RC
-rotateAmount=-0.66
-rotateTime=0.768
+rotateAmount=-1.2
+rotateTime=0.24
 # end
 
 # start
 position=15111.1
 type=MOV
 axis=X
-moveAmount=-0.024
-moveTime=0.68
+moveAmount=-0.054
+moveTime=0.2
 # end
 
 # start
@@ -724,22 +744,22 @@ position=15333.3
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=15555.6
 type=RC
-rotateAmount=0.66
-rotateTime=0.768
+rotateAmount=1.2
+rotateTime=0.24
 # end
 
 # start
 position=15777.8
 type=MOV
 axis=X
-moveAmount=0.024
-moveTime=0.68
+moveAmount=0.054
+moveTime=0.2
 # end
 
 # start
@@ -747,22 +767,22 @@ position=16000
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=16222.2
 type=RC
-rotateAmount=-0.66
-rotateTime=0.768
+rotateAmount=-1.2
+rotateTime=0.24
 # end
 
 # start
 position=16444.4
 type=MOV
 axis=X
-moveAmount=-0.024
-moveTime=0.68
+moveAmount=-0.054
+moveTime=0.2
 # end
 
 # start
@@ -770,22 +790,22 @@ position=16666.7
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=16888.9
 type=RC
-rotateAmount=0.66
-rotateTime=0.768
+rotateAmount=1.2
+rotateTime=0.24
 # end
 
 # start
 position=17111.1
 type=MOV
 axis=X
-moveAmount=0.024
-moveTime=0.68
+moveAmount=0.054
+moveTime=0.2
 # end
 
 # start
@@ -793,22 +813,22 @@ position=17333.3
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=17555.6
 type=RC
-rotateAmount=-0.66
-rotateTime=0.768
+rotateAmount=-1.2
+rotateTime=0.24
 # end
 
 # start
 position=17777.8
 type=MOV
 axis=X
-moveAmount=-0.024
-moveTime=0.68
+moveAmount=-0.054
+moveTime=0.2
 # end
 
 # start
@@ -816,7 +836,7 @@ position=17777.8
 type=PP
 effectName=bloom
 effectValue=2.6
-effectSpeed=0.168
+effectSpeed=0.48
 # end
 
 # start
@@ -824,22 +844,22 @@ position=18000
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=18222.2
 type=RC
-rotateAmount=0.66
-rotateTime=0.768
+rotateAmount=1.2
+rotateTime=0.24
 # end
 
 # start
 position=18444.4
 type=MOV
 axis=X
-moveAmount=0.024
-moveTime=0.68
+moveAmount=0.054
+moveTime=0.2
 # end
 
 # start
@@ -847,22 +867,22 @@ position=18666.7
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=18888.9
 type=RC
-rotateAmount=-0.66
-rotateTime=0.768
+rotateAmount=-1.2
+rotateTime=0.24
 # end
 
 # start
 position=19111.1
 type=MOV
 axis=X
-moveAmount=-0.024
-moveTime=0.68
+moveAmount=-0.054
+moveTime=0.2
 # end
 
 # start
@@ -870,22 +890,22 @@ position=19333.3
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=19555.6
 type=RC
-rotateAmount=0.66
-rotateTime=0.768
+rotateAmount=1.2
+rotateTime=0.24
 # end
 
 # start
 position=19777.8
 type=MOV
 axis=X
-moveAmount=0.024
-moveTime=0.68
+moveAmount=0.054
+moveTime=0.2
 # end
 
 # start
@@ -893,22 +913,22 @@ position=20000
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=20222.2
 type=RC
-rotateAmount=-0.66
-rotateTime=0.768
+rotateAmount=-1.2
+rotateTime=0.24
 # end
 
 # start
 position=20444.4
 type=MOV
 axis=X
-moveAmount=-0.024
-moveTime=0.68
+moveAmount=-0.054
+moveTime=0.2
 # end
 
 # start
@@ -916,7 +936,7 @@ position=20555.6
 type=PP
 effectName=bloom
 effectValue=2.6
-effectSpeed=0.168
+effectSpeed=0.48
 # end
 
 # start
@@ -924,22 +944,22 @@ position=20666.7
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=20888.9
 type=RC
-rotateAmount=0.66
-rotateTime=0.768
+rotateAmount=1.2
+rotateTime=0.24
 # end
 
 # start
 position=21111.1
 type=MOV
 axis=X
-moveAmount=0.024
-moveTime=0.68
+moveAmount=0.054
+moveTime=0.2
 # end
 
 # start
@@ -947,7 +967,7 @@ position=21333.3
 type=PP
 effectName=bloom
 effectValue=2.6
-effectSpeed=0.168
+effectSpeed=0.48
 # end
 
 # start
@@ -955,22 +975,22 @@ position=21333.3
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=21555.6
 type=RC
-rotateAmount=-0.66
-rotateTime=0.768
+rotateAmount=-1.2
+rotateTime=0.24
 # end
 
 # start
 position=21777.8
 type=MOV
 axis=X
-moveAmount=-0.024
-moveTime=0.68
+moveAmount=-0.054
+moveTime=0.2
 # end
 
 # start
@@ -978,22 +998,22 @@ position=22000
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=22222.2
 type=RC
-rotateAmount=0.66
-rotateTime=0.768
+rotateAmount=1.2
+rotateTime=0.24
 # end
 
 # start
 position=22444.4
 type=MOV
 axis=X
-moveAmount=0.024
-moveTime=0.68
+moveAmount=0.054
+moveTime=0.2
 # end
 
 # start
@@ -1001,22 +1021,22 @@ position=22666.7
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=22888.9
 type=RC
-rotateAmount=-0.66
-rotateTime=0.768
+rotateAmount=-1.2
+rotateTime=0.24
 # end
 
 # start
 position=23111.1
 type=MOV
 axis=X
-moveAmount=-0.024
-moveTime=0.68
+moveAmount=-0.054
+moveTime=0.2
 # end
 
 # start
@@ -1024,22 +1044,22 @@ position=23333.3
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=23555.6
 type=RC
-rotateAmount=0.66
-rotateTime=0.768
+rotateAmount=1.2
+rotateTime=0.24
 # end
 
 # start
 position=23777.8
 type=MOV
 axis=X
-moveAmount=0.024
-moveTime=0.68
+moveAmount=0.054
+moveTime=0.2
 # end
 
 # start
@@ -1047,7 +1067,7 @@ position=24000
 type=PP
 effectName=bloom
 effectValue=2.6
-effectSpeed=0.168
+effectSpeed=0.48
 # end
 
 # start
@@ -1055,22 +1075,22 @@ position=24000
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=24222.2
 type=RC
-rotateAmount=-0.66
-rotateTime=0.768
+rotateAmount=-1.2
+rotateTime=0.24
 # end
 
 # start
 position=24444.4
 type=MOV
 axis=X
-moveAmount=-0.024
-moveTime=0.68
+moveAmount=-0.054
+moveTime=0.2
 # end
 
 # start
@@ -1078,7 +1098,7 @@ position=24666.7
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
@@ -1089,8 +1109,8 @@ type=PF-p
 # start
 position=24888.9
 type=RC
-rotateAmount=0.66
-rotateTime=0.768
+rotateAmount=1.2
+rotateTime=0.24
 # end
 
 # start
@@ -1098,15 +1118,15 @@ position=24888.9
 type=PP
 effectName=bloom
 effectValue=2.6
-effectSpeed=0.168
+effectSpeed=0.48
 # end
 
 # start
 position=25111.1
 type=MOV
 axis=X
-moveAmount=0.024
-moveTime=0.68
+moveAmount=0.054
+moveTime=0.2
 # end
 
 # start
@@ -1114,22 +1134,22 @@ position=25333.3
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=25555.6
 type=RC
-rotateAmount=-0.66
-rotateTime=0.768
+rotateAmount=-1.2
+rotateTime=0.24
 # end
 
 # start
 position=25777.8
 type=MOV
 axis=X
-moveAmount=-0.024
-moveTime=0.68
+moveAmount=-0.054
+moveTime=0.2
 # end
 
 # start
@@ -1137,22 +1157,22 @@ position=26000
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=26222.2
 type=RC
-rotateAmount=0.66
-rotateTime=0.768
+rotateAmount=1.2
+rotateTime=0.24
 # end
 
 # start
 position=26444.4
 type=MOV
 axis=X
-moveAmount=0.024
-moveTime=0.68
+moveAmount=0.054
+moveTime=0.2
 # end
 
 # start
@@ -1160,7 +1180,7 @@ position=26648.1
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
@@ -1173,14 +1193,14 @@ position=26703.7
 type=PP
 effectName=bloom
 effectValue=0.7
-effectSpeed=0.077
+effectSpeed=0.22
 # end
 
 # start
 position=26888.9
 type=RC
-rotateAmount=-0.66
-rotateTime=0.768
+rotateAmount=-1.2
+rotateTime=0.24
 # end
 
 # start
@@ -1188,15 +1208,15 @@ position=26925.9
 type=PP
 effectName=saturation
 effectValue=-100
-effectSpeed=0.077
+effectSpeed=0.22
 # end
 
 # start
 position=27111.1
 type=MOV
 axis=X
-moveAmount=-0.024
-moveTime=0.68
+moveAmount=-0.054
+moveTime=0.2
 # end
 
 # start
@@ -1207,23 +1227,23 @@ type=PF-e
 # start
 position=27200
 type=R
-repeatRate=1.044
-repeatTime=0.36
+repeatRate=1.11
+repeatTime=0.1
 # end
 
 # start
 position=27200
 type=MOV
 axis=X
-moveAmount=0.032
-moveTime=0.544
+moveAmount=0.072
+moveTime=0.16
 # end
 
 # start
 position=27200
 type=RC
-rotateAmount=0.88
-rotateTime=0.576
+rotateAmount=1.6
+rotateTime=0.18
 # end
 
 # start
@@ -1231,21 +1251,21 @@ position=27314.8
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=27444.4
 type=R
-repeatRate=1.056
-repeatTime=0.396
+repeatRate=1.14
+repeatTime=0.11
 # end
 
 # start
 position=27481.5
 type=RC
-rotateAmount=1.76
-rotateTime=0.64
+rotateAmount=3.2
+rotateTime=0.2
 # end
 
 # start
@@ -1253,14 +1273,14 @@ position=27518.5
 type=PP
 effectName=bloom
 effectValue=0.7
-effectSpeed=0.077
+effectSpeed=0.22
 # end
 
 # start
 position=27537
 type=RC
-rotateAmount=-0.66
-rotateTime=0.768
+rotateAmount=-1.2
+rotateTime=0.24
 # end
 
 # start
@@ -1268,15 +1288,15 @@ position=27555.6
 type=PP
 effectName=bloom
 effectValue=2.6
-effectSpeed=0.168
+effectSpeed=0.48
 # end
 
 # start
 position=27777.8
 type=MOV
 axis=X
-moveAmount=-0.024
-moveTime=0.68
+moveAmount=-0.054
+moveTime=0.2
 # end
 
 # start
@@ -1284,21 +1304,21 @@ position=28000
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=28111.1
 type=R
-repeatRate=1.056
-repeatTime=0.396
+repeatRate=1.14
+repeatTime=0.11
 # end
 
 # start
 position=28222.2
 type=RC
-rotateAmount=0.66
-rotateTime=0.768
+rotateAmount=1.2
+rotateTime=0.24
 # end
 
 # start
@@ -1306,14 +1326,14 @@ position=28351.9
 type=PP
 effectName=saturation
 effectValue=0
-effectSpeed=0.122
+effectSpeed=0.35
 # end
 
 # start
 position=28388.9
 type=RC
-rotateAmount=-1.76
-rotateTime=0.64
+rotateAmount=-3.2
+rotateTime=0.2
 # end
 
 # start
@@ -1321,7 +1341,7 @@ position=28425.9
 type=PP
 effectName=bloom
 effectValue=0.7
-effectSpeed=0.077
+effectSpeed=0.22
 # end
 
 # start
@@ -1332,8 +1352,8 @@ type=PF-p
 # start
 position=28800
 type=R
-repeatRate=1.008
-repeatTime=0.468
+repeatRate=1.02
+repeatTime=0.13
 # end
 
 # start
@@ -1341,14 +1361,14 @@ position=28800
 type=MOV
 axis=X
 moveAmount=0
-moveTime=0.578
+moveTime=0.17
 # end
 
 # start
 position=28800
 type=RC
 rotateAmount=0
-rotateTime=0.512
+rotateTime=0.16
 # end
 
 # start
@@ -1356,7 +1376,7 @@ position=30222.2
 type=PP
 effectName=bloom
 effectValue=1.2
-effectSpeed=0.105
+effectSpeed=0.3
 # end
 
 # start
@@ -1374,15 +1394,15 @@ position=32000
 type=PP
 effectName=bloom
 effectValue=1.2
-effectSpeed=0.105
+effectSpeed=0.3
 # end
 
 # start
 position=32888.9
 type=MOV
 axis=X
-moveAmount=-0.024
-moveTime=0.68
+moveAmount=-0.054
+moveTime=0.2
 # end
 
 # start
@@ -1390,7 +1410,7 @@ position=33166.7
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
@@ -1401,16 +1421,16 @@ type=PF-p
 # start
 position=34666.7
 type=RC
-rotateAmount=0.66
-rotateTime=0.768
+rotateAmount=1.2
+rotateTime=0.24
 # end
 
 # start
 position=34944.4
 type=MOV
 axis=X
-moveAmount=0.024
-moveTime=0.68
+moveAmount=0.054
+moveTime=0.2
 # end
 
 # start
@@ -1421,23 +1441,23 @@ type=PF-e
 # start
 position=35200
 type=R
-repeatRate=1.044
-repeatTime=0.36
+repeatRate=1.11
+repeatTime=0.1
 # end
 
 # start
 position=35200
 type=MOV
 axis=X
-moveAmount=0.032
-moveTime=0.544
+moveAmount=0.072
+moveTime=0.16
 # end
 
 # start
 position=35200
 type=RC
-rotateAmount=0.88
-rotateTime=0.576
+rotateAmount=1.6
+rotateTime=0.18
 # end
 
 # start
@@ -1450,22 +1470,22 @@ position=35666.7
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=35888.9
 type=RC
-rotateAmount=-0.66
-rotateTime=0.768
+rotateAmount=-1.2
+rotateTime=0.24
 # end
 
 # start
 position=36111.1
 type=MOV
 axis=X
-moveAmount=-0.024
-moveTime=0.68
+moveAmount=-0.054
+moveTime=0.2
 # end
 
 # start
@@ -1473,7 +1493,7 @@ position=36333.3
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
@@ -1484,16 +1504,16 @@ type=PF-p
 # start
 position=37444.4
 type=RC
-rotateAmount=0.66
-rotateTime=0.768
+rotateAmount=1.2
+rotateTime=0.24
 # end
 
 # start
 position=37666.7
 type=MOV
 axis=X
-moveAmount=0.024
-moveTime=0.68
+moveAmount=0.054
+moveTime=0.2
 # end
 
 # start
@@ -1501,14 +1521,14 @@ position=37888.9
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=38111.1
 type=RC
-rotateAmount=-0.66
-rotateTime=0.768
+rotateAmount=-1.2
+rotateTime=0.24
 # end
 
 # start
@@ -1519,8 +1539,8 @@ type=PF-p
 # start
 position=38400
 type=R
-repeatRate=1.008
-repeatTime=0.468
+repeatRate=1.02
+repeatTime=0.13
 # end
 
 # start
@@ -1528,14 +1548,14 @@ position=38400
 type=MOV
 axis=X
 moveAmount=0
-moveTime=0.578
+moveTime=0.17
 # end
 
 # start
 position=38400
 type=RC
 rotateAmount=0
-rotateTime=0.512
+rotateTime=0.16
 # end
 
 # start
@@ -1558,7 +1578,7 @@ position=44444.4
 type=PP
 effectName=bloom
 effectValue=1.2
-effectSpeed=0.105
+effectSpeed=0.3
 # end
 
 # start
@@ -1566,7 +1586,7 @@ position=44444.4
 type=PP
 effectName=bloom
 effectValue=1.2
-effectSpeed=0.105
+effectSpeed=0.3
 # end
 
 # start
@@ -1582,23 +1602,23 @@ type=PF-e
 # start
 position=44800
 type=R
-repeatRate=1.044
-repeatTime=0.36
+repeatRate=1.11
+repeatTime=0.1
 # end
 
 # start
 position=44800
 type=MOV
 axis=X
-moveAmount=0.032
-moveTime=0.544
+moveAmount=0.072
+moveTime=0.16
 # end
 
 # start
 position=44800
 type=RC
-rotateAmount=0.88
-rotateTime=0.576
+rotateAmount=1.6
+rotateTime=0.18
 # end
 
 # start
@@ -1606,7 +1626,7 @@ position=46222.2
 type=PP
 effectName=bloom
 effectValue=1.2
-effectSpeed=0.105
+effectSpeed=0.3
 # end
 
 # start
@@ -1618,8 +1638,8 @@ type=PF-e
 position=47111.1
 type=MOV
 axis=X
-moveAmount=-0.024
-moveTime=0.68
+moveAmount=-0.054
+moveTime=0.2
 # end
 
 # start
@@ -1627,7 +1647,7 @@ position=47388.9
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
@@ -1638,8 +1658,8 @@ type=PF-p
 # start
 position=48888.9
 type=RC
-rotateAmount=0.66
-rotateTime=0.768
+rotateAmount=1.2
+rotateTime=0.24
 # end
 
 # start
@@ -1647,22 +1667,15 @@ position=49129.6
 type=PP
 effectName=saturation
 effectValue=-100
-effectSpeed=0.077
-# end
-
-# start
-position=49129.6
-type=R
-repeatRate=1.05
-repeatTime=0.42
+effectSpeed=0.22
 # end
 
 # start
 position=49166.7
 type=MOV
 axis=X
-moveAmount=0.024
-moveTime=0.68
+moveAmount=0.054
+moveTime=0.2
 # end
 
 # start
@@ -1670,7 +1683,7 @@ position=49222.2
 type=PP
 effectName=bloom
 effectValue=1.5
-effectSpeed=0.077
+effectSpeed=0.22
 # end
 
 # start
@@ -1678,7 +1691,7 @@ position=49722.2
 type=PP
 effectName=bloom
 effectValue=2.1
-effectSpeed=0.245
+effectSpeed=0.7
 # end
 
 # start
@@ -1686,7 +1699,7 @@ position=49740.7
 type=PP
 effectName=saturation
 effectValue=0
-effectSpeed=0.122
+effectSpeed=0.35
 # end
 
 # start
@@ -1697,8 +1710,8 @@ type=PF-c
 # start
 position=49805.6
 type=R
-repeatRate=1.024
-repeatTime=0.36
+repeatRate=1.06
+repeatTime=0.1
 # end
 
 # start
@@ -1706,7 +1719,7 @@ position=49842.2
 type=PP
 effectName=bloom
 effectValue=0.9
-effectSpeed=0.122
+effectSpeed=0.35
 # end
 
 # start
@@ -1714,21 +1727,21 @@ position=49851.9
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=50777.8
 type=R
-repeatRate=1.024
-repeatTime=0.36
+repeatRate=1.06
+repeatTime=0.1
 # end
 
 # start
 position=50814.8
 type=RC
-rotateAmount=-0.66
-rotateTime=0.768
+rotateAmount=-1.2
+rotateTime=0.24
 # end
 
 # start
@@ -1736,7 +1749,7 @@ position=51537
 type=PP
 effectName=bloom
 effectValue=1.5
-effectSpeed=0.077
+effectSpeed=0.22
 # end
 
 # start
@@ -1759,18 +1772,11 @@ distance=0.16
 # end
 
 # start
-position=51555.6
-type=R
-repeatRate=1.06
-repeatTime=0.44
-# end
-
-# start
 position=51574.1
 type=PP
 effectName=saturation
 effectValue=-100
-effectSpeed=0.077
+effectSpeed=0.22
 # end
 
 # start
@@ -1778,7 +1784,7 @@ position=52666.7
 type=PP
 effectName=saturation
 effectValue=0
-effectSpeed=0.122
+effectSpeed=0.35
 # end
 
 # start
@@ -1800,7 +1806,7 @@ position=53259.3
 type=PP
 effectName=bloom
 effectValue=2.1
-effectSpeed=0.245
+effectSpeed=0.7
 # end
 
 # start
@@ -1808,7 +1814,7 @@ position=53296.3
 type=PP
 effectName=bloom
 effectValue=0.7
-effectSpeed=0.077
+effectSpeed=0.22
 # end
 
 # start
@@ -1819,8 +1825,8 @@ type=PF-c
 # start
 position=53361.1
 type=R
-repeatRate=1.024
-repeatTime=0.36
+repeatRate=1.06
+repeatTime=0.1
 # end
 
 # start
@@ -1828,22 +1834,22 @@ position=53379.3
 type=PP
 effectName=bloom
 effectValue=0.9
-effectSpeed=0.122
+effectSpeed=0.35
 # end
 
 # start
 position=53407.4
 type=MOV
 axis=X
-moveAmount=-0.024
-moveTime=0.68
+moveAmount=-0.054
+moveTime=0.2
 # end
 
 # start
 position=54333.3
 type=R
-repeatRate=1.024
-repeatTime=0.36
+repeatRate=1.06
+repeatTime=0.1
 # end
 
 # start
@@ -1851,7 +1857,7 @@ position=54370.4
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
@@ -1862,8 +1868,8 @@ type=PF-p
 # start
 position=54400
 type=R
-repeatRate=1.008
-repeatTime=0.468
+repeatRate=1.02
+repeatTime=0.13
 # end
 
 # start
@@ -1871,14 +1877,14 @@ position=54400
 type=MOV
 axis=X
 moveAmount=0
-moveTime=0.578
+moveTime=0.17
 # end
 
 # start
 position=54400
 type=RC
 rotateAmount=0
-rotateTime=0.512
+rotateTime=0.16
 # end
 
 # start
@@ -1886,7 +1892,7 @@ position=55092.6
 type=PP
 effectName=bloom
 effectValue=1.5
-effectSpeed=0.077
+effectSpeed=0.22
 # end
 
 # start
@@ -1909,18 +1915,11 @@ type=PF-p
 # end
 
 # start
-position=55111.1
-type=R
-repeatRate=1.06
-repeatTime=0.44
-# end
-
-# start
 position=56240.7
 type=PP
 effectName=bloom
 effectValue=2.1
-effectSpeed=0.245
+effectSpeed=0.7
 # end
 
 # start
@@ -1928,14 +1927,7 @@ position=56259.3
 type=PP
 effectName=saturation
 effectValue=-100
-effectSpeed=0.077
-# end
-
-# start
-position=56259.3
-type=R
-repeatRate=1.05
-repeatTime=0.42
+effectSpeed=0.22
 # end
 
 # start
@@ -1943,7 +1935,7 @@ position=56360.7
 type=PP
 effectName=bloom
 effectValue=0.9
-effectSpeed=0.122
+effectSpeed=0.35
 # end
 
 # start
@@ -1951,7 +1943,7 @@ position=56814.8
 type=PP
 effectName=bloom
 effectValue=2.1
-effectSpeed=0.245
+effectSpeed=0.7
 # end
 
 # start
@@ -1973,14 +1965,7 @@ position=56879.6
 type=PP
 effectName=saturation
 effectValue=-100
-effectSpeed=0.077
-# end
-
-# start
-position=56879.6
-type=R
-repeatRate=1.05
-repeatTime=0.42
+effectSpeed=0.22
 # end
 
 # start
@@ -1993,22 +1978,22 @@ position=56934.8
 type=PP
 effectName=bloom
 effectValue=0.9
-effectSpeed=0.122
+effectSpeed=0.35
 # end
 
 # start
 position=56963
 type=RC
-rotateAmount=0.66
-rotateTime=0.768
+rotateAmount=1.2
+rotateTime=0.24
 # end
 
 # start
 position=57333.3
 type=MOV
 axis=X
-moveAmount=0.024
-moveTime=0.68
+moveAmount=0.054
+moveTime=0.2
 # end
 
 # start
@@ -2016,7 +2001,7 @@ position=57537
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
@@ -2027,38 +2012,38 @@ type=PF-e
 # start
 position=57600
 type=R
-repeatRate=1.044
-repeatTime=0.36
+repeatRate=1.11
+repeatTime=0.1
 # end
 
 # start
 position=57600
 type=MOV
 axis=X
-moveAmount=0.032
-moveTime=0.544
+moveAmount=0.072
+moveTime=0.16
 # end
 
 # start
 position=57600
 type=RC
-rotateAmount=0.88
-rotateTime=0.576
+rotateAmount=1.6
+rotateTime=0.18
 # end
 
 # start
 position=58250
 type=RC
-rotateAmount=-0.66
-rotateTime=0.768
+rotateAmount=-1.2
+rotateTime=0.24
 # end
 
 # start
 position=58740.7
 type=MOV
 axis=X
-moveAmount=-0.024
-moveTime=0.68
+moveAmount=-0.054
+moveTime=0.2
 # end
 
 # start
@@ -2066,22 +2051,22 @@ position=59111.1
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=59361.1
 type=RC
-rotateAmount=0.66
-rotateTime=0.768
+rotateAmount=1.2
+rotateTime=0.24
 # end
 
 # start
 position=59777.8
 type=MOV
 axis=X
-moveAmount=0.024
-moveTime=0.68
+moveAmount=0.054
+moveTime=0.2
 # end
 
 # start
@@ -2094,7 +2079,7 @@ position=60444.4
 type=PP
 effectName=bloom
 effectValue=2.1
-effectSpeed=0.245
+effectSpeed=0.7
 # end
 
 # start
@@ -2102,7 +2087,7 @@ position=60518.5
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
@@ -2110,7 +2095,7 @@ position=60564.4
 type=PP
 effectName=bloom
 effectValue=0.9
-effectSpeed=0.122
+effectSpeed=0.35
 # end
 
 # start
@@ -2121,8 +2106,8 @@ type=PF-p
 # start
 position=60800
 type=R
-repeatRate=1.008
-repeatTime=0.468
+repeatRate=1.02
+repeatTime=0.13
 # end
 
 # start
@@ -2130,29 +2115,29 @@ position=60800
 type=MOV
 axis=X
 moveAmount=0
-moveTime=0.578
+moveTime=0.17
 # end
 
 # start
 position=60800
 type=RC
 rotateAmount=0
-rotateTime=0.512
+rotateTime=0.16
 # end
 
 # start
 position=60888.9
 type=RC
-rotateAmount=-0.66
-rotateTime=0.768
+rotateAmount=-1.2
+rotateTime=0.24
 # end
 
 # start
 position=61805.6
 type=MOV
 axis=X
-moveAmount=-0.024
-moveTime=0.68
+moveAmount=-0.054
+moveTime=0.2
 # end
 
 # start
@@ -2160,7 +2145,7 @@ position=62222.2
 type=PP
 effectName=bloom
 effectValue=2.1
-effectSpeed=0.245
+effectSpeed=0.7
 # end
 
 # start
@@ -2168,7 +2153,7 @@ position=62296.3
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
@@ -2176,22 +2161,22 @@ position=62342.2
 type=PP
 effectName=bloom
 effectValue=0.9
-effectSpeed=0.122
+effectSpeed=0.35
 # end
 
 # start
 position=62666.7
 type=RC
-rotateAmount=0.66
-rotateTime=0.768
+rotateAmount=1.2
+rotateTime=0.24
 # end
 
 # start
 position=62870.4
 type=MOV
 axis=X
-moveAmount=0.024
-moveTime=0.68
+moveAmount=0.054
+moveTime=0.2
 # end
 
 # start
@@ -2199,22 +2184,22 @@ position=63388.9
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=63611.1
 type=RC
-rotateAmount=-0.66
-rotateTime=0.768
+rotateAmount=-1.2
+rotateTime=0.24
 # end
 
 # start
 position=63888.9
 type=MOV
 axis=X
-moveAmount=-0.024
-moveTime=0.68
+moveAmount=-0.054
+moveTime=0.2
 # end
 
 # start
@@ -2226,14 +2211,14 @@ type=PF-e
 position=64000
 type=R
 repeatRate=1
-repeatTime=0.648
+repeatTime=0.18
 # end
 
 # start
 position=64000
 type=RC
 rotateAmount=0
-rotateTime=0.512
+rotateTime=0.16
 # end
 
 # start
@@ -2241,7 +2226,7 @@ position=64000
 type=MOV
 axis=X
 moveAmount=0
-moveTime=0.476
+moveTime=0.14
 # end
 
 # start
@@ -2249,7 +2234,7 @@ position=64000
 type=MOV
 axis=Y
 moveAmount=0
-moveTime=0.504
+moveTime=0.14
 # end
 
 # start
@@ -2262,7 +2247,7 @@ position=64000
 type=PP
 effectName=saturation
 effectValue=-70
-effectSpeed=0.07
+effectSpeed=0.2
 # end
 
 # start
@@ -2270,7 +2255,7 @@ position=64000
 type=PP
 effectName=bloom
 effectValue=1.9
-effectSpeed=0.098
+effectSpeed=0.28
 # end
 
 # start
@@ -2292,7 +2277,7 @@ position=64000
 type=PP
 effectName=bloom
 effectValue=1.2
-effectSpeed=0.105
+effectSpeed=0.3
 # end
 
 # start
@@ -2300,22 +2285,22 @@ position=64444.4
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=64666.7
 type=RC
-rotateAmount=0.66
-rotateTime=0.768
+rotateAmount=1.2
+rotateTime=0.24
 # end
 
 # start
 position=65111.1
 type=MOV
 axis=X
-moveAmount=0.024
-moveTime=0.68
+moveAmount=0.054
+moveTime=0.2
 # end
 
 # start
@@ -2323,7 +2308,7 @@ position=65333.3
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
@@ -2331,21 +2316,14 @@ position=65361.1
 type=PP
 effectName=saturation
 effectValue=-100
-effectSpeed=0.077
-# end
-
-# start
-position=65361.1
-type=R
-repeatRate=1.05
-repeatTime=0.42
+effectSpeed=0.22
 # end
 
 # start
 position=65527.8
 type=RC
-rotateAmount=-0.66
-rotateTime=0.768
+rotateAmount=-1.2
+rotateTime=0.24
 # end
 
 # start
@@ -2353,15 +2331,15 @@ position=65740.7
 type=PP
 effectName=saturation
 effectValue=-100
-effectSpeed=0.077
+effectSpeed=0.22
 # end
 
 # start
 position=65777.8
 type=MOV
 axis=X
-moveAmount=-0.024
-moveTime=0.68
+moveAmount=-0.054
+moveTime=0.2
 # end
 
 # start
@@ -2369,7 +2347,7 @@ position=65787
 type=PP
 effectName=bloom
 effectValue=1.8
-effectSpeed=0.133
+effectSpeed=0.38
 # end
 
 # start
@@ -2377,22 +2355,22 @@ position=66222.2
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=66500
 type=RC
-rotateAmount=0.66
-rotateTime=0.768
+rotateAmount=1.2
+rotateTime=0.24
 # end
 
 # start
 position=66888.9
 type=MOV
 axis=X
-moveAmount=0.024
-moveTime=0.68
+moveAmount=0.054
+moveTime=0.2
 # end
 
 # start
@@ -2403,23 +2381,23 @@ type=PF-e
 # start
 position=67200
 type=R
-repeatRate=1.044
-repeatTime=0.36
+repeatRate=1.11
+repeatTime=0.1
 # end
 
 # start
 position=67200
 type=MOV
 axis=X
-moveAmount=0.032
-moveTime=0.544
+moveAmount=0.072
+moveTime=0.16
 # end
 
 # start
 position=67200
 type=RC
-rotateAmount=0.88
-rotateTime=0.576
+rotateAmount=1.6
+rotateTime=0.18
 # end
 
 # start
@@ -2432,7 +2410,7 @@ position=67555.6
 type=PP
 effectName=bloom
 effectValue=1.2
-effectSpeed=0.105
+effectSpeed=0.3
 # end
 
 # start
@@ -2440,22 +2418,22 @@ position=68000
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=68222.2
 type=RC
-rotateAmount=-0.66
-rotateTime=0.768
+rotateAmount=-1.2
+rotateTime=0.24
 # end
 
 # start
 position=68666.7
 type=MOV
 axis=X
-moveAmount=-0.024
-moveTime=0.68
+moveAmount=-0.054
+moveTime=0.2
 # end
 
 # start
@@ -2463,14 +2441,7 @@ position=68916.7
 type=PP
 effectName=saturation
 effectValue=-100
-effectSpeed=0.077
-# end
-
-# start
-position=68916.7
-type=R
-repeatRate=1.05
-repeatTime=0.42
+effectSpeed=0.22
 # end
 
 # start
@@ -2478,7 +2449,7 @@ position=69083.3
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
@@ -2486,14 +2457,14 @@ position=69296.3
 type=PP
 effectName=saturation
 effectValue=-100
-effectSpeed=0.077
+effectSpeed=0.22
 # end
 
 # start
 position=69333.3
 type=RC
-rotateAmount=0.66
-rotateTime=0.768
+rotateAmount=1.2
+rotateTime=0.24
 # end
 
 # start
@@ -2501,15 +2472,15 @@ position=69342.6
 type=PP
 effectName=bloom
 effectValue=1.8
-effectSpeed=0.133
+effectSpeed=0.38
 # end
 
 # start
 position=69777.8
 type=MOV
 axis=X
-moveAmount=0.024
-moveTime=0.68
+moveAmount=0.054
+moveTime=0.2
 # end
 
 # start
@@ -2517,7 +2488,7 @@ position=70055.6
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
@@ -2528,8 +2499,8 @@ type=PF-p
 # start
 position=70400
 type=R
-repeatRate=1.008
-repeatTime=0.468
+repeatRate=1.02
+repeatTime=0.13
 # end
 
 # start
@@ -2537,14 +2508,14 @@ position=70400
 type=MOV
 axis=X
 moveAmount=0
-moveTime=0.578
+moveTime=0.17
 # end
 
 # start
 position=70400
 type=RC
 rotateAmount=0
-rotateTime=0.512
+rotateTime=0.16
 # end
 
 # start
@@ -2552,14 +2523,14 @@ position=70407.4
 type=PP
 effectName=bloom
 effectValue=2.6
-effectSpeed=0.168
+effectSpeed=0.48
 # end
 
 # start
 position=70444.4
 type=RC
-rotateAmount=-0.66
-rotateTime=0.768
+rotateAmount=-1.2
+rotateTime=0.24
 # end
 
 # start
@@ -2567,7 +2538,7 @@ position=70555.6
 type=PP
 effectName=bloom
 effectValue=2.6
-effectSpeed=0.168
+effectSpeed=0.48
 # end
 
 # start
@@ -2580,15 +2551,15 @@ position=71111.1
 type=PP
 effectName=bloom
 effectValue=2.1
-effectSpeed=0.245
+effectSpeed=0.7
 # end
 
 # start
 position=71185.2
 type=MOV
 axis=X
-moveAmount=-0.024
-moveTime=0.68
+moveAmount=-0.054
+moveTime=0.2
 # end
 
 # start
@@ -2596,7 +2567,7 @@ position=71231.1
 type=PP
 effectName=bloom
 effectValue=0.9
-effectSpeed=0.122
+effectSpeed=0.35
 # end
 
 # start
@@ -2604,22 +2575,22 @@ position=71555.6
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=71759.3
 type=RC
-rotateAmount=0.66
-rotateTime=0.768
+rotateAmount=1.2
+rotateTime=0.24
 # end
 
 # start
 position=72000
 type=MOV
 axis=X
-moveAmount=0.024
-moveTime=0.68
+moveAmount=0.054
+moveTime=0.2
 # end
 
 # start
@@ -2627,14 +2598,14 @@ position=72259.3
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=72472.2
 type=RC
-rotateAmount=-0.66
-rotateTime=0.768
+rotateAmount=-1.2
+rotateTime=0.24
 # end
 
 # start
@@ -2643,18 +2614,11 @@ type=PF-c
 # end
 
 # start
-position=72888.9
-type=R
-repeatRate=1.08
-repeatTime=0.5
-# end
-
-# start
 position=72963
 type=MOV
 axis=X
-moveAmount=-0.024
-moveTime=0.68
+moveAmount=-0.054
+moveTime=0.2
 # end
 
 # start
@@ -2662,28 +2626,28 @@ position=73333.3
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=73583.3
 type=RC
-rotateAmount=0.66
-rotateTime=0.768
+rotateAmount=1.2
+rotateTime=0.24
 # end
 
 # start
 position=73600
 type=R
 repeatRate=1
-repeatTime=0.648
+repeatTime=0.18
 # end
 
 # start
 position=73600
 type=RC
 rotateAmount=0
-rotateTime=0.512
+rotateTime=0.16
 # end
 
 # start
@@ -2691,7 +2655,7 @@ position=73600
 type=MOV
 axis=X
 moveAmount=0
-moveTime=0.476
+moveTime=0.14
 # end
 
 # start
@@ -2699,7 +2663,7 @@ position=73600
 type=MOV
 axis=Y
 moveAmount=0
-moveTime=0.504
+moveTime=0.14
 # end
 
 # start
@@ -2707,15 +2671,15 @@ position=73814.8
 type=PP
 effectName=saturation
 effectValue=-100
-effectSpeed=0.077
+effectSpeed=0.22
 # end
 
 # start
 position=73888.9
 type=MOV
 axis=X
-moveAmount=0.024
-moveTime=0.68
+moveAmount=0.054
+moveTime=0.2
 # end
 
 # start
@@ -2723,14 +2687,14 @@ position=74111.1
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=74444.4
 type=RC
-rotateAmount=-0.66
-rotateTime=0.768
+rotateAmount=-1.2
+rotateTime=0.24
 # end
 
 # start
@@ -2738,7 +2702,7 @@ position=74648.1
 type=PP
 effectName=saturation
 effectValue=0
-effectSpeed=0.122
+effectSpeed=0.35
 # end
 
 # start
@@ -2751,7 +2715,7 @@ position=74666.7
 type=PP
 effectName=bloom
 effectValue=2.1
-effectSpeed=0.245
+effectSpeed=0.7
 # end
 
 # start
@@ -2759,15 +2723,15 @@ position=74666.7
 type=PP
 effectName=bloom
 effectValue=1.8
-effectSpeed=0.133
+effectSpeed=0.38
 # end
 
 # start
 position=74740.7
 type=MOV
 axis=X
-moveAmount=-0.024
-moveTime=0.68
+moveAmount=-0.054
+moveTime=0.2
 # end
 
 # start
@@ -2775,7 +2739,7 @@ position=74786.7
 type=PP
 effectName=bloom
 effectValue=0.9
-effectSpeed=0.122
+effectSpeed=0.35
 # end
 
 # start
@@ -2783,22 +2747,22 @@ position=75111.1
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=75314.8
 type=RC
-rotateAmount=0.66
-rotateTime=0.768
+rotateAmount=1.2
+rotateTime=0.24
 # end
 
 # start
 position=75555.6
 type=MOV
 axis=X
-moveAmount=0.024
-moveTime=0.68
+moveAmount=0.054
+moveTime=0.2
 # end
 
 # start
@@ -2806,14 +2770,14 @@ position=75814.8
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=76027.8
 type=RC
-rotateAmount=-0.66
-rotateTime=0.768
+rotateAmount=-1.2
+rotateTime=0.24
 # end
 
 # start
@@ -2825,8 +2789,8 @@ type=PF-c
 position=76518.5
 type=MOV
 axis=X
-moveAmount=-0.024
-moveTime=0.68
+moveAmount=-0.054
+moveTime=0.2
 # end
 
 # start
@@ -2837,23 +2801,23 @@ type=PF-e
 # start
 position=76800
 type=R
-repeatRate=1.044
-repeatTime=0.36
+repeatRate=1.11
+repeatTime=0.1
 # end
 
 # start
 position=76800
 type=MOV
 axis=X
-moveAmount=0.032
-moveTime=0.544
+moveAmount=0.072
+moveTime=0.16
 # end
 
 # start
 position=76800
 type=RC
-rotateAmount=0.88
-rotateTime=0.576
+rotateAmount=1.6
+rotateTime=0.18
 # end
 
 # start
@@ -2861,14 +2825,14 @@ position=76888.9
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=77138.9
 type=RC
-rotateAmount=0.66
-rotateTime=0.768
+rotateAmount=1.2
+rotateTime=0.24
 # end
 
 # start
@@ -2876,22 +2840,15 @@ position=77370.4
 type=PP
 effectName=saturation
 effectValue=-100
-effectSpeed=0.077
-# end
-
-# start
-position=77370.4
-type=R
-repeatRate=1.05
-repeatTime=0.42
+effectSpeed=0.22
 # end
 
 # start
 position=77444.4
 type=MOV
 axis=X
-moveAmount=0.024
-moveTime=0.68
+moveAmount=0.054
+moveTime=0.2
 # end
 
 # start
@@ -2899,14 +2856,14 @@ position=77666.7
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=78000
 type=RC
-rotateAmount=-0.66
-rotateTime=0.768
+rotateAmount=-1.2
+rotateTime=0.24
 # end
 
 # start
@@ -2914,7 +2871,7 @@ position=78203.7
 type=PP
 effectName=saturation
 effectValue=0
-effectSpeed=0.122
+effectSpeed=0.35
 # end
 
 # start
@@ -2927,7 +2884,7 @@ position=78222.2
 type=PP
 effectName=bloom
 effectValue=2.1
-effectSpeed=0.245
+effectSpeed=0.7
 # end
 
 # start
@@ -2935,15 +2892,15 @@ position=78222.2
 type=PP
 effectName=bloom
 effectValue=1.8
-effectSpeed=0.133
+effectSpeed=0.38
 # end
 
 # start
 position=78296.3
 type=MOV
 axis=X
-moveAmount=-0.024
-moveTime=0.68
+moveAmount=-0.054
+moveTime=0.2
 # end
 
 # start
@@ -2951,7 +2908,7 @@ position=78342.2
 type=PP
 effectName=bloom
 effectValue=0.9
-effectSpeed=0.122
+effectSpeed=0.35
 # end
 
 # start
@@ -2959,22 +2916,22 @@ position=78666.7
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=79111.1
 type=RC
-rotateAmount=0.66
-rotateTime=0.768
+rotateAmount=1.2
+rotateTime=0.24
 # end
 
 # start
 position=79370.4
 type=MOV
 axis=X
-moveAmount=0.024
-moveTime=0.68
+moveAmount=0.054
+moveTime=0.2
 # end
 
 # start
@@ -2982,14 +2939,14 @@ position=79583.3
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=79888.9
 type=RC
-rotateAmount=-0.66
-rotateTime=0.768
+rotateAmount=-1.2
+rotateTime=0.24
 # end
 
 # start
@@ -3005,8 +2962,8 @@ type=PF-p
 # start
 position=80000
 type=R
-repeatRate=1.008
-repeatTime=0.468
+repeatRate=1.02
+repeatTime=0.13
 # end
 
 # start
@@ -3014,22 +2971,22 @@ position=80000
 type=MOV
 axis=X
 moveAmount=0
-moveTime=0.578
+moveTime=0.17
 # end
 
 # start
 position=80000
 type=RC
 rotateAmount=0
-rotateTime=0.512
+rotateTime=0.16
 # end
 
 # start
 position=80111.1
 type=MOV
 axis=X
-moveAmount=-0.024
-moveTime=0.68
+moveAmount=-0.054
+moveTime=0.2
 # end
 
 # start
@@ -3037,14 +2994,14 @@ position=80444.4
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=80694.4
 type=RC
-rotateAmount=0.66
-rotateTime=0.768
+rotateAmount=1.2
+rotateTime=0.24
 # end
 
 # start
@@ -3052,22 +3009,15 @@ position=80925.9
 type=PP
 effectName=saturation
 effectValue=-100
-effectSpeed=0.077
-# end
-
-# start
-position=80925.9
-type=R
-repeatRate=1.05
-repeatTime=0.42
+effectSpeed=0.22
 # end
 
 # start
 position=81000
 type=MOV
 axis=X
-moveAmount=0.024
-moveTime=0.68
+moveAmount=0.054
+moveTime=0.2
 # end
 
 # start
@@ -3075,14 +3025,14 @@ position=81222.2
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=81555.6
 type=RC
-rotateAmount=-0.66
-rotateTime=0.768
+rotateAmount=-1.2
+rotateTime=0.24
 # end
 
 # start
@@ -3090,7 +3040,7 @@ position=81759.3
 type=PP
 effectName=saturation
 effectValue=0
-effectSpeed=0.122
+effectSpeed=0.35
 # end
 
 # start
@@ -3103,7 +3053,7 @@ position=81777.8
 type=PP
 effectName=bloom
 effectValue=2.1
-effectSpeed=0.245
+effectSpeed=0.7
 # end
 
 # start
@@ -3111,15 +3061,15 @@ position=81777.8
 type=PP
 effectName=bloom
 effectValue=1.8
-effectSpeed=0.133
+effectSpeed=0.38
 # end
 
 # start
 position=81851.9
 type=MOV
 axis=X
-moveAmount=-0.024
-moveTime=0.68
+moveAmount=-0.054
+moveTime=0.2
 # end
 
 # start
@@ -3127,7 +3077,7 @@ position=81897.8
 type=PP
 effectName=bloom
 effectValue=0.9
-effectSpeed=0.122
+effectSpeed=0.35
 # end
 
 # start
@@ -3135,22 +3085,22 @@ position=82222.2
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=82666.7
 type=RC
-rotateAmount=0.66
-rotateTime=0.768
+rotateAmount=1.2
+rotateTime=0.24
 # end
 
 # start
 position=82925.9
 type=MOV
 axis=X
-moveAmount=0.024
-moveTime=0.68
+moveAmount=0.054
+moveTime=0.2
 # end
 
 # start
@@ -3158,14 +3108,14 @@ position=83138.9
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=83444.4
 type=RC
-rotateAmount=-0.66
-rotateTime=0.768
+rotateAmount=-1.2
+rotateTime=0.24
 # end
 
 # start
@@ -3174,17 +3124,10 @@ type=PF-c
 # end
 
 # start
-position=83555.6
-type=R
-repeatRate=1.08
-repeatTime=0.5
-# end
-
-# start
 position=84333.3
 type=R
-repeatRate=1.056
-repeatTime=0.396
+repeatRate=1.14
+repeatTime=0.11
 # end
 
 # start
@@ -3192,7 +3135,7 @@ position=84500
 type=PP
 effectName=bloom
 effectValue=2.1
-effectSpeed=0.245
+effectSpeed=0.7
 # end
 
 # start
@@ -3200,7 +3143,7 @@ position=84620
 type=PP
 effectName=bloom
 effectValue=0.9
-effectSpeed=0.122
+effectSpeed=0.35
 # end
 
 # start
@@ -3208,7 +3151,7 @@ position=85185.2
 type=PP
 effectName=bloom
 effectValue=2.1
-effectSpeed=0.245
+effectSpeed=0.7
 # end
 
 # start
@@ -3216,7 +3159,7 @@ position=85222.2
 type=PP
 effectName=bloom
 effectValue=1.5
-effectSpeed=0.077
+effectSpeed=0.22
 # end
 
 # start
@@ -3224,14 +3167,14 @@ position=85268.5
 type=PP
 effectName=saturation
 effectValue=-100
-effectSpeed=0.077
+effectSpeed=0.22
 # end
 
 # start
 position=85291.7
 type=R
-repeatRate=1.056
-repeatTime=0.396
+repeatRate=1.14
+repeatTime=0.11
 # end
 
 # start
@@ -3239,15 +3182,15 @@ position=85305.2
 type=PP
 effectName=bloom
 effectValue=0.9
-effectSpeed=0.122
+effectSpeed=0.35
 # end
 
 # start
 position=85407.4
 type=MOV
 axis=X
-moveAmount=-0.024
-moveTime=0.68
+moveAmount=-0.054
+moveTime=0.2
 # end
 
 # start
@@ -3255,22 +3198,22 @@ position=85888.9
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=86222.2
 type=RC
-rotateAmount=0.66
-rotateTime=0.768
+rotateAmount=1.2
+rotateTime=0.24
 # end
 
 # start
 position=86777.8
 type=MOV
 axis=X
-moveAmount=0.024
-moveTime=0.68
+moveAmount=0.054
+moveTime=0.2
 # end
 
 # start
@@ -3278,36 +3221,36 @@ position=87111.1
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=87444.4
 type=RC
-rotateAmount=-0.66
-rotateTime=0.768
+rotateAmount=-1.2
+rotateTime=0.24
 # end
 
 # start
 position=87666.7
 type=MOV
 axis=X
-moveAmount=-0.024
-moveTime=0.68
+moveAmount=-0.054
+moveTime=0.2
 # end
 
 # start
 position=88000
 type=R
 repeatRate=1
-repeatTime=0.648
+repeatTime=0.18
 # end
 
 # start
 position=88000
 type=RC
 rotateAmount=0
-rotateTime=0.512
+rotateTime=0.16
 # end
 
 # start
@@ -3315,7 +3258,7 @@ position=88000
 type=MOV
 axis=X
 moveAmount=0
-moveTime=0.476
+moveTime=0.14
 # end
 
 # start
@@ -3323,7 +3266,7 @@ position=88000
 type=MOV
 axis=Y
 moveAmount=0
-moveTime=0.504
+moveTime=0.14
 # end
 
 # start
@@ -3331,22 +3274,22 @@ position=88000
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=88222.2
 type=RC
-rotateAmount=0.66
-rotateTime=0.768
+rotateAmount=1.2
+rotateTime=0.24
 # end
 
 # start
 position=88444.4
 type=MOV
 axis=X
-moveAmount=0.024
-moveTime=0.68
+moveAmount=0.054
+moveTime=0.2
 # end
 
 # start
@@ -3359,22 +3302,22 @@ position=88888.9
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=89333.3
 type=RC
-rotateAmount=-0.66
-rotateTime=0.768
+rotateAmount=-1.2
+rotateTime=0.24
 # end
 
 # start
 position=89555.6
 type=MOV
 axis=X
-moveAmount=-0.024
-moveTime=0.68
+moveAmount=-0.054
+moveTime=0.2
 # end
 
 # start
@@ -3382,14 +3325,14 @@ position=89777.8
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=90222.2
 type=RC
-rotateAmount=0.66
-rotateTime=0.768
+rotateAmount=1.2
+rotateTime=0.24
 # end
 
 # start
@@ -3401,15 +3344,8 @@ type=PF-c
 position=90666.7
 type=MOV
 axis=X
-moveAmount=0.024
-moveTime=0.68
-# end
-
-# start
-position=90666.7
-type=R
-repeatRate=1.08
-repeatTime=0.5
+moveAmount=0.054
+moveTime=0.2
 # end
 
 # start
@@ -3417,22 +3353,22 @@ position=90944.4
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=91222.2
 type=RC
-rotateAmount=-0.66
-rotateTime=0.768
+rotateAmount=-1.2
+rotateTime=0.24
 # end
 
 # start
 position=91444.4
 type=MOV
 axis=X
-moveAmount=-0.024
-moveTime=0.68
+moveAmount=-0.054
+moveTime=0.2
 # end
 
 # start
@@ -3440,14 +3376,14 @@ position=91722.2
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=91944.4
 type=RC
-rotateAmount=0.66
-rotateTime=0.768
+rotateAmount=1.2
+rotateTime=0.24
 # end
 
 # start
@@ -3455,15 +3391,15 @@ position=92388.9
 type=PP
 effectName=bloom
 effectValue=1.1
-effectSpeed=0.077
+effectSpeed=0.22
 # end
 
 # start
 position=92444.4
 type=MOV
 axis=X
-moveAmount=0.024
-moveTime=0.68
+moveAmount=0.054
+moveTime=0.2
 # end
 
 # start
@@ -3471,22 +3407,22 @@ position=92888.9
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=93111.1
 type=RC
-rotateAmount=-0.66
-rotateTime=0.768
+rotateAmount=-1.2
+rotateTime=0.24
 # end
 
 # start
 position=93333.3
 type=MOV
 axis=X
-moveAmount=-0.024
-moveTime=0.68
+moveAmount=-0.054
+moveTime=0.2
 # end
 
 # start
@@ -3494,22 +3430,22 @@ position=93777.8
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=94222.2
 type=RC
-rotateAmount=0.66
-rotateTime=0.768
+rotateAmount=1.2
+rotateTime=0.24
 # end
 
 # start
 position=94500
 type=MOV
 axis=X
-moveAmount=0.024
-moveTime=0.68
+moveAmount=0.054
+moveTime=0.2
 # end
 
 # start
@@ -3517,22 +3453,22 @@ position=94777.8
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=95000
 type=RC
-rotateAmount=-0.66
-rotateTime=0.768
+rotateAmount=-1.2
+rotateTime=0.24
 # end
 
 # start
 position=95277.8
 type=MOV
 axis=X
-moveAmount=-0.024
-moveTime=0.68
+moveAmount=-0.054
+moveTime=0.2
 # end
 
 # start
@@ -3540,7 +3476,7 @@ position=95500
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
@@ -3548,7 +3484,7 @@ position=95944.4
 type=PP
 effectName=bloom
 effectValue=1.1
-effectSpeed=0.077
+effectSpeed=0.22
 # end
 
 # start
@@ -3556,7 +3492,7 @@ position=95986.1
 type=PP
 effectName=saturation
 effectValue=0
-effectSpeed=0.122
+effectSpeed=0.35
 # end
 
 # start
@@ -3569,7 +3505,7 @@ position=96000
 type=PP
 effectName=saturation
 effectValue=-70
-effectSpeed=0.07
+effectSpeed=0.2
 # end
 
 # start
@@ -3577,7 +3513,7 @@ position=96000
 type=PP
 effectName=bloom
 effectValue=1.9
-effectSpeed=0.098
+effectSpeed=0.28
 # end
 
 # start
@@ -3597,15 +3533,8 @@ distance=0.1
 # start
 position=96000
 type=RC
-rotateAmount=0.66
-rotateTime=0.768
-# end
-
-# start
-position=96000
-type=R
-repeatRate=1.08
-repeatTime=0.5
+rotateAmount=1.2
+rotateTime=0.24
 # end
 
 # start
@@ -3613,15 +3542,15 @@ position=96064.8
 type=PP
 effectName=bloom
 effectValue=2.6
-effectSpeed=0.168
+effectSpeed=0.48
 # end
 
 # start
 position=96444.4
 type=MOV
 axis=X
-moveAmount=0.024
-moveTime=0.68
+moveAmount=0.054
+moveTime=0.2
 # end
 
 # start
@@ -3629,22 +3558,22 @@ position=96666.7
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=96888.9
 type=RC
-rotateAmount=-0.66
-rotateTime=0.768
+rotateAmount=-1.2
+rotateTime=0.24
 # end
 
 # start
 position=97111.1
 type=MOV
 axis=X
-moveAmount=-0.024
-moveTime=0.68
+moveAmount=-0.054
+moveTime=0.2
 # end
 
 # start
@@ -3652,14 +3581,14 @@ position=97333.3
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=97611.1
 type=RC
-rotateAmount=0.66
-rotateTime=0.768
+rotateAmount=1.2
+rotateTime=0.24
 # end
 
 # start
@@ -3670,16 +3599,16 @@ type=PF-e
 # start
 position=97777.8
 type=R
-repeatRate=1.048
-repeatTime=0.504
+repeatRate=1.12
+repeatTime=0.14
 # end
 
 # start
 position=97805.6
 type=MOV
 axis=X
-moveAmount=0.024
-moveTime=0.68
+moveAmount=0.054
+moveTime=0.2
 # end
 
 # start
@@ -3687,43 +3616,43 @@ position=98148.1
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=98166.7
 type=R
-repeatRate=1.048
-repeatTime=0.504
+repeatRate=1.12
+repeatTime=0.14
 # end
 
 # start
 position=98592.6
 type=RC
-rotateAmount=-0.66
-rotateTime=0.768
+rotateAmount=-1.2
+rotateTime=0.24
 # end
 
 # start
 position=98666.7
 type=R
-repeatRate=1.048
-repeatTime=0.504
+repeatRate=1.12
+repeatTime=0.14
 # end
 
 # start
 position=99037
 type=MOV
 axis=X
-moveAmount=-0.024
-moveTime=0.68
+moveAmount=-0.054
+moveTime=0.2
 # end
 
 # start
 position=99111.1
 type=R
-repeatRate=1.04
-repeatTime=0.432
+repeatRate=1.1
+repeatTime=0.12
 # end
 
 # start
@@ -3731,7 +3660,7 @@ position=99319.4
 type=PP
 effectName=saturation
 effectValue=-100
-effectSpeed=0.077
+effectSpeed=0.22
 # end
 
 # start
@@ -3739,7 +3668,7 @@ position=99333.3
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
@@ -3747,7 +3676,7 @@ position=99444.4
 type=PP
 effectName=bloom
 effectValue=0.7
-effectSpeed=0.077
+effectSpeed=0.22
 # end
 
 # start
@@ -3755,7 +3684,7 @@ position=99527.8
 type=PP
 effectName=saturation
 effectValue=0
-effectSpeed=0.122
+effectSpeed=0.35
 # end
 
 # start
@@ -3763,28 +3692,28 @@ position=99541.7
 type=PP
 effectName=bloom
 effectValue=2.1
-effectSpeed=0.245
+effectSpeed=0.7
 # end
 
 # start
 position=99548.6
 type=R
-repeatRate=1.04
-repeatTime=0.432
+repeatRate=1.1
+repeatTime=0.12
 # end
 
 # start
 position=99555.6
 type=RC
-rotateAmount=0.66
-rotateTime=0.768
+rotateAmount=1.2
+rotateTime=0.24
 # end
 
 # start
 position=99583.3
 type=RC
-rotateAmount=-0.99
-rotateTime=0.48
+rotateAmount=-1.8
+rotateTime=0.15
 # end
 
 # start
@@ -3792,15 +3721,15 @@ position=99661.7
 type=PP
 effectName=bloom
 effectValue=0.9
-effectSpeed=0.122
+effectSpeed=0.35
 # end
 
 # start
 position=99944.4
 type=MOV
 axis=X
-moveAmount=-0.024
-moveTime=0.68
+moveAmount=-0.054
+moveTime=0.2
 # end
 
 # start
@@ -3808,35 +3737,35 @@ position=100389
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=100444
 type=RC
-rotateAmount=0.99
-rotateTime=0.48
+rotateAmount=1.8
+rotateTime=0.15
 # end
 
 # start
 position=100667
 type=RC
-rotateAmount=-0.66
-rotateTime=0.768
+rotateAmount=-1.2
+rotateTime=0.24
 # end
 
 # start
 position=100800
 type=R
 repeatRate=1
-repeatTime=0.648
+repeatTime=0.18
 # end
 
 # start
 position=100800
 type=RC
 rotateAmount=0
-rotateTime=0.512
+rotateTime=0.16
 # end
 
 # start
@@ -3844,7 +3773,7 @@ position=100800
 type=MOV
 axis=X
 moveAmount=0
-moveTime=0.476
+moveTime=0.14
 # end
 
 # start
@@ -3852,15 +3781,15 @@ position=100800
 type=MOV
 axis=Y
 moveAmount=0
-moveTime=0.504
+moveTime=0.14
 # end
 
 # start
 position=100889
 type=MOV
 axis=X
-moveAmount=-0.024
-moveTime=0.68
+moveAmount=-0.054
+moveTime=0.2
 # end
 
 # start
@@ -3868,29 +3797,29 @@ position=101167
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=101361
 type=RC
-rotateAmount=0.99
-rotateTime=0.48
+rotateAmount=1.8
+rotateTime=0.15
 # end
 
 # start
 position=101389
 type=RC
-rotateAmount=-0.66
-rotateTime=0.768
+rotateAmount=-1.2
+rotateTime=0.24
 # end
 
 # start
 position=101722
 type=MOV
 axis=X
-moveAmount=-0.024
-moveTime=0.68
+moveAmount=-0.054
+moveTime=0.2
 # end
 
 # start
@@ -3898,22 +3827,22 @@ position=101944
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=102167
 type=MOV
 axis=Y
-moveAmount=0.023
-moveTime=0.468
+moveAmount=0.066
+moveTime=0.13
 # end
 
 # start
 position=102176
 type=RC
-rotateAmount=0.66
-rotateTime=0.768
+rotateAmount=1.2
+rotateTime=0.24
 # end
 
 # start
@@ -3921,21 +3850,14 @@ position=102208
 type=PP
 effectName=saturation
 effectValue=-100
-effectSpeed=0.077
-# end
-
-# start
-position=102208
-type=R
-repeatRate=1.05
-repeatTime=0.42
+effectSpeed=0.22
 # end
 
 # start
 position=102222
 type=RC
-rotateAmount=-0.99
-rotateTime=0.48
+rotateAmount=-1.8
+rotateTime=0.15
 # end
 
 # start
@@ -3943,7 +3865,7 @@ position=102250
 type=PP
 effectName=bloom
 effectValue=2.1
-effectSpeed=0.245
+effectSpeed=0.7
 # end
 
 # start
@@ -3951,23 +3873,23 @@ position=102370
 type=PP
 effectName=bloom
 effectValue=0.9
-effectSpeed=0.122
+effectSpeed=0.35
 # end
 
 # start
 position=102389
 type=MOV
 axis=Y
-moveAmount=0.023
-moveTime=0.468
+moveAmount=0.066
+moveTime=0.13
 # end
 
 # start
 position=102444
 type=MOV
 axis=X
-moveAmount=-0.024
-moveTime=0.68
+moveAmount=-0.054
+moveTime=0.2
 # end
 
 # start
@@ -3975,15 +3897,15 @@ position=102556
 type=PP
 effectName=bloom
 effectValue=2.1
-effectSpeed=0.245
+effectSpeed=0.7
 # end
 
 # start
 position=102611
 type=MOV
 axis=Y
-moveAmount=0.023
-moveTime=0.468
+moveAmount=0.066
+moveTime=0.13
 # end
 
 # start
@@ -3991,7 +3913,7 @@ position=102639
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
@@ -3999,15 +3921,15 @@ position=102676
 type=PP
 effectName=bloom
 effectValue=0.9
-effectSpeed=0.122
+effectSpeed=0.35
 # end
 
 # start
 position=102833
 type=MOV
 axis=Y
-moveAmount=0.023
-moveTime=0.468
+moveAmount=0.066
+moveTime=0.13
 # end
 
 # start
@@ -4015,14 +3937,14 @@ position=102861
 type=PP
 effectName=bloom
 effectValue=2.1
-effectSpeed=0.245
+effectSpeed=0.7
 # end
 
 # start
 position=102889
 type=RC
-rotateAmount=0.66
-rotateTime=0.768
+rotateAmount=1.2
+rotateTime=0.24
 # end
 
 # start
@@ -4030,7 +3952,7 @@ position=102981
 type=PP
 effectName=bloom
 effectValue=0.9
-effectSpeed=0.122
+effectSpeed=0.35
 # end
 
 # start
@@ -4038,7 +3960,7 @@ position=103056
 type=MOV
 axis=Y
 moveAmount=0
-moveTime=0.468
+moveTime=0.13
 # end
 
 # start
@@ -4046,7 +3968,7 @@ position=103083
 type=PP
 effectName=saturation
 effectValue=0
-effectSpeed=0.122
+effectSpeed=0.35
 # end
 
 # start
@@ -4054,22 +3976,22 @@ position=103111
 type=PP
 effectName=bloom
 effectValue=2.6
-effectSpeed=0.168
+effectSpeed=0.48
 # end
 
 # start
 position=103111
 type=MOV
 axis=X
-moveAmount=0.024
-moveTime=0.68
+moveAmount=0.054
+moveTime=0.2
 # end
 
 # start
 position=103139
 type=RC
-rotateAmount=-0.99
-rotateTime=0.48
+rotateAmount=-1.8
+rotateTime=0.15
 # end
 
 # start
@@ -4077,29 +3999,29 @@ position=103444
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=103667
 type=RC
-rotateAmount=0.66
-rotateTime=0.768
+rotateAmount=1.2
+rotateTime=0.24
 # end
 
 # start
 position=103944
 type=MOV
 axis=X
-moveAmount=0.024
-moveTime=0.68
+moveAmount=0.054
+moveTime=0.2
 # end
 
 # start
 position=104000
 type=RC
-rotateAmount=-0.99
-rotateTime=0.48
+rotateAmount=-1.8
+rotateTime=0.15
 # end
 
 # start
@@ -4107,22 +4029,22 @@ position=104222
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=104444
 type=RC
-rotateAmount=0.66
-rotateTime=0.768
+rotateAmount=1.2
+rotateTime=0.24
 # end
 
 # start
 position=104722
 type=MOV
 axis=X
-moveAmount=0.024
-moveTime=0.68
+moveAmount=0.054
+moveTime=0.2
 # end
 
 # start
@@ -4131,17 +4053,10 @@ type=PF-c
 # end
 
 # start
-position=104889
-type=R
-repeatRate=1.08
-repeatTime=0.5
-# end
-
-# start
 position=104917
 type=RC
-rotateAmount=-0.99
-rotateTime=0.48
+rotateAmount=-1.8
+rotateTime=0.15
 # end
 
 # start
@@ -4149,22 +4064,22 @@ position=104944
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=105278
 type=RC
-rotateAmount=0.66
-rotateTime=0.768
+rotateAmount=1.2
+rotateTime=0.24
 # end
 
 # start
 position=105556
 type=MOV
 axis=X
-moveAmount=0.024
-moveTime=0.68
+moveAmount=0.054
+moveTime=0.2
 # end
 
 # start
@@ -4172,14 +4087,14 @@ position=105778
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=105944
 type=R
-repeatRate=1.056
-repeatTime=0.396
+repeatRate=1.14
+repeatTime=0.11
 # end
 
 # start
@@ -4187,21 +4102,21 @@ position=105972
 type=PP
 effectName=saturation
 effectValue=-100
-effectSpeed=0.077
+effectSpeed=0.22
 # end
 
 # start
 position=105981
 type=RC
-rotateAmount=-0.99
-rotateTime=0.48
+rotateAmount=-1.8
+rotateTime=0.15
 # end
 
 # start
 position=106000
 type=RC
-rotateAmount=0.66
-rotateTime=0.768
+rotateAmount=1.2
+rotateTime=0.24
 # end
 
 # start
@@ -4209,29 +4124,29 @@ position=106037
 type=PP
 effectName=bloom
 effectValue=1.5
-effectSpeed=0.077
+effectSpeed=0.22
 # end
 
 # start
 position=106222
 type=MOV
 axis=X
-moveAmount=0.024
-moveTime=0.68
+moveAmount=0.054
+moveTime=0.2
 # end
 
 # start
 position=106481
 type=R
-repeatRate=1.04
-repeatTime=0.432
+repeatRate=1.1
+repeatTime=0.12
 # end
 
 # start
 position=106519
 type=RC
-rotateAmount=-1.76
-rotateTime=0.64
+rotateAmount=-3.2
+rotateTime=0.2
 # end
 
 # start
@@ -4239,7 +4154,7 @@ position=106556
 type=PP
 effectName=bloom
 effectValue=0.7
-effectSpeed=0.077
+effectSpeed=0.22
 # end
 
 # start
@@ -4247,7 +4162,7 @@ position=106648
 type=PP
 effectName=saturation
 effectValue=0
-effectSpeed=0.122
+effectSpeed=0.35
 # end
 
 # start
@@ -4260,36 +4175,36 @@ position=106667
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=106694
 type=RC
-rotateAmount=0.99
-rotateTime=0.48
+rotateAmount=1.8
+rotateTime=0.15
 # end
 
 # start
 position=107056
 type=RC
-rotateAmount=-0.66
-rotateTime=0.768
+rotateAmount=-1.2
+rotateTime=0.24
 # end
 
 # start
 position=107500
 type=MOV
 axis=X
-moveAmount=-0.024
-moveTime=0.68
+moveAmount=-0.054
+moveTime=0.2
 # end
 
 # start
 position=107556
 type=RC
-rotateAmount=0.99
-rotateTime=0.48
+rotateAmount=1.8
+rotateTime=0.15
 # end
 
 # start
@@ -4297,29 +4212,29 @@ position=107778
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=108000
 type=RC
-rotateAmount=-0.66
-rotateTime=0.768
+rotateAmount=-1.2
+rotateTime=0.24
 # end
 
 # start
 position=108278
 type=MOV
 axis=X
-moveAmount=-0.024
-moveTime=0.68
+moveAmount=-0.054
+moveTime=0.2
 # end
 
 # start
 position=108472
 type=RC
-rotateAmount=0.99
-rotateTime=0.48
+rotateAmount=1.8
+rotateTime=0.15
 # end
 
 # start
@@ -4327,7 +4242,7 @@ position=108500
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
@@ -4338,46 +4253,46 @@ type=PF-e
 # start
 position=108800
 type=R
-repeatRate=1.044
-repeatTime=0.36
+repeatRate=1.11
+repeatTime=0.1
 # end
 
 # start
 position=108800
 type=MOV
 axis=X
-moveAmount=0.032
-moveTime=0.544
+moveAmount=0.072
+moveTime=0.16
 # end
 
 # start
 position=108800
 type=RC
-rotateAmount=0.88
-rotateTime=0.576
+rotateAmount=1.6
+rotateTime=0.18
 # end
 
 # start
 position=108833
 type=RC
-rotateAmount=-0.66
-rotateTime=0.768
+rotateAmount=-1.2
+rotateTime=0.24
 # end
 
 # start
 position=109056
 type=MOV
 axis=X
-moveAmount=-0.024
-moveTime=0.68
+moveAmount=-0.054
+moveTime=0.2
 # end
 
 # start
 position=109278
 type=MOV
 axis=Y
-moveAmount=0.023
-moveTime=0.468
+moveAmount=0.066
+moveTime=0.13
 # end
 
 # start
@@ -4385,7 +4300,7 @@ position=109287
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
@@ -4393,14 +4308,14 @@ position=109319
 type=PP
 effectName=saturation
 effectValue=-100
-effectSpeed=0.077
+effectSpeed=0.22
 # end
 
 # start
 position=109333
 type=RC
-rotateAmount=0.99
-rotateTime=0.48
+rotateAmount=1.8
+rotateTime=0.15
 # end
 
 # start
@@ -4408,7 +4323,7 @@ position=109361
 type=PP
 effectName=bloom
 effectValue=2.1
-effectSpeed=0.245
+effectSpeed=0.7
 # end
 
 # start
@@ -4426,33 +4341,26 @@ distance=0.16
 # end
 
 # start
-position=109389
-type=R
-repeatRate=1.06
-repeatTime=0.44
-# end
-
-# start
 position=109481
 type=PP
 effectName=bloom
 effectValue=0.9
-effectSpeed=0.122
+effectSpeed=0.35
 # end
 
 # start
 position=109500
 type=MOV
 axis=Y
-moveAmount=0.023
-moveTime=0.468
+moveAmount=0.066
+moveTime=0.13
 # end
 
 # start
 position=109556
 type=RC
-rotateAmount=-0.66
-rotateTime=0.768
+rotateAmount=-1.2
+rotateTime=0.24
 # end
 
 # start
@@ -4460,23 +4368,23 @@ position=109667
 type=PP
 effectName=bloom
 effectValue=2.1
-effectSpeed=0.245
+effectSpeed=0.7
 # end
 
 # start
 position=109722
 type=MOV
 axis=Y
-moveAmount=0.023
-moveTime=0.468
+moveAmount=0.066
+moveTime=0.13
 # end
 
 # start
 position=109750
 type=MOV
 axis=X
-moveAmount=-0.024
-moveTime=0.68
+moveAmount=-0.054
+moveTime=0.2
 # end
 
 # start
@@ -4484,15 +4392,15 @@ position=109787
 type=PP
 effectName=bloom
 effectValue=0.9
-effectSpeed=0.122
+effectSpeed=0.35
 # end
 
 # start
 position=109944
 type=MOV
 axis=Y
-moveAmount=0.023
-moveTime=0.468
+moveAmount=0.066
+moveTime=0.13
 # end
 
 # start
@@ -4500,7 +4408,7 @@ position=109972
 type=PP
 effectName=bloom
 effectValue=2.1
-effectSpeed=0.245
+effectSpeed=0.7
 # end
 
 # start
@@ -4508,7 +4416,7 @@ position=110000
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
@@ -4516,7 +4424,7 @@ position=110092
 type=PP
 effectName=bloom
 effectValue=0.9
-effectSpeed=0.122
+effectSpeed=0.35
 # end
 
 # start
@@ -4524,7 +4432,7 @@ position=110167
 type=MOV
 axis=Y
 moveAmount=0
-moveTime=0.468
+moveTime=0.13
 # end
 
 # start
@@ -4532,7 +4440,7 @@ position=110194
 type=PP
 effectName=saturation
 effectValue=0
-effectSpeed=0.122
+effectSpeed=0.35
 # end
 
 # start
@@ -4554,29 +4462,29 @@ position=110222
 type=PP
 effectName=bloom
 effectValue=2.6
-effectSpeed=0.168
+effectSpeed=0.48
 # end
 
 # start
 position=110222
 type=RC
-rotateAmount=0.66
-rotateTime=0.768
+rotateAmount=1.2
+rotateTime=0.24
 # end
 
 # start
 position=110250
 type=RC
-rotateAmount=-0.99
-rotateTime=0.48
+rotateAmount=-1.8
+rotateTime=0.15
 # end
 
 # start
 position=110556
 type=MOV
 axis=X
-moveAmount=-0.024
-moveTime=0.68
+moveAmount=-0.054
+moveTime=0.2
 # end
 
 # start
@@ -4584,29 +4492,29 @@ position=110778
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=111056
 type=RC
-rotateAmount=0.66
-rotateTime=0.768
+rotateAmount=1.2
+rotateTime=0.24
 # end
 
 # start
 position=111111
 type=RC
-rotateAmount=-0.99
-rotateTime=0.48
+rotateAmount=-1.8
+rotateTime=0.15
 # end
 
 # start
 position=111333
 type=MOV
 axis=X
-moveAmount=-0.024
-moveTime=0.68
+moveAmount=-0.054
+moveTime=0.2
 # end
 
 # start
@@ -4614,14 +4522,14 @@ position=111556
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=111833
 type=RC
-rotateAmount=0.66
-rotateTime=0.768
+rotateAmount=1.2
+rotateTime=0.24
 # end
 
 # start
@@ -4634,7 +4542,7 @@ position=112000
 type=PP
 effectName=saturation
 effectValue=-100
-effectSpeed=0.077
+effectSpeed=0.22
 # end
 
 # start
@@ -4645,8 +4553,8 @@ type=PF-p
 # start
 position=112000
 type=R
-repeatRate=1.008
-repeatTime=0.468
+repeatRate=1.02
+repeatTime=0.13
 # end
 
 # start
@@ -4654,29 +4562,29 @@ position=112000
 type=MOV
 axis=X
 moveAmount=0
-moveTime=0.578
+moveTime=0.17
 # end
 
 # start
 position=112000
 type=RC
 rotateAmount=0
-rotateTime=0.512
+rotateTime=0.16
 # end
 
 # start
 position=112028
 type=RC
-rotateAmount=-0.99
-rotateTime=0.48
+rotateAmount=-1.8
+rotateTime=0.15
 # end
 
 # start
 position=112056
 type=MOV
 axis=X
-moveAmount=-0.024
-moveTime=0.68
+moveAmount=-0.054
+moveTime=0.2
 # end
 
 # start
@@ -4684,14 +4592,14 @@ position=112389
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=112667
 type=RC
-rotateAmount=0.66
-rotateTime=0.768
+rotateAmount=1.2
+rotateTime=0.24
 # end
 
 # start
@@ -4712,15 +4620,15 @@ distance=0.16
 position=112889
 type=MOV
 axis=X
-moveAmount=0.024
-moveTime=0.68
+moveAmount=0.054
+moveTime=0.2
 # end
 
 # start
 position=113056
 type=R
-repeatRate=1.056
-repeatTime=0.396
+repeatRate=1.14
+repeatTime=0.11
 # end
 
 # start
@@ -4728,14 +4636,14 @@ position=113083
 type=PP
 effectName=saturation
 effectValue=-100
-effectSpeed=0.077
+effectSpeed=0.22
 # end
 
 # start
 position=113093
 type=RC
-rotateAmount=-0.99
-rotateTime=0.48
+rotateAmount=-1.8
+rotateTime=0.15
 # end
 
 # start
@@ -4743,7 +4651,7 @@ position=113111
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
@@ -4751,14 +4659,14 @@ position=113148
 type=PP
 effectName=bloom
 effectValue=1.5
-effectSpeed=0.077
+effectSpeed=0.22
 # end
 
 # start
 position=113333
 type=RC
-rotateAmount=0.66
-rotateTime=0.768
+rotateAmount=1.2
+rotateTime=0.24
 # end
 
 # start
@@ -4780,7 +4688,7 @@ position=113667
 type=PP
 effectName=bloom
 effectValue=0.7
-effectSpeed=0.077
+effectSpeed=0.22
 # end
 
 # start
@@ -4788,7 +4696,7 @@ position=113759
 type=PP
 effectName=saturation
 effectValue=0
-effectSpeed=0.122
+effectSpeed=0.35
 # end
 
 # start
@@ -4801,14 +4709,7 @@ position=113796
 type=PP
 effectName=saturation
 effectValue=-100
-effectSpeed=0.077
-# end
-
-# start
-position=113796
-type=R
-repeatRate=1.05
-repeatTime=0.42
+effectSpeed=0.22
 # end
 
 # start
@@ -4825,8 +4726,8 @@ type=PF-e
 position=118222
 type=MOV
 axis=X
-moveAmount=0.024
-moveTime=0.68
+moveAmount=0.054
+moveTime=0.2
 # end
 
 # start
@@ -4834,7 +4735,7 @@ position=118556
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
@@ -4845,8 +4746,8 @@ type=PF-p
 # start
 position=120000
 type=RC
-rotateAmount=-0.66
-rotateTime=0.768
+rotateAmount=-1.2
+rotateTime=0.24
 # end
 
 # start
@@ -4857,8 +4758,8 @@ type=PF-p
 # start
 position=120000
 type=R
-repeatRate=1.008
-repeatTime=0.468
+repeatRate=1.02
+repeatTime=0.13
 # end
 
 # start
@@ -4866,14 +4767,14 @@ position=120000
 type=MOV
 axis=X
 moveAmount=0
-moveTime=0.578
+moveTime=0.17
 # end
 
 # start
 position=120000
 type=RC
 rotateAmount=0
-rotateTime=0.512
+rotateTime=0.16
 # end
 
 # start
@@ -4881,7 +4782,7 @@ position=120222
 type=PP
 effectName=bloom
 effectValue=1.5
-effectSpeed=0.077
+effectSpeed=0.22
 # end
 
 # start
@@ -4893,8 +4794,8 @@ type=PF-e
 position=120889
 type=MOV
 axis=X
-moveAmount=-0.024
-moveTime=0.68
+moveAmount=-0.054
+moveTime=0.2
 # end
 
 # start
@@ -4902,22 +4803,22 @@ position=121111
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=121333
 type=RC
-rotateAmount=0.66
-rotateTime=0.768
+rotateAmount=1.2
+rotateTime=0.24
 # end
 
 # start
 position=121556
 type=MOV
 axis=X
-moveAmount=0.024
-moveTime=0.68
+moveAmount=0.054
+moveTime=0.2
 # end
 
 # start
@@ -4930,22 +4831,22 @@ position=122667
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=122889
 type=RC
-rotateAmount=-0.66
-rotateTime=0.768
+rotateAmount=-1.2
+rotateTime=0.24
 # end
 
 # start
 position=123111
 type=MOV
 axis=X
-moveAmount=-0.024
-moveTime=0.68
+moveAmount=-0.054
+moveTime=0.2
 # end
 
 # start
@@ -4953,7 +4854,7 @@ position=123333
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
@@ -4969,23 +4870,23 @@ type=PF-e
 # start
 position=124800
 type=R
-repeatRate=1.044
-repeatTime=0.36
+repeatRate=1.11
+repeatTime=0.1
 # end
 
 # start
 position=124800
 type=MOV
 axis=X
-moveAmount=0.032
-moveTime=0.544
+moveAmount=0.072
+moveTime=0.16
 # end
 
 # start
 position=124800
 type=RC
-rotateAmount=0.88
-rotateTime=0.576
+rotateAmount=1.6
+rotateTime=0.18
 # end
 
 # start
@@ -4998,7 +4899,7 @@ position=127667
 type=PP
 effectName=saturation
 effectValue=-100
-effectSpeed=0.077
+effectSpeed=0.22
 # end
 
 # start
@@ -5010,14 +4911,14 @@ type=PF-e
 position=128000
 type=R
 repeatRate=1
-repeatTime=0.648
+repeatTime=0.18
 # end
 
 # start
 position=128000
 type=RC
 rotateAmount=0
-rotateTime=0.512
+rotateTime=0.16
 # end
 
 # start
@@ -5025,7 +4926,7 @@ position=128000
 type=MOV
 axis=X
 moveAmount=0
-moveTime=0.476
+moveTime=0.14
 # end
 
 # start
@@ -5033,7 +4934,7 @@ position=128000
 type=MOV
 axis=Y
 moveAmount=0
-moveTime=0.504
+moveTime=0.14
 # end
 
 # start
@@ -5046,7 +4947,7 @@ position=128000
 type=PP
 effectName=saturation
 effectValue=-70
-effectSpeed=0.07
+effectSpeed=0.2
 # end
 
 # start
@@ -5054,7 +4955,7 @@ position=128000
 type=PP
 effectName=bloom
 effectValue=1.9
-effectSpeed=0.098
+effectSpeed=0.28
 # end
 
 # start
@@ -5084,16 +4985,16 @@ type=PF-e
 # start
 position=132444
 type=RC
-rotateAmount=0.66
-rotateTime=0.768
+rotateAmount=1.2
+rotateTime=0.24
 # end
 
 # start
 position=132778
 type=MOV
 axis=X
-moveAmount=0.024
-moveTime=0.68
+moveAmount=0.054
+moveTime=0.2
 # end
 
 # start
@@ -5106,7 +5007,7 @@ position=134222
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
@@ -5114,14 +5015,7 @@ position=134556
 type=PP
 effectName=saturation
 effectValue=-100
-effectSpeed=0.077
-# end
-
-# start
-position=134556
-type=R
-repeatRate=1.05
-repeatTime=0.42
+effectSpeed=0.22
 # end
 
 # start
@@ -5129,7 +5023,7 @@ position=134611
 type=PP
 effectName=bloom
 effectValue=0.7
-effectSpeed=0.077
+effectSpeed=0.22
 # end
 
 # start
@@ -5138,25 +5032,18 @@ type=PF-c
 # end
 
 # start
-position=135111
-type=R
-repeatRate=1.08
-repeatTime=0.5
-# end
-
-# start
 position=135167
 type=RC
-rotateAmount=-0.66
-rotateTime=0.768
+rotateAmount=-1.2
+rotateTime=0.24
 # end
 
 # start
 position=135444
 type=MOV
 axis=X
-moveAmount=-0.024
-moveTime=0.68
+moveAmount=-0.054
+moveTime=0.2
 # end
 
 # start
@@ -5167,8 +5054,8 @@ type=PF-p
 # start
 position=136000
 type=R
-repeatRate=1.008
-repeatTime=0.468
+repeatRate=1.02
+repeatTime=0.13
 # end
 
 # start
@@ -5176,14 +5063,14 @@ position=136000
 type=MOV
 axis=X
 moveAmount=0
-moveTime=0.578
+moveTime=0.17
 # end
 
 # start
 position=136000
 type=RC
 rotateAmount=0
-rotateTime=0.512
+rotateTime=0.16
 # end
 
 # start
@@ -5191,14 +5078,14 @@ position=136056
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=136333
 type=RC
-rotateAmount=0.66
-rotateTime=0.768
+rotateAmount=1.2
+rotateTime=0.24
 # end
 
 # start
@@ -5211,7 +5098,7 @@ position=136889
 type=PP
 effectName=bloom
 effectValue=1.5
-effectSpeed=0.077
+effectSpeed=0.22
 # end
 
 # start
@@ -5219,7 +5106,7 @@ position=138444
 type=PP
 effectName=bloom
 effectValue=0.7
-effectSpeed=0.077
+effectSpeed=0.22
 # end
 
 # start
@@ -5228,18 +5115,11 @@ type=PF-c
 # end
 
 # start
-position=138667
-type=R
-repeatRate=1.08
-repeatTime=0.5
-# end
-
-# start
 position=138722
 type=MOV
 axis=X
-moveAmount=0.024
-moveTime=0.68
+moveAmount=0.054
+moveTime=0.2
 # end
 
 # start
@@ -5247,22 +5127,22 @@ position=139000
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=139556
 type=RC
-rotateAmount=-0.66
-rotateTime=0.768
+rotateAmount=-1.2
+rotateTime=0.24
 # end
 
 # start
 position=139889
 type=MOV
 axis=X
-moveAmount=-0.024
-moveTime=0.68
+moveAmount=-0.054
+moveTime=0.2
 # end
 
 # start
@@ -5278,23 +5158,23 @@ type=PF-e
 # start
 position=140800
 type=R
-repeatRate=1.044
-repeatTime=0.36
+repeatRate=1.11
+repeatTime=0.1
 # end
 
 # start
 position=140800
 type=MOV
 axis=X
-moveAmount=0.032
-moveTime=0.544
+moveAmount=0.072
+moveTime=0.16
 # end
 
 # start
 position=140800
 type=RC
-rotateAmount=0.88
-rotateTime=0.576
+rotateAmount=1.6
+rotateTime=0.18
 # end
 
 # start
@@ -5302,14 +5182,14 @@ position=140944
 type=PP
 effectName=bloom
 effectValue=0.7
-effectSpeed=0.077
+effectSpeed=0.22
 # end
 
 # start
 position=141250
 type=R
-repeatRate=1.04
-repeatTime=0.432
+repeatRate=1.1
+repeatTime=0.12
 # end
 
 # start
@@ -5317,14 +5197,14 @@ position=142167
 type=PP
 effectName=bloom
 effectValue=2.1
-effectSpeed=0.245
+effectSpeed=0.7
 # end
 
 # start
 position=142213
 type=R
-repeatRate=1.04
-repeatTime=0.432
+repeatRate=1.1
+repeatTime=0.12
 # end
 
 # start
@@ -5332,14 +5212,14 @@ position=142287
 type=PP
 effectName=bloom
 effectValue=0.9
-effectSpeed=0.122
+effectSpeed=0.35
 # end
 
 # start
 position=143556
 type=R
-repeatRate=1.048
-repeatTime=0.504
+repeatRate=1.12
+repeatTime=0.14
 # end
 
 # start
@@ -5347,43 +5227,43 @@ position=143611
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=144444
 type=R
-repeatRate=1.048
-repeatTime=0.504
+repeatRate=1.12
+repeatTime=0.14
 # end
 
 # start
 position=144500
 type=RC
-rotateAmount=0.66
-rotateTime=0.768
+rotateAmount=1.2
+rotateTime=0.24
 # end
 
 # start
 position=145778
 type=R
-repeatRate=1.048
-repeatTime=0.504
+repeatRate=1.12
+repeatTime=0.14
 # end
 
 # start
 position=145833
 type=MOV
 axis=X
-moveAmount=0.024
-moveTime=0.68
+moveAmount=0.054
+moveTime=0.2
 # end
 
 # start
 position=147111
 type=R
-repeatRate=1.048
-repeatTime=0.504
+repeatRate=1.12
+repeatTime=0.14
 # end
 
 # start
@@ -5391,43 +5271,43 @@ position=147167
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=148000
 type=R
-repeatRate=1.048
-repeatTime=0.504
+repeatRate=1.12
+repeatTime=0.14
 # end
 
 # start
 position=148056
 type=RC
-rotateAmount=-0.66
-rotateTime=0.768
+rotateAmount=-1.2
+rotateTime=0.24
 # end
 
 # start
 position=148667
 type=R
-repeatRate=1.048
-repeatTime=0.504
+repeatRate=1.12
+repeatTime=0.14
 # end
 
 # start
 position=148722
 type=MOV
 axis=X
-moveAmount=-0.024
-moveTime=0.68
+moveAmount=-0.054
+moveTime=0.2
 # end
 
 # start
 position=149333
 type=R
-repeatRate=1.048
-repeatTime=0.504
+repeatRate=1.12
+repeatTime=0.14
 # end
 
 # start
@@ -5435,43 +5315,43 @@ position=149389
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=150667
 type=R
-repeatRate=1.048
-repeatTime=0.504
+repeatRate=1.12
+repeatTime=0.14
 # end
 
 # start
 position=150722
 type=RC
-rotateAmount=0.66
-rotateTime=0.768
+rotateAmount=1.2
+rotateTime=0.24
 # end
 
 # start
 position=151556
 type=R
-repeatRate=1.048
-repeatTime=0.504
+repeatRate=1.12
+repeatTime=0.14
 # end
 
 # start
 position=151611
 type=MOV
 axis=X
-moveAmount=0.024
-moveTime=0.68
+moveAmount=0.054
+moveTime=0.2
 # end
 
 # start
 position=152222
 type=R
-repeatRate=1.048
-repeatTime=0.504
+repeatRate=1.12
+repeatTime=0.14
 # end
 
 # start
@@ -5479,43 +5359,43 @@ position=152278
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=152889
 type=R
-repeatRate=1.048
-repeatTime=0.504
+repeatRate=1.12
+repeatTime=0.14
 # end
 
 # start
 position=152944
 type=RC
-rotateAmount=-0.66
-rotateTime=0.768
+rotateAmount=-1.2
+rotateTime=0.24
 # end
 
 # start
 position=154222
 type=R
-repeatRate=1.048
-repeatTime=0.504
+repeatRate=1.12
+repeatTime=0.14
 # end
 
 # start
 position=154278
 type=MOV
 axis=X
-moveAmount=-0.024
-moveTime=0.68
+moveAmount=-0.054
+moveTime=0.2
 # end
 
 # start
 position=155111
 type=R
-repeatRate=1.048
-repeatTime=0.504
+repeatRate=1.12
+repeatTime=0.14
 # end
 
 # start
@@ -5523,21 +5403,21 @@ position=155167
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=155778
 type=R
-repeatRate=1.048
-repeatTime=0.504
+repeatRate=1.12
+repeatTime=0.14
 # end
 
 # start
 position=155833
 type=RC
-rotateAmount=0.66
-rotateTime=0.768
+rotateAmount=1.2
+rotateTime=0.24
 # end
 
 # start
@@ -5545,7 +5425,7 @@ position=156306
 type=PP
 effectName=bloom
 effectValue=2.1
-effectSpeed=0.245
+effectSpeed=0.7
 # end
 
 # start
@@ -5553,7 +5433,7 @@ position=156426
 type=PP
 effectName=bloom
 effectValue=0.9
-effectSpeed=0.122
+effectSpeed=0.35
 # end
 
 # start
@@ -5565,8 +5445,8 @@ type=PF-e
 position=158222
 type=MOV
 axis=X
-moveAmount=0.024
-moveTime=0.68
+moveAmount=0.054
+moveTime=0.2
 # end
 
 # start
@@ -5583,14 +5463,14 @@ type=PF-e
 position=160000
 type=R
 repeatRate=1
-repeatTime=0.648
+repeatTime=0.18
 # end
 
 # start
 position=160000
 type=RC
 rotateAmount=0
-rotateTime=0.512
+rotateTime=0.16
 # end
 
 # start
@@ -5598,7 +5478,7 @@ position=160000
 type=MOV
 axis=X
 moveAmount=0
-moveTime=0.476
+moveTime=0.14
 # end
 
 # start
@@ -5606,7 +5486,7 @@ position=160000
 type=MOV
 axis=Y
 moveAmount=0
-moveTime=0.504
+moveTime=0.14
 # end
 
 # start
@@ -5619,7 +5499,7 @@ position=160000
 type=PP
 effectName=saturation
 effectValue=-70
-effectSpeed=0.07
+effectSpeed=0.2
 # end
 
 # start
@@ -5627,7 +5507,7 @@ position=160000
 type=PP
 effectName=bloom
 effectValue=1.9
-effectSpeed=0.098
+effectSpeed=0.28
 # end
 
 # start
@@ -5649,14 +5529,14 @@ position=160889
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=161222
 type=RC
-rotateAmount=-0.66
-rotateTime=0.768
+rotateAmount=-1.2
+rotateTime=0.24
 # end
 
 # start
@@ -5668,8 +5548,8 @@ type=PF-p
 position=162667
 type=MOV
 axis=X
-moveAmount=-0.024
-moveTime=0.68
+moveAmount=-0.054
+moveTime=0.2
 # end
 
 # start
@@ -5677,7 +5557,7 @@ position=162889
 type=PP
 effectName=bloom
 effectValue=1.5
-effectSpeed=0.077
+effectSpeed=0.22
 # end
 
 # start
@@ -5690,22 +5570,22 @@ position=163556
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=163778
 type=RC
-rotateAmount=0.66
-rotateTime=0.768
+rotateAmount=1.2
+rotateTime=0.24
 # end
 
 # start
 position=164000
 type=MOV
 axis=X
-moveAmount=0.024
-moveTime=0.68
+moveAmount=0.054
+moveTime=0.2
 # end
 
 # start
@@ -5713,14 +5593,14 @@ position=164222
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=165333
 type=RC
-rotateAmount=-0.66
-rotateTime=0.768
+rotateAmount=-1.2
+rotateTime=0.24
 # end
 
 # start
@@ -5732,8 +5612,8 @@ type=PF-p
 position=165556
 type=MOV
 axis=X
-moveAmount=-0.024
-moveTime=0.68
+moveAmount=-0.054
+moveTime=0.2
 # end
 
 # start
@@ -5741,14 +5621,14 @@ position=165778
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=166000
 type=RC
-rotateAmount=0.66
-rotateTime=0.768
+rotateAmount=1.2
+rotateTime=0.24
 # end
 
 # start
@@ -5764,8 +5644,8 @@ type=PF-p
 # start
 position=168000
 type=R
-repeatRate=1.008
-repeatTime=0.468
+repeatRate=1.02
+repeatTime=0.13
 # end
 
 # start
@@ -5773,14 +5653,14 @@ position=168000
 type=MOV
 axis=X
 moveAmount=0
-moveTime=0.578
+moveTime=0.17
 # end
 
 # start
 position=168000
 type=RC
 rotateAmount=0
-rotateTime=0.512
+rotateTime=0.16
 # end
 
 # start
@@ -5793,14 +5673,14 @@ position=170222
 type=PP
 effectName=saturation
 effectValue=-100
-effectSpeed=0.077
+effectSpeed=0.22
 # end
 
 # start
 position=170278
 type=R
-repeatRate=1.04
-repeatTime=0.432
+repeatRate=1.1
+repeatTime=0.12
 # end
 
 # start
@@ -5827,14 +5707,14 @@ position=170667
 type=PP
 effectName=bloom
 effectValue=2.1
-effectSpeed=0.245
+effectSpeed=0.7
 # end
 
 # start
 position=170667
 type=R
-repeatRate=1.04
-repeatTime=0.432
+repeatRate=1.1
+repeatTime=0.12
 # end
 
 # start
@@ -5842,7 +5722,7 @@ position=170681
 type=PP
 effectName=bloom
 effectValue=2.6
-effectSpeed=0.168
+effectSpeed=0.48
 # end
 
 # start
@@ -5850,15 +5730,15 @@ position=170722
 type=PP
 effectName=saturation
 effectValue=0
-effectSpeed=0.122
+effectSpeed=0.35
 # end
 
 # start
 position=170741
 type=MOV
 axis=X
-moveAmount=0.024
-moveTime=0.68
+moveAmount=0.054
+moveTime=0.2
 # end
 
 # start
@@ -5866,7 +5746,7 @@ position=170787
 type=PP
 effectName=bloom
 effectValue=0.9
-effectSpeed=0.122
+effectSpeed=0.35
 # end
 
 # start
@@ -5874,22 +5754,22 @@ position=171111
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=171315
 type=RC
-rotateAmount=-0.66
-rotateTime=0.768
+rotateAmount=-1.2
+rotateTime=0.24
 # end
 
 # start
 position=171556
 type=MOV
 axis=X
-moveAmount=-0.024
-moveTime=0.68
+moveAmount=-0.054
+moveTime=0.2
 # end
 
 # start
@@ -5897,14 +5777,14 @@ position=171815
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=172028
 type=RC
-rotateAmount=0.66
-rotateTime=0.768
+rotateAmount=1.2
+rotateTime=0.24
 # end
 
 # start
@@ -5912,15 +5792,15 @@ position=172083
 type=PP
 effectName=bloom
 effectValue=2.6
-effectSpeed=0.168
+effectSpeed=0.48
 # end
 
 # start
 position=172519
 type=MOV
 axis=X
-moveAmount=0.024
-moveTime=0.68
+moveAmount=0.054
+moveTime=0.2
 # end
 
 # start
@@ -5931,23 +5811,23 @@ type=PF-e
 # start
 position=172800
 type=R
-repeatRate=1.044
-repeatTime=0.36
+repeatRate=1.11
+repeatTime=0.1
 # end
 
 # start
 position=172800
 type=MOV
 axis=X
-moveAmount=0.032
-moveTime=0.544
+moveAmount=0.072
+moveTime=0.16
 # end
 
 # start
 position=172800
 type=RC
-rotateAmount=0.88
-rotateTime=0.576
+rotateAmount=1.6
+rotateTime=0.18
 # end
 
 # start
@@ -5955,14 +5835,14 @@ position=172889
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=173139
 type=RC
-rotateAmount=-0.66
-rotateTime=0.768
+rotateAmount=-1.2
+rotateTime=0.24
 # end
 
 # start
@@ -5970,22 +5850,15 @@ position=173370
 type=PP
 effectName=saturation
 effectValue=-100
-effectSpeed=0.077
-# end
-
-# start
-position=173370
-type=R
-repeatRate=1.05
-repeatTime=0.42
+effectSpeed=0.22
 # end
 
 # start
 position=173444
 type=MOV
 axis=X
-moveAmount=-0.024
-moveTime=0.68
+moveAmount=-0.054
+moveTime=0.2
 # end
 
 # start
@@ -5993,14 +5866,14 @@ position=173667
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=174000
 type=RC
-rotateAmount=0.66
-rotateTime=0.768
+rotateAmount=1.2
+rotateTime=0.24
 # end
 
 # start
@@ -6008,7 +5881,7 @@ position=174204
 type=PP
 effectName=saturation
 effectValue=0
-effectSpeed=0.122
+effectSpeed=0.35
 # end
 
 # start
@@ -6016,7 +5889,7 @@ position=174222
 type=PP
 effectName=bloom
 effectValue=2.1
-effectSpeed=0.245
+effectSpeed=0.7
 # end
 
 # start
@@ -6024,7 +5897,7 @@ position=174222
 type=PP
 effectName=bloom
 effectValue=1.8
-effectSpeed=0.133
+effectSpeed=0.38
 # end
 
 # start
@@ -6037,15 +5910,15 @@ position=174278
 type=PP
 effectName=saturation
 effectValue=0
-effectSpeed=0.122
+effectSpeed=0.35
 # end
 
 # start
 position=174296
 type=MOV
 axis=X
-moveAmount=0.024
-moveTime=0.68
+moveAmount=0.054
+moveTime=0.2
 # end
 
 # start
@@ -6053,7 +5926,7 @@ position=174342
 type=PP
 effectName=bloom
 effectValue=0.9
-effectSpeed=0.122
+effectSpeed=0.35
 # end
 
 # start
@@ -6061,22 +5934,22 @@ position=174667
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=174870
 type=RC
-rotateAmount=-0.66
-rotateTime=0.768
+rotateAmount=-1.2
+rotateTime=0.24
 # end
 
 # start
 position=175111
 type=MOV
 axis=X
-moveAmount=-0.024
-moveTime=0.68
+moveAmount=-0.054
+moveTime=0.2
 # end
 
 # start
@@ -6084,22 +5957,22 @@ position=175370
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=175583
 type=RC
-rotateAmount=0.66
-rotateTime=0.768
+rotateAmount=1.2
+rotateTime=0.24
 # end
 
 # start
 position=176074
 type=MOV
 axis=X
-moveAmount=0.024
-moveTime=0.68
+moveAmount=0.054
+moveTime=0.2
 # end
 
 # start
@@ -6107,14 +5980,14 @@ position=176444
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=176694
 type=RC
-rotateAmount=-0.66
-rotateTime=0.768
+rotateAmount=-1.2
+rotateTime=0.24
 # end
 
 # start
@@ -6122,22 +5995,15 @@ position=176926
 type=PP
 effectName=saturation
 effectValue=-100
-effectSpeed=0.077
-# end
-
-# start
-position=176926
-type=R
-repeatRate=1.05
-repeatTime=0.42
+effectSpeed=0.22
 # end
 
 # start
 position=177000
 type=MOV
 axis=X
-moveAmount=-0.024
-moveTime=0.68
+moveAmount=-0.054
+moveTime=0.2
 # end
 
 # start
@@ -6145,14 +6011,14 @@ position=177222
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=177556
 type=RC
-rotateAmount=0.66
-rotateTime=0.768
+rotateAmount=1.2
+rotateTime=0.24
 # end
 
 # start
@@ -6174,7 +6040,7 @@ position=177759
 type=PP
 effectName=saturation
 effectValue=0
-effectSpeed=0.122
+effectSpeed=0.35
 # end
 
 # start
@@ -6187,7 +6053,7 @@ position=177778
 type=PP
 effectName=bloom
 effectValue=2.1
-effectSpeed=0.245
+effectSpeed=0.7
 # end
 
 # start
@@ -6195,7 +6061,7 @@ position=177778
 type=PP
 effectName=bloom
 effectValue=1.8
-effectSpeed=0.133
+effectSpeed=0.38
 # end
 
 # start
@@ -6203,7 +6069,7 @@ position=177778
 type=PP
 effectName=bloom
 effectValue=1.2
-effectSpeed=0.105
+effectSpeed=0.3
 # end
 
 # start
@@ -6211,15 +6077,15 @@ position=177898
 type=PP
 effectName=bloom
 effectValue=0.9
-effectSpeed=0.122
+effectSpeed=0.35
 # end
 
 # start
 position=178222
 type=MOV
 axis=X
-moveAmount=0.024
-moveTime=0.68
+moveAmount=0.054
+moveTime=0.2
 # end
 
 # start
@@ -6227,22 +6093,22 @@ position=178444
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=178889
 type=RC
-rotateAmount=-0.66
-rotateTime=0.768
+rotateAmount=-1.2
+rotateTime=0.24
 # end
 
 # start
 position=179111
 type=MOV
 axis=X
-moveAmount=-0.024
-moveTime=0.68
+moveAmount=-0.054
+moveTime=0.2
 # end
 
 # start
@@ -6250,14 +6116,7 @@ position=179139
 type=PP
 effectName=saturation
 effectValue=-100
-effectSpeed=0.077
-# end
-
-# start
-position=179139
-type=R
-repeatRate=1.05
-repeatTime=0.42
+effectSpeed=0.22
 # end
 
 # start
@@ -6265,7 +6124,7 @@ position=179306
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
@@ -6273,14 +6132,14 @@ position=179519
 type=PP
 effectName=saturation
 effectValue=-100
-effectSpeed=0.077
+effectSpeed=0.22
 # end
 
 # start
 position=179556
 type=RC
-rotateAmount=0.66
-rotateTime=0.768
+rotateAmount=1.2
+rotateTime=0.24
 # end
 
 # start
@@ -6288,15 +6147,15 @@ position=179565
 type=PP
 effectName=bloom
 effectValue=1.8
-effectSpeed=0.133
+effectSpeed=0.38
 # end
 
 # start
 position=180000
 type=MOV
 axis=X
-moveAmount=0.024
-moveTime=0.68
+moveAmount=0.054
+moveTime=0.2
 # end
 
 # start
@@ -6304,14 +6163,14 @@ position=180278
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=180667
 type=RC
-rotateAmount=-0.66
-rotateTime=0.768
+rotateAmount=-1.2
+rotateTime=0.24
 # end
 
 # start
@@ -6319,7 +6178,7 @@ position=181333
 type=PP
 effectName=bloom
 effectValue=1.2
-effectSpeed=0.105
+effectSpeed=0.3
 # end
 
 # start
@@ -6331,8 +6190,8 @@ type=PF-p
 position=181778
 type=MOV
 axis=X
-moveAmount=-0.024
-moveTime=0.68
+moveAmount=-0.054
+moveTime=0.2
 # end
 
 # start
@@ -6340,22 +6199,22 @@ position=182000
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=182444
 type=RC
-rotateAmount=0.66
-rotateTime=0.768
+rotateAmount=1.2
+rotateTime=0.24
 # end
 
 # start
 position=182667
 type=MOV
 axis=X
-moveAmount=0.024
-moveTime=0.68
+moveAmount=0.054
+moveTime=0.2
 # end
 
 # start
@@ -6363,14 +6222,7 @@ position=182694
 type=PP
 effectName=saturation
 effectValue=-100
-effectSpeed=0.077
-# end
-
-# start
-position=182694
-type=R
-repeatRate=1.05
-repeatTime=0.42
+effectSpeed=0.22
 # end
 
 # start
@@ -6378,7 +6230,7 @@ position=182861
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
@@ -6386,14 +6238,14 @@ position=183074
 type=PP
 effectName=saturation
 effectValue=-100
-effectSpeed=0.077
+effectSpeed=0.22
 # end
 
 # start
 position=183111
 type=RC
-rotateAmount=-0.66
-rotateTime=0.768
+rotateAmount=-1.2
+rotateTime=0.24
 # end
 
 # start
@@ -6401,15 +6253,15 @@ position=183120
 type=PP
 effectName=bloom
 effectValue=1.8
-effectSpeed=0.133
+effectSpeed=0.38
 # end
 
 # start
 position=183556
 type=MOV
 axis=X
-moveAmount=-0.024
-moveTime=0.68
+moveAmount=-0.054
+moveTime=0.2
 # end
 
 # start
@@ -6417,7 +6269,7 @@ position=183833
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
@@ -6425,14 +6277,14 @@ position=184185
 type=PP
 effectName=bloom
 effectValue=2.6
-effectSpeed=0.168
+effectSpeed=0.48
 # end
 
 # start
 position=184222
 type=RC
-rotateAmount=0.66
-rotateTime=0.768
+rotateAmount=1.2
+rotateTime=0.24
 # end
 
 # start
@@ -6440,21 +6292,21 @@ position=184333
 type=PP
 effectName=bloom
 effectValue=2.6
-effectSpeed=0.168
+effectSpeed=0.48
 # end
 
 # start
 position=184444
 type=R
-repeatRate=1.04
-repeatTime=0.432
+repeatRate=1.1
+repeatTime=0.12
 # end
 
 # start
 position=184458
 type=RC
-rotateAmount=-1.76
-rotateTime=0.64
+rotateAmount=-3.2
+rotateTime=0.2
 # end
 
 # start
@@ -6462,14 +6314,14 @@ position=184852
 type=PP
 effectName=bloom
 effectValue=2.1
-effectSpeed=0.245
+effectSpeed=0.7
 # end
 
 # start
 position=184870
 type=RC
-rotateAmount=1.76
-rotateTime=0.64
+rotateAmount=3.2
+rotateTime=0.2
 # end
 
 # start
@@ -6480,16 +6332,16 @@ type=PF-e
 # start
 position=184889
 type=R
-repeatRate=1.04
-repeatTime=0.432
+repeatRate=1.1
+repeatTime=0.12
 # end
 
 # start
 position=184963
 type=MOV
 axis=X
-moveAmount=0.024
-moveTime=0.68
+moveAmount=0.054
+moveTime=0.2
 # end
 
 # start
@@ -6497,7 +6349,7 @@ position=184972
 type=PP
 effectName=bloom
 effectValue=0.9
-effectSpeed=0.122
+effectSpeed=0.35
 # end
 
 # start
@@ -6505,29 +6357,29 @@ position=185333
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=185333
 type=R
-repeatRate=1.024
-repeatTime=0.36
+repeatRate=1.06
+repeatTime=0.1
 # end
 
 # start
 position=185537
 type=RC
-rotateAmount=-0.66
-rotateTime=0.768
+rotateAmount=-1.2
+rotateTime=0.24
 # end
 
 # start
 position=185778
 type=MOV
 axis=X
-moveAmount=-0.024
-moveTime=0.68
+moveAmount=-0.054
+moveTime=0.2
 # end
 
 # start
@@ -6535,14 +6387,14 @@ position=186037
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=186250
 type=RC
-rotateAmount=0.66
-rotateTime=0.768
+rotateAmount=1.2
+rotateTime=0.24
 # end
 
 # start
@@ -6553,16 +6405,16 @@ type=PF-c
 # start
 position=186667
 type=R
-repeatRate=1.024
-repeatTime=0.36
+repeatRate=1.06
+repeatTime=0.1
 # end
 
 # start
 position=186741
 type=MOV
 axis=X
-moveAmount=0.024
-moveTime=0.68
+moveAmount=0.054
+moveTime=0.2
 # end
 
 # start
@@ -6570,21 +6422,21 @@ position=187111
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=187111
 type=R
-repeatRate=1.024
-repeatTime=0.36
+repeatRate=1.06
+repeatTime=0.1
 # end
 
 # start
 position=187361
 type=RC
-rotateAmount=-0.66
-rotateTime=0.768
+rotateAmount=-1.2
+rotateTime=0.24
 # end
 
 # start
@@ -6592,15 +6444,15 @@ position=187593
 type=PP
 effectName=saturation
 effectValue=-100
-effectSpeed=0.077
+effectSpeed=0.22
 # end
 
 # start
 position=187667
 type=MOV
 axis=X
-moveAmount=-0.024
-moveTime=0.68
+moveAmount=-0.054
+moveTime=0.2
 # end
 
 # start
@@ -6608,14 +6460,14 @@ position=187889
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=188222
 type=RC
-rotateAmount=0.66
-rotateTime=0.768
+rotateAmount=1.2
+rotateTime=0.24
 # end
 
 # start
@@ -6623,7 +6475,7 @@ position=188426
 type=PP
 effectName=saturation
 effectValue=0
-effectSpeed=0.122
+effectSpeed=0.35
 # end
 
 # start
@@ -6631,7 +6483,7 @@ position=188444
 type=PP
 effectName=bloom
 effectValue=2.1
-effectSpeed=0.245
+effectSpeed=0.7
 # end
 
 # start
@@ -6639,7 +6491,7 @@ position=188444
 type=PP
 effectName=bloom
 effectValue=1.8
-effectSpeed=0.133
+effectSpeed=0.38
 # end
 
 # start
@@ -6650,16 +6502,16 @@ type=PF-e
 # start
 position=188444
 type=R
-repeatRate=1.024
-repeatTime=0.36
+repeatRate=1.06
+repeatTime=0.1
 # end
 
 # start
 position=188519
 type=MOV
 axis=X
-moveAmount=0.024
-moveTime=0.68
+moveAmount=0.054
+moveTime=0.2
 # end
 
 # start
@@ -6667,7 +6519,7 @@ position=188564
 type=PP
 effectName=bloom
 effectValue=0.9
-effectSpeed=0.122
+effectSpeed=0.35
 # end
 
 # start
@@ -6675,29 +6527,29 @@ position=188889
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=188889
 type=R
-repeatRate=1.024
-repeatTime=0.36
+repeatRate=1.06
+repeatTime=0.1
 # end
 
 # start
 position=189093
 type=RC
-rotateAmount=-0.66
-rotateTime=0.768
+rotateAmount=-1.2
+rotateTime=0.24
 # end
 
 # start
 position=189333
 type=MOV
 axis=X
-moveAmount=-0.024
-moveTime=0.68
+moveAmount=-0.054
+moveTime=0.2
 # end
 
 # start
@@ -6705,14 +6557,14 @@ position=189593
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=189806
 type=RC
-rotateAmount=0.66
-rotateTime=0.768
+rotateAmount=1.2
+rotateTime=0.24
 # end
 
 # start
@@ -6723,23 +6575,23 @@ type=PF-c
 # start
 position=190222
 type=R
-repeatRate=1.024
-repeatTime=0.36
+repeatRate=1.06
+repeatTime=0.1
 # end
 
 # start
 position=190296
 type=MOV
 axis=X
-moveAmount=0.024
-moveTime=0.68
+moveAmount=0.054
+moveTime=0.2
 # end
 
 # start
 position=190667
 type=R
-repeatRate=1.024
-repeatTime=0.36
+repeatRate=1.06
+repeatTime=0.1
 # end
 
 # start
@@ -6747,14 +6599,14 @@ position=190667
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=190917
 type=RC
-rotateAmount=-0.66
-rotateTime=0.768
+rotateAmount=-1.2
+rotateTime=0.24
 # end
 
 # start
@@ -6762,15 +6614,15 @@ position=191148
 type=PP
 effectName=saturation
 effectValue=-100
-effectSpeed=0.077
+effectSpeed=0.22
 # end
 
 # start
 position=191222
 type=MOV
 axis=X
-moveAmount=-0.024
-moveTime=0.68
+moveAmount=-0.054
+moveTime=0.2
 # end
 
 # start
@@ -6778,14 +6630,14 @@ position=191444
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=191778
 type=RC
-rotateAmount=0.66
-rotateTime=0.768
+rotateAmount=1.2
+rotateTime=0.24
 # end
 
 # start
@@ -6793,7 +6645,7 @@ position=191981
 type=PP
 effectName=saturation
 effectValue=0
-effectSpeed=0.122
+effectSpeed=0.35
 # end
 
 # start
@@ -6806,7 +6658,7 @@ position=192000
 type=PP
 effectName=bloom
 effectValue=2.1
-effectSpeed=0.245
+effectSpeed=0.7
 # end
 
 # start
@@ -6814,28 +6666,28 @@ position=192000
 type=PP
 effectName=bloom
 effectValue=1.8
-effectSpeed=0.133
+effectSpeed=0.38
 # end
 
 # start
 position=192000
 type=R
-repeatRate=1.024
-repeatTime=0.36
+repeatRate=1.06
+repeatTime=0.1
 # end
 
 # start
 position=192000
 type=R
 repeatRate=1
-repeatTime=0.648
+repeatTime=0.18
 # end
 
 # start
 position=192000
 type=RC
 rotateAmount=0
-rotateTime=0.512
+rotateTime=0.16
 # end
 
 # start
@@ -6843,7 +6695,7 @@ position=192000
 type=MOV
 axis=X
 moveAmount=0
-moveTime=0.476
+moveTime=0.14
 # end
 
 # start
@@ -6851,7 +6703,7 @@ position=192000
 type=MOV
 axis=Y
 moveAmount=0
-moveTime=0.504
+moveTime=0.14
 # end
 
 # start
@@ -6864,7 +6716,7 @@ position=192000
 type=PP
 effectName=saturation
 effectValue=-70
-effectSpeed=0.07
+effectSpeed=0.2
 # end
 
 # start
@@ -6872,7 +6724,7 @@ position=192000
 type=PP
 effectName=bloom
 effectValue=1.9
-effectSpeed=0.098
+effectSpeed=0.28
 # end
 
 # start
@@ -6892,16 +6744,16 @@ distance=0.1
 # start
 position=192037
 type=RC
-rotateAmount=-1.76
-rotateTime=0.64
+rotateAmount=-3.2
+rotateTime=0.2
 # end
 
 # start
 position=192074
 type=MOV
 axis=X
-moveAmount=-0.024
-moveTime=0.68
+moveAmount=-0.054
+moveTime=0.2
 # end
 
 # start
@@ -6909,7 +6761,7 @@ position=192120
 type=PP
 effectName=bloom
 effectValue=0.9
-effectSpeed=0.122
+effectSpeed=0.35
 # end
 
 # start
@@ -6917,57 +6769,57 @@ position=192444
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=192444
 type=R
-repeatRate=1.024
-repeatTime=0.36
+repeatRate=1.06
+repeatTime=0.1
 # end
 
 # start
 position=192481
 type=RC
-rotateAmount=1.76
-rotateTime=0.64
+rotateAmount=3.2
+rotateTime=0.2
 # end
 
 # start
 position=192889
 type=RC
-rotateAmount=-0.66
-rotateTime=0.768
+rotateAmount=-1.2
+rotateTime=0.24
 # end
 
 # start
 position=192889
 type=R
-repeatRate=1.024
-repeatTime=0.36
+repeatRate=1.06
+repeatTime=0.1
 # end
 
 # start
 position=192926
 type=RC
-rotateAmount=1.76
-rotateTime=0.64
+rotateAmount=3.2
+rotateTime=0.2
 # end
 
 # start
 position=193148
 type=MOV
 axis=X
-moveAmount=0.024
-moveTime=0.68
+moveAmount=0.054
+moveTime=0.2
 # end
 
 # start
 position=193333
 type=R
-repeatRate=1.024
-repeatTime=0.36
+repeatRate=1.06
+repeatTime=0.1
 # end
 
 # start
@@ -6975,21 +6827,21 @@ position=193361
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=193370
 type=RC
-rotateAmount=-1.76
-rotateTime=0.64
+rotateAmount=-3.2
+rotateTime=0.2
 # end
 
 # start
 position=193667
 type=RC
-rotateAmount=0.66
-rotateTime=0.768
+rotateAmount=1.2
+rotateTime=0.24
 # end
 
 # start
@@ -7000,23 +6852,23 @@ type=PF-c
 # start
 position=193778
 type=R
-repeatRate=1.024
-repeatTime=0.36
+repeatRate=1.06
+repeatTime=0.1
 # end
 
 # start
 position=193815
 type=RC
-rotateAmount=-1.76
-rotateTime=0.64
+rotateAmount=-3.2
+rotateTime=0.2
 # end
 
 # start
 position=193889
 type=MOV
 axis=X
-moveAmount=-0.024
-moveTime=0.68
+moveAmount=-0.054
+moveTime=0.2
 # end
 
 # start
@@ -7024,35 +6876,35 @@ position=194222
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=194222
 type=R
-repeatRate=1.024
-repeatTime=0.36
+repeatRate=1.06
+repeatTime=0.1
 # end
 
 # start
 position=194259
 type=RC
-rotateAmount=1.76
-rotateTime=0.64
+rotateAmount=3.2
+rotateTime=0.2
 # end
 
 # start
 position=194472
 type=RC
-rotateAmount=-0.66
-rotateTime=0.768
+rotateAmount=-1.2
+rotateTime=0.24
 # end
 
 # start
 position=194667
 type=R
-repeatRate=1.024
-repeatTime=0.36
+repeatRate=1.06
+repeatTime=0.1
 # end
 
 # start
@@ -7060,22 +6912,22 @@ position=194704
 type=PP
 effectName=saturation
 effectValue=-100
-effectSpeed=0.077
+effectSpeed=0.22
 # end
 
 # start
 position=194704
 type=RC
-rotateAmount=1.76
-rotateTime=0.64
+rotateAmount=3.2
+rotateTime=0.2
 # end
 
 # start
 position=194778
 type=MOV
 axis=X
-moveAmount=0.024
-moveTime=0.68
+moveAmount=0.054
+moveTime=0.2
 # end
 
 # start
@@ -7083,28 +6935,28 @@ position=195000
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=195111
 type=R
-repeatRate=1.024
-repeatTime=0.36
+repeatRate=1.06
+repeatTime=0.1
 # end
 
 # start
 position=195148
 type=RC
-rotateAmount=-1.76
-rotateTime=0.64
+rotateAmount=-3.2
+rotateTime=0.2
 # end
 
 # start
 position=195333
 type=RC
-rotateAmount=0.66
-rotateTime=0.768
+rotateAmount=1.2
+rotateTime=0.24
 # end
 
 # start
@@ -7112,7 +6964,7 @@ position=195537
 type=PP
 effectName=saturation
 effectValue=0
-effectSpeed=0.122
+effectSpeed=0.35
 # end
 
 # start
@@ -7123,8 +6975,8 @@ type=PF-p
 # start
 position=195556
 type=R
-repeatRate=1.024
-repeatTime=0.36
+repeatRate=1.06
+repeatTime=0.1
 # end
 
 # start
@@ -7132,7 +6984,7 @@ position=195556
 type=PP
 effectName=bloom
 effectValue=2.1
-effectSpeed=0.245
+effectSpeed=0.7
 # end
 
 # start
@@ -7140,22 +6992,22 @@ position=195556
 type=PP
 effectName=bloom
 effectValue=1.8
-effectSpeed=0.133
+effectSpeed=0.38
 # end
 
 # start
 position=195593
 type=RC
-rotateAmount=-1.76
-rotateTime=0.64
+rotateAmount=-3.2
+rotateTime=0.2
 # end
 
 # start
 position=195630
 type=MOV
 axis=X
-moveAmount=-0.024
-moveTime=0.68
+moveAmount=-0.054
+moveTime=0.2
 # end
 
 # start
@@ -7163,7 +7015,7 @@ position=195676
 type=PP
 effectName=bloom
 effectValue=0.9
-effectSpeed=0.122
+effectSpeed=0.35
 # end
 
 # start
@@ -7171,57 +7023,57 @@ position=196000
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=196000
 type=R
-repeatRate=1.024
-repeatTime=0.36
+repeatRate=1.06
+repeatTime=0.1
 # end
 
 # start
 position=196037
 type=RC
-rotateAmount=1.76
-rotateTime=0.64
+rotateAmount=3.2
+rotateTime=0.2
 # end
 
 # start
 position=196444
 type=RC
-rotateAmount=-0.66
-rotateTime=0.768
+rotateAmount=-1.2
+rotateTime=0.24
 # end
 
 # start
 position=196444
 type=R
-repeatRate=1.024
-repeatTime=0.36
+repeatRate=1.06
+repeatTime=0.1
 # end
 
 # start
 position=196481
 type=RC
-rotateAmount=1.76
-rotateTime=0.64
+rotateAmount=3.2
+rotateTime=0.2
 # end
 
 # start
 position=196704
 type=MOV
 axis=X
-moveAmount=0.024
-moveTime=0.68
+moveAmount=0.054
+moveTime=0.2
 # end
 
 # start
 position=196889
 type=R
-repeatRate=1.024
-repeatTime=0.36
+repeatRate=1.06
+repeatTime=0.1
 # end
 
 # start
@@ -7229,21 +7081,21 @@ position=196917
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=196926
 type=RC
-rotateAmount=-1.76
-rotateTime=0.64
+rotateAmount=-3.2
+rotateTime=0.2
 # end
 
 # start
 position=197222
 type=RC
-rotateAmount=0.66
-rotateTime=0.768
+rotateAmount=1.2
+rotateTime=0.24
 # end
 
 # start
@@ -7251,7 +7103,7 @@ position=197333
 type=PP
 effectName=saturation
 effectValue=-100
-effectSpeed=0.077
+effectSpeed=0.22
 # end
 
 # start
@@ -7262,8 +7114,8 @@ type=PF-c
 # start
 position=198111
 type=R
-repeatRate=1.056
-repeatTime=0.396
+repeatRate=1.14
+repeatTime=0.11
 # end
 
 # start
@@ -7271,7 +7123,7 @@ position=198278
 type=PP
 effectName=bloom
 effectValue=2.1
-effectSpeed=0.245
+effectSpeed=0.7
 # end
 
 # start
@@ -7279,7 +7131,7 @@ position=198398
 type=PP
 effectName=bloom
 effectValue=0.9
-effectSpeed=0.122
+effectSpeed=0.35
 # end
 
 # start
@@ -7287,7 +7139,7 @@ position=198963
 type=PP
 effectName=bloom
 effectValue=2.1
-effectSpeed=0.245
+effectSpeed=0.7
 # end
 
 # start
@@ -7295,7 +7147,7 @@ position=199000
 type=PP
 effectName=bloom
 effectValue=1.5
-effectSpeed=0.077
+effectSpeed=0.22
 # end
 
 # start
@@ -7303,14 +7155,14 @@ position=199046
 type=PP
 effectName=saturation
 effectValue=-100
-effectSpeed=0.077
+effectSpeed=0.22
 # end
 
 # start
 position=199069
 type=R
-repeatRate=1.056
-repeatTime=0.396
+repeatRate=1.14
+repeatTime=0.11
 # end
 
 # start
@@ -7318,29 +7170,29 @@ position=199083
 type=PP
 effectName=bloom
 effectValue=0.9
-effectSpeed=0.122
+effectSpeed=0.35
 # end
 
 # start
 position=199185
 type=MOV
 axis=X
-moveAmount=0.024
-moveTime=0.68
+moveAmount=0.054
+moveTime=0.2
 # end
 
 # start
 position=199222
 type=RC
-rotateAmount=-1.76
-rotateTime=0.64
+rotateAmount=-3.2
+rotateTime=0.2
 # end
 
 # start
 position=199556
 type=R
-repeatRate=1.024
-repeatTime=0.36
+repeatRate=1.06
+repeatTime=0.1
 # end
 
 # start
@@ -7348,28 +7200,28 @@ position=199667
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=199667
 type=RC
-rotateAmount=1.76
-rotateTime=0.64
+rotateAmount=3.2
+rotateTime=0.2
 # end
 
 # start
 position=200000
 type=RC
-rotateAmount=-0.66
-rotateTime=0.768
+rotateAmount=-1.2
+rotateTime=0.24
 # end
 
 # start
 position=200000
 type=R
-repeatRate=1.024
-repeatTime=0.36
+repeatRate=1.06
+repeatTime=0.1
 # end
 
 # start
@@ -7380,8 +7232,8 @@ type=PF-p
 # start
 position=200000
 type=R
-repeatRate=1.008
-repeatTime=0.468
+repeatRate=1.02
+repeatTime=0.13
 # end
 
 # start
@@ -7389,43 +7241,43 @@ position=200000
 type=MOV
 axis=X
 moveAmount=0
-moveTime=0.578
+moveTime=0.17
 # end
 
 # start
 position=200000
 type=RC
 rotateAmount=0
-rotateTime=0.512
+rotateTime=0.16
 # end
 
 # start
 position=200111
 type=RC
-rotateAmount=1.76
-rotateTime=0.64
+rotateAmount=3.2
+rotateTime=0.2
 # end
 
 # start
 position=200444
 type=R
-repeatRate=1.024
-repeatTime=0.36
+repeatRate=1.06
+repeatTime=0.1
 # end
 
 # start
 position=200556
 type=MOV
 axis=X
-moveAmount=0.024
-moveTime=0.68
+moveAmount=0.054
+moveTime=0.2
 # end
 
 # start
 position=200556
 type=RC
-rotateAmount=-1.76
-rotateTime=0.64
+rotateAmount=-3.2
+rotateTime=0.2
 # end
 
 # start
@@ -7433,50 +7285,50 @@ position=200889
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=200889
 type=R
-repeatRate=1.024
-repeatTime=0.36
+repeatRate=1.06
+repeatTime=0.1
 # end
 
 # start
 position=201000
 type=RC
-rotateAmount=1.76
-rotateTime=0.64
+rotateAmount=3.2
+rotateTime=0.2
 # end
 
 # start
 position=201222
 type=RC
-rotateAmount=-0.66
-rotateTime=0.768
+rotateAmount=-1.2
+rotateTime=0.24
 # end
 
 # start
 position=201333
 type=R
-repeatRate=1.024
-repeatTime=0.36
+repeatRate=1.06
+repeatTime=0.1
 # end
 
 # start
 position=201444
 type=MOV
 axis=X
-moveAmount=-0.024
-moveTime=0.68
+moveAmount=-0.054
+moveTime=0.2
 # end
 
 # start
 position=201444
 type=RC
-rotateAmount=1.76
-rotateTime=0.64
+rotateAmount=3.2
+rotateTime=0.2
 # end
 
 # start
@@ -7484,50 +7336,50 @@ position=201778
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=201778
 type=R
-repeatRate=1.024
-repeatTime=0.36
+repeatRate=1.06
+repeatTime=0.1
 # end
 
 # start
 position=201889
 type=RC
-rotateAmount=-1.76
-rotateTime=0.64
+rotateAmount=-3.2
+rotateTime=0.2
 # end
 
 # start
 position=202000
 type=RC
-rotateAmount=0.66
-rotateTime=0.768
+rotateAmount=1.2
+rotateTime=0.24
 # end
 
 # start
 position=202222
 type=MOV
 axis=X
-moveAmount=0.024
-moveTime=0.68
+moveAmount=0.054
+moveTime=0.2
 # end
 
 # start
 position=202222
 type=R
-repeatRate=1.024
-repeatTime=0.36
+repeatRate=1.06
+repeatTime=0.1
 # end
 
 # start
 position=202333
 type=RC
-rotateAmount=-1.76
-rotateTime=0.64
+rotateAmount=-3.2
+rotateTime=0.2
 # end
 
 # start
@@ -7540,50 +7392,50 @@ position=202667
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=202667
 type=R
-repeatRate=1.024
-repeatTime=0.36
+repeatRate=1.06
+repeatTime=0.1
 # end
 
 # start
 position=202778
 type=RC
-rotateAmount=1.76
-rotateTime=0.64
+rotateAmount=3.2
+rotateTime=0.2
 # end
 
 # start
 position=203111
 type=RC
-rotateAmount=-0.66
-rotateTime=0.768
+rotateAmount=-1.2
+rotateTime=0.24
 # end
 
 # start
 position=203111
 type=R
-repeatRate=1.024
-repeatTime=0.36
+repeatRate=1.06
+repeatTime=0.1
 # end
 
 # start
 position=203222
 type=RC
-rotateAmount=1.76
-rotateTime=0.64
+rotateAmount=3.2
+rotateTime=0.2
 # end
 
 # start
 position=203333
 type=MOV
 axis=X
-moveAmount=0.024
-moveTime=0.68
+moveAmount=0.054
+moveTime=0.2
 # end
 
 # start
@@ -7591,42 +7443,42 @@ position=203556
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=203556
 type=R
-repeatRate=1.024
-repeatTime=0.36
+repeatRate=1.06
+repeatTime=0.1
 # end
 
 # start
 position=203667
 type=RC
-rotateAmount=-1.76
-rotateTime=0.64
+rotateAmount=-3.2
+rotateTime=0.2
 # end
 
 # start
 position=204000
 type=RC
-rotateAmount=0.66
-rotateTime=0.768
+rotateAmount=1.2
+rotateTime=0.24
 # end
 
 # start
 position=204000
 type=R
-repeatRate=1.024
-repeatTime=0.36
+repeatRate=1.06
+repeatTime=0.1
 # end
 
 # start
 position=204111
 type=RC
-rotateAmount=-1.76
-rotateTime=0.64
+rotateAmount=-3.2
+rotateTime=0.2
 # end
 
 # start
@@ -7638,22 +7490,22 @@ type=PF-c
 position=204444
 type=MOV
 axis=X
-moveAmount=-0.024
-moveTime=0.68
+moveAmount=-0.054
+moveTime=0.2
 # end
 
 # start
 position=204444
 type=R
-repeatRate=1.024
-repeatTime=0.36
+repeatRate=1.06
+repeatTime=0.1
 # end
 
 # start
 position=204556
 type=RC
-rotateAmount=1.76
-rotateTime=0.64
+rotateAmount=3.2
+rotateTime=0.2
 # end
 
 # start
@@ -7661,7 +7513,7 @@ position=204722
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
@@ -7672,66 +7524,66 @@ type=PF-e
 # start
 position=204800
 type=R
-repeatRate=1.044
-repeatTime=0.36
+repeatRate=1.11
+repeatTime=0.1
 # end
 
 # start
 position=204800
 type=MOV
 axis=X
-moveAmount=0.032
-moveTime=0.544
+moveAmount=0.072
+moveTime=0.16
 # end
 
 # start
 position=204800
 type=RC
-rotateAmount=0.88
-rotateTime=0.576
+rotateAmount=1.6
+rotateTime=0.18
 # end
 
 # start
 position=204889
 type=R
-repeatRate=1.024
-repeatTime=0.36
+repeatRate=1.06
+repeatTime=0.1
 # end
 
 # start
 position=205000
 type=RC
-rotateAmount=-0.66
-rotateTime=0.768
+rotateAmount=-1.2
+rotateTime=0.24
 # end
 
 # start
 position=205000
 type=RC
-rotateAmount=1.76
-rotateTime=0.64
+rotateAmount=3.2
+rotateTime=0.2
 # end
 
 # start
 position=205222
 type=MOV
 axis=X
-moveAmount=0.024
-moveTime=0.68
+moveAmount=0.054
+moveTime=0.2
 # end
 
 # start
 position=205333
 type=R
-repeatRate=1.024
-repeatTime=0.36
+repeatRate=1.06
+repeatTime=0.1
 # end
 
 # start
 position=205444
 type=RC
-rotateAmount=-1.76
-rotateTime=0.64
+rotateAmount=-3.2
+rotateTime=0.2
 # end
 
 # start
@@ -7739,28 +7591,28 @@ position=205500
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=205722
 type=RC
-rotateAmount=0.66
-rotateTime=0.768
+rotateAmount=1.2
+rotateTime=0.24
 # end
 
 # start
 position=205778
 type=R
-repeatRate=1.024
-repeatTime=0.36
+repeatRate=1.06
+repeatTime=0.1
 # end
 
 # start
 position=205889
 type=RC
-rotateAmount=-1.76
-rotateTime=0.64
+rotateAmount=-3.2
+rotateTime=0.2
 # end
 
 # start
@@ -7768,29 +7620,29 @@ position=206167
 type=PP
 effectName=bloom
 effectValue=1.1
-effectSpeed=0.077
+effectSpeed=0.22
 # end
 
 # start
 position=206222
 type=MOV
 axis=X
-moveAmount=-0.024
-moveTime=0.68
+moveAmount=-0.054
+moveTime=0.2
 # end
 
 # start
 position=206222
 type=R
-repeatRate=1.024
-repeatTime=0.36
+repeatRate=1.06
+repeatTime=0.1
 # end
 
 # start
 position=206333
 type=RC
-rotateAmount=1.76
-rotateTime=0.64
+rotateAmount=3.2
+rotateTime=0.2
 # end
 
 # start
@@ -7798,50 +7650,50 @@ position=206667
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=206667
 type=R
-repeatRate=1.024
-repeatTime=0.36
+repeatRate=1.06
+repeatTime=0.1
 # end
 
 # start
 position=206778
 type=RC
-rotateAmount=-1.76
-rotateTime=0.64
+rotateAmount=-3.2
+rotateTime=0.2
 # end
 
 # start
 position=206889
 type=RC
-rotateAmount=0.66
-rotateTime=0.768
+rotateAmount=1.2
+rotateTime=0.24
 # end
 
 # start
 position=207111
 type=MOV
 axis=X
-moveAmount=0.024
-moveTime=0.68
+moveAmount=0.054
+moveTime=0.2
 # end
 
 # start
 position=207111
 type=R
-repeatRate=1.024
-repeatTime=0.36
+repeatRate=1.06
+repeatTime=0.1
 # end
 
 # start
 position=207222
 type=RC
-rotateAmount=-1.76
-rotateTime=0.64
+rotateAmount=-3.2
+rotateTime=0.2
 # end
 
 # start
@@ -7849,57 +7701,57 @@ position=207556
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=207556
 type=R
-repeatRate=1.024
-repeatTime=0.36
+repeatRate=1.06
+repeatTime=0.1
 # end
 
 # start
 position=207667
 type=RC
-rotateAmount=1.76
-rotateTime=0.64
+rotateAmount=3.2
+rotateTime=0.2
 # end
 
 # start
 position=208000
 type=RC
-rotateAmount=-0.66
-rotateTime=0.768
+rotateAmount=-1.2
+rotateTime=0.24
 # end
 
 # start
 position=208000
 type=R
-repeatRate=1.024
-repeatTime=0.36
+repeatRate=1.06
+repeatTime=0.1
 # end
 
 # start
 position=208111
 type=RC
-rotateAmount=1.76
-rotateTime=0.64
+rotateAmount=3.2
+rotateTime=0.2
 # end
 
 # start
 position=208278
 type=MOV
 axis=X
-moveAmount=0.024
-moveTime=0.68
+moveAmount=0.054
+moveTime=0.2
 # end
 
 # start
 position=208444
 type=R
-repeatRate=1.024
-repeatTime=0.36
+repeatRate=1.06
+repeatTime=0.1
 # end
 
 # start
@@ -7907,43 +7759,43 @@ position=208556
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=208556
 type=RC
-rotateAmount=-1.76
-rotateTime=0.64
+rotateAmount=-3.2
+rotateTime=0.2
 # end
 
 # start
 position=208778
 type=RC
-rotateAmount=0.66
-rotateTime=0.768
+rotateAmount=1.2
+rotateTime=0.24
 # end
 
 # start
 position=208889
 type=R
-repeatRate=1.024
-repeatTime=0.36
+repeatRate=1.06
+repeatTime=0.1
 # end
 
 # start
 position=209000
 type=RC
-rotateAmount=-1.76
-rotateTime=0.64
+rotateAmount=-3.2
+rotateTime=0.2
 # end
 
 # start
 position=209056
 type=MOV
 axis=X
-moveAmount=-0.024
-moveTime=0.68
+moveAmount=-0.054
+moveTime=0.2
 # end
 
 # start
@@ -7951,21 +7803,21 @@ position=209278
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=209333
 type=R
-repeatRate=1.024
-repeatTime=0.36
+repeatRate=1.06
+repeatTime=0.1
 # end
 
 # start
 position=209444
 type=RC
-rotateAmount=1.76
-rotateTime=0.64
+rotateAmount=3.2
+rotateTime=0.2
 # end
 
 # start
@@ -7973,7 +7825,7 @@ position=209722
 type=PP
 effectName=bloom
 effectValue=1.1
-effectSpeed=0.077
+effectSpeed=0.22
 # end
 
 # start
@@ -7981,21 +7833,21 @@ position=209764
 type=PP
 effectName=saturation
 effectValue=0
-effectSpeed=0.122
+effectSpeed=0.35
 # end
 
 # start
 position=209778
 type=RC
-rotateAmount=-0.66
-rotateTime=0.768
+rotateAmount=-1.2
+rotateTime=0.24
 # end
 
 # start
 position=209778
 type=R
-repeatRate=1.024
-repeatTime=0.36
+repeatRate=1.06
+repeatTime=0.1
 # end
 
 # start
@@ -8003,36 +7855,36 @@ position=209843
 type=PP
 effectName=bloom
 effectValue=2.6
-effectSpeed=0.168
+effectSpeed=0.48
 # end
 
 # start
 position=209889
 type=RC
-rotateAmount=1.76
-rotateTime=0.64
+rotateAmount=3.2
+rotateTime=0.2
 # end
 
 # start
 position=210222
 type=MOV
 axis=X
-moveAmount=0.024
-moveTime=0.68
+moveAmount=0.054
+moveTime=0.2
 # end
 
 # start
 position=210222
 type=R
-repeatRate=1.024
-repeatTime=0.36
+repeatRate=1.06
+repeatTime=0.1
 # end
 
 # start
 position=210333
 type=RC
-rotateAmount=-1.76
-rotateTime=0.64
+rotateAmount=-3.2
+rotateTime=0.2
 # end
 
 # start
@@ -8040,36 +7892,36 @@ position=210444
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=210667
 type=RC
-rotateAmount=0.66
-rotateTime=0.768
+rotateAmount=1.2
+rotateTime=0.24
 # end
 
 # start
 position=210667
 type=R
-repeatRate=1.024
-repeatTime=0.36
+repeatRate=1.06
+repeatTime=0.1
 # end
 
 # start
 position=210778
 type=RC
-rotateAmount=-1.76
-rotateTime=0.64
+rotateAmount=-3.2
+rotateTime=0.2
 # end
 
 # start
 position=210889
 type=MOV
 axis=X
-moveAmount=-0.024
-moveTime=0.68
+moveAmount=-0.054
+moveTime=0.2
 # end
 
 # start
@@ -8077,28 +7929,28 @@ position=211111
 type=PP
 effectName=bloom
 effectValue=1.4
-effectSpeed=0.193
+effectSpeed=0.55
 # end
 
 # start
 position=211111
 type=R
-repeatRate=1.024
-repeatTime=0.36
+repeatRate=1.06
+repeatTime=0.1
 # end
 
 # start
 position=211222
 type=RC
-rotateAmount=1.76
-rotateTime=0.64
+rotateAmount=3.2
+rotateTime=0.2
 # end
 
 # start
 position=211389
 type=RC
-rotateAmount=-0.66
-rotateTime=0.768
+rotateAmount=-1.2
+rotateTime=0.24
 # end
 
 # start
@@ -8111,28 +7963,28 @@ position=211667
 type=PP
 effectName=saturation
 effectValue=-100
-effectSpeed=0.077
+effectSpeed=0.22
 # end
 
 # start
 position=211694
 type=R
-repeatRate=1.024
-repeatTime=0.36
+repeatRate=1.06
+repeatTime=0.1
 # end
 
 # start
 position=212000
 type=R
-repeatRate=1.024
-repeatTime=0.36
+repeatRate=1.06
+repeatTime=0.1
 # end
 
 # start
 position=212444
 type=R
-repeatRate=1.024
-repeatTime=0.36
+repeatRate=1.06
+repeatTime=0.1
 # end
 
 # start
@@ -8152,8 +8004,8 @@ distance=0.16
 # start
 position=212889
 type=R
-repeatRate=1.024
-repeatTime=0.36
+repeatRate=1.06
+repeatTime=0.1
 # end
 
 # start
@@ -8161,7 +8013,7 @@ position=213000
 type=PP
 effectName=saturation
 effectValue=0
-effectSpeed=0.122
+effectSpeed=0.35
 # end
 
 # start
@@ -8169,7 +8021,7 @@ position=213111
 type=PP
 effectName=bloom
 effectValue=2.1
-effectSpeed=0.245
+effectSpeed=0.7
 # end
 
 # start
@@ -8177,7 +8029,7 @@ position=213231
 type=PP
 effectName=bloom
 effectValue=0.9
-effectSpeed=0.122
+effectSpeed=0.35
 # end
 
 # start
@@ -8188,64 +8040,64 @@ type=PF-e
 # start
 position=213333
 type=R
-repeatRate=1.024
-repeatTime=0.36
+repeatRate=1.06
+repeatTime=0.1
 # end
 
 # start
 position=213444
 type=RC
-rotateAmount=1.76
-rotateTime=0.64
+rotateAmount=3.2
+rotateTime=0.2
 # end
 
 # start
 position=213778
 type=R
-repeatRate=1.024
-repeatTime=0.36
+repeatRate=1.06
+repeatTime=0.1
 # end
 
 # start
 position=213889
 type=RC
-rotateAmount=-1.76
-rotateTime=0.64
+rotateAmount=-3.2
+rotateTime=0.2
 # end
 
 # start
 position=214222
 type=R
-repeatRate=1.024
-repeatTime=0.36
+repeatRate=1.06
+repeatTime=0.1
 # end
 
 # start
 position=214333
 type=RC
-rotateAmount=1.76
-rotateTime=0.64
+rotateAmount=3.2
+rotateTime=0.2
 # end
 
 # start
 position=214667
 type=R
-repeatRate=1.024
-repeatTime=0.36
+repeatRate=1.06
+repeatTime=0.1
 # end
 
 # start
 position=214778
 type=RC
-rotateAmount=-1.76
-rotateTime=0.64
+rotateAmount=-3.2
+rotateTime=0.2
 # end
 
 # start
 position=215111
 type=R
-repeatRate=1.024
-repeatTime=0.36
+repeatRate=1.06
+repeatTime=0.1
 # end
 
 # start
@@ -8256,50 +8108,50 @@ type=PF-p
 # start
 position=215222
 type=RC
-rotateAmount=1.76
-rotateTime=0.64
+rotateAmount=3.2
+rotateTime=0.2
 # end
 
 # start
 position=215556
 type=R
-repeatRate=1.024
-repeatTime=0.36
+repeatRate=1.06
+repeatTime=0.1
 # end
 
 # start
 position=215667
 type=RC
-rotateAmount=-1.76
-rotateTime=0.64
+rotateAmount=-3.2
+rotateTime=0.2
 # end
 
 # start
 position=216000
 type=R
-repeatRate=1.024
-repeatTime=0.36
+repeatRate=1.06
+repeatTime=0.1
 # end
 
 # start
 position=216111
 type=RC
-rotateAmount=1.76
-rotateTime=0.64
+rotateAmount=3.2
+rotateTime=0.2
 # end
 
 # start
 position=216444
 type=R
-repeatRate=1.024
-repeatTime=0.36
+repeatRate=1.06
+repeatTime=0.1
 # end
 
 # start
 position=216556
 type=RC
-rotateAmount=-1.76
-rotateTime=0.64
+rotateAmount=-3.2
+rotateTime=0.2
 # end
 
 # start
@@ -8310,57 +8162,57 @@ type=PF-e
 # start
 position=216889
 type=R
-repeatRate=1.024
-repeatTime=0.36
+repeatRate=1.06
+repeatTime=0.1
 # end
 
 # start
 position=217000
 type=RC
-rotateAmount=1.76
-rotateTime=0.64
+rotateAmount=3.2
+rotateTime=0.2
 # end
 
 # start
 position=217333
 type=R
-repeatRate=1.024
-repeatTime=0.36
+repeatRate=1.06
+repeatTime=0.1
 # end
 
 # start
 position=217444
 type=RC
-rotateAmount=-1.76
-rotateTime=0.64
+rotateAmount=-3.2
+rotateTime=0.2
 # end
 
 # start
 position=217778
 type=R
-repeatRate=1.024
-repeatTime=0.36
+repeatRate=1.06
+repeatTime=0.1
 # end
 
 # start
 position=217889
 type=RC
-rotateAmount=1.76
-rotateTime=0.64
+rotateAmount=3.2
+rotateTime=0.2
 # end
 
 # start
 position=218222
 type=R
-repeatRate=1.024
-repeatTime=0.36
+repeatRate=1.06
+repeatTime=0.1
 # end
 
 # start
 position=218333
 type=RC
-rotateAmount=-1.76
-rotateTime=0.64
+rotateAmount=-3.2
+rotateTime=0.2
 # end
 
 # start
@@ -8371,57 +8223,57 @@ type=PF-p
 # start
 position=218667
 type=R
-repeatRate=1.024
-repeatTime=0.36
+repeatRate=1.06
+repeatTime=0.1
 # end
 
 # start
 position=218778
 type=RC
-rotateAmount=1.76
-rotateTime=0.64
+rotateAmount=3.2
+rotateTime=0.2
 # end
 
 # start
 position=219111
 type=R
-repeatRate=1.024
-repeatTime=0.36
+repeatRate=1.06
+repeatTime=0.1
 # end
 
 # start
 position=219222
 type=RC
-rotateAmount=-1.76
-rotateTime=0.64
+rotateAmount=-3.2
+rotateTime=0.2
 # end
 
 # start
 position=219556
 type=R
-repeatRate=1.024
-repeatTime=0.36
+repeatRate=1.06
+repeatTime=0.1
 # end
 
 # start
 position=219667
 type=RC
-rotateAmount=1.76
-rotateTime=0.64
+rotateAmount=3.2
+rotateTime=0.2
 # end
 
 # start
 position=220000
 type=R
-repeatRate=1.024
-repeatTime=0.36
+repeatRate=1.06
+repeatTime=0.1
 # end
 
 # start
 position=220111
 type=RC
-rotateAmount=-1.76
-rotateTime=0.64
+rotateAmount=-3.2
+rotateTime=0.2
 # end
 
 # start
@@ -8432,57 +8284,57 @@ type=PF-e
 # start
 position=220444
 type=R
-repeatRate=1.024
-repeatTime=0.36
+repeatRate=1.06
+repeatTime=0.1
 # end
 
 # start
 position=220556
 type=RC
-rotateAmount=1.76
-rotateTime=0.64
+rotateAmount=3.2
+rotateTime=0.2
 # end
 
 # start
 position=220889
 type=R
-repeatRate=1.024
-repeatTime=0.36
+repeatRate=1.06
+repeatTime=0.1
 # end
 
 # start
 position=221000
 type=RC
-rotateAmount=-1.76
-rotateTime=0.64
+rotateAmount=-3.2
+rotateTime=0.2
 # end
 
 # start
 position=221333
 type=R
-repeatRate=1.024
-repeatTime=0.36
+repeatRate=1.06
+repeatTime=0.1
 # end
 
 # start
 position=221444
 type=RC
-rotateAmount=1.76
-rotateTime=0.64
+rotateAmount=3.2
+rotateTime=0.2
 # end
 
 # start
 position=221778
 type=R
-repeatRate=1.024
-repeatTime=0.36
+repeatRate=1.06
+repeatTime=0.1
 # end
 
 # start
 position=221889
 type=RC
-rotateAmount=-1.76
-rotateTime=0.64
+rotateAmount=-3.2
+rotateTime=0.2
 # end
 
 # start
@@ -8493,57 +8345,57 @@ type=PF-p
 # start
 position=222222
 type=R
-repeatRate=1.024
-repeatTime=0.36
+repeatRate=1.06
+repeatTime=0.1
 # end
 
 # start
 position=222333
 type=RC
-rotateAmount=1.76
-rotateTime=0.64
+rotateAmount=3.2
+rotateTime=0.2
 # end
 
 # start
 position=222667
 type=R
-repeatRate=1.024
-repeatTime=0.36
+repeatRate=1.06
+repeatTime=0.1
 # end
 
 # start
 position=222778
 type=RC
-rotateAmount=-1.76
-rotateTime=0.64
+rotateAmount=-3.2
+rotateTime=0.2
 # end
 
 # start
 position=223111
 type=R
-repeatRate=1.024
-repeatTime=0.36
+repeatRate=1.06
+repeatTime=0.1
 # end
 
 # start
 position=223222
 type=RC
-rotateAmount=1.76
-rotateTime=0.64
+rotateAmount=3.2
+rotateTime=0.2
 # end
 
 # start
 position=223556
 type=R
-repeatRate=1.024
-repeatTime=0.36
+repeatRate=1.06
+repeatTime=0.1
 # end
 
 # start
 position=223667
 type=RC
-rotateAmount=-1.76
-rotateTime=0.64
+rotateAmount=-3.2
+rotateTime=0.2
 # end
 
 # start
@@ -8554,22 +8406,22 @@ type=PF-e
 # start
 position=224000
 type=R
-repeatRate=1.024
-repeatTime=0.36
+repeatRate=1.06
+repeatTime=0.1
 # end
 
 # start
 position=224000
 type=R
 repeatRate=1
-repeatTime=0.648
+repeatTime=0.18
 # end
 
 # start
 position=224000
 type=RC
 rotateAmount=0
-rotateTime=0.512
+rotateTime=0.16
 # end
 
 # start
@@ -8577,7 +8429,7 @@ position=224000
 type=MOV
 axis=X
 moveAmount=0
-moveTime=0.476
+moveTime=0.14
 # end
 
 # start
@@ -8585,7 +8437,7 @@ position=224000
 type=MOV
 axis=Y
 moveAmount=0
-moveTime=0.504
+moveTime=0.14
 # end
 
 # start
@@ -8598,7 +8450,7 @@ position=224000
 type=PP
 effectName=saturation
 effectValue=-70
-effectSpeed=0.07
+effectSpeed=0.2
 # end
 
 # start
@@ -8606,7 +8458,7 @@ position=224000
 type=PP
 effectName=bloom
 effectValue=1.9
-effectSpeed=0.098
+effectSpeed=0.28
 # end
 
 # start
@@ -8626,50 +8478,50 @@ distance=0.1
 # start
 position=224111
 type=RC
-rotateAmount=1.76
-rotateTime=0.64
+rotateAmount=3.2
+rotateTime=0.2
 # end
 
 # start
 position=224444
 type=R
-repeatRate=1.024
-repeatTime=0.36
+repeatRate=1.06
+repeatTime=0.1
 # end
 
 # start
 position=224556
 type=RC
-rotateAmount=-1.76
-rotateTime=0.64
+rotateAmount=-3.2
+rotateTime=0.2
 # end
 
 # start
 position=224889
 type=R
-repeatRate=1.024
-repeatTime=0.36
+repeatRate=1.06
+repeatTime=0.1
 # end
 
 # start
 position=225000
 type=RC
-rotateAmount=1.76
-rotateTime=0.64
+rotateAmount=3.2
+rotateTime=0.2
 # end
 
 # start
 position=225333
 type=R
-repeatRate=1.024
-repeatTime=0.36
+repeatRate=1.06
+repeatTime=0.1
 # end
 
 # start
 position=225444
 type=RC
-rotateAmount=-1.76
-rotateTime=0.64
+rotateAmount=-3.2
+rotateTime=0.2
 # end
 
 # start
@@ -8680,15 +8532,15 @@ type=PF-p
 # start
 position=225778
 type=R
-repeatRate=1.024
-repeatTime=0.36
+repeatRate=1.06
+repeatTime=0.1
 # end
 
 # start
 position=225889
 type=RC
-rotateAmount=1.76
-rotateTime=0.64
+rotateAmount=3.2
+rotateTime=0.2
 # end
 
 # start
@@ -8700,14 +8552,14 @@ type=PF-c
 position=226000
 type=R
 repeatRate=1
-repeatTime=0.54
+repeatTime=0.15
 # end
 
 # start
 position=226000
 type=RC
 rotateAmount=0
-rotateTime=0.512
+rotateTime=0.16
 # end
 
 # start
@@ -8715,7 +8567,7 @@ position=226000
 type=MOV
 axis=X
 moveAmount=0
-moveTime=0.442
+moveTime=0.13
 # end
 
 # start
@@ -8723,7 +8575,7 @@ position=226000
 type=MOV
 axis=Y
 moveAmount=0
-moveTime=0.468
+moveTime=0.13
 # end
 
 # start
@@ -8731,7 +8583,7 @@ position=226000
 type=PP
 effectName=saturation
 effectValue=0
-effectSpeed=0.098
+effectSpeed=0.28
 # end
 
 # start
@@ -8739,49 +8591,49 @@ position=226000
 type=PP
 effectName=bloom
 effectValue=0.8
-effectSpeed=0.105
+effectSpeed=0.3
 # end
 
 # start
 position=226222
 type=R
-repeatRate=1.024
-repeatTime=0.36
+repeatRate=1.06
+repeatTime=0.1
 # end
 
 # start
 position=226333
 type=RC
-rotateAmount=-1.76
-rotateTime=0.64
+rotateAmount=-3.2
+rotateTime=0.2
 # end
 
 # start
 position=226667
 type=R
-repeatRate=1.024
-repeatTime=0.36
+repeatRate=1.06
+repeatTime=0.1
 # end
 
 # start
 position=226778
 type=RC
-rotateAmount=1.76
-rotateTime=0.64
+rotateAmount=3.2
+rotateTime=0.2
 # end
 
 # start
 position=227111
 type=R
-repeatRate=1.024
-repeatTime=0.36
+repeatRate=1.06
+repeatTime=0.1
 # end
 
 # start
 position=227222
 type=RC
-rotateAmount=-1.76
-rotateTime=0.64
+rotateAmount=-3.2
+rotateTime=0.2
 # end
 
 # start
@@ -8789,7 +8641,21 @@ position=227444
 type=PP
 effectName=bloom
 effectValue=2.6
-effectSpeed=0.168
+effectSpeed=0.48
+# end
+
+# start
+position=227537
+type=R
+repeatRate=1.1
+repeatTime=0.12
+# end
+
+# start
+position=229296
+type=R
+repeatRate=1.1
+repeatTime=0.12
 # end
 
 # start
@@ -8819,20 +8685,5 @@ type=PF-e
 
 # start
 position=240000
-type=PF-c
-# end
-
-# start
-position=227556
-type=PP
-effectName=saturation
-effectValue=-100
-effectSpeed=30
-# end
-
-# start
-position=227556
-type=R
-repeatRate=10
-repeatTime=30
+type=PF-p
 # end

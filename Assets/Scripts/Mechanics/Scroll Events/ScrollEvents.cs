@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 using static GameManager;
 using static PostProcessingManager;
 
-public enum TypeOfScrollEvent 
+public enum TypeOfScrollEvent
 {
     FocusCentre,
     FocusPlayerRight,
@@ -27,24 +27,30 @@ public class ScrollEvents : MonoBehaviour
 {
     public TypeOfScrollEvent typeOfScrollEvent;
 
+    [Header("Camera FOV")]
     public float ZoomAmount;
     public float ZoomSpeed;
     public bool BpmBump;
 
+    [Header("Repeated Tile")]
     public float RepeatRate;
     public float RepeatTime;
 
+    [Header("Rotate Tile")]
     public string Axis;
     public float RotateAmount;
     public float RotateTime;
 
+    [Header("Move Tile")]
     public float MoveAmount;
     public float MoveTime;
 
+    [Header("Post Process")]
     public string PostProcessEffectName;
     public float PostProcessEffectValue;
     public float PostProcessEffectSpeed;
 
+    [Header("After Image")]
     public string whichPlayerToAfterImage;
     public bool displayAfterImage;
     public float afterImageSpeed;
@@ -60,10 +66,13 @@ public class ScrollEvents : MonoBehaviour
     [SerializeField] private float scrollSpeedModificationAmount;
 
     [Header("Animation")]
-    [Tooltip("If this event doesn't make use of animations, don't drag one into this variable.")][SerializeField] private Animation eventAnim;
+    [Tooltip("if this event doesn't make use of animations, don't drag one into this variable.")]
+    [SerializeField] private Animation eventAnim;
 
     [Header("Cutscene")]
     [SerializeField] private string _cutscenePath;
+
+    private bool _fired = false;
 
     private void FocusCentre() => Instance.focus = Focus.Centre;
     private void FocusLeftPlayer() => Instance.focus = Focus.LeftPlayer;
@@ -76,103 +85,130 @@ public class ScrollEvents : MonoBehaviour
         Instance.BpmBump = BpmBump;
     }
 
+    private RepeatedZoom GetRepeatedZoom()
+    {
+        if (Camera.main == null)
+        {
+            Debug.LogWarning("ScrollEvents: Camera.main is null, could not find RepeatedZoom.");
+            return null;
+        }
+
+        Transform t = Camera.main.transform;
+
+        if (t.parent == null || t.parent.parent == null || t.parent.parent.parent == null)
+        {
+            Debug.LogWarning("ScrollEvents: Camera hierarchy is not deep enough to find RepeatedZoom.");
+            return null;
+        }
+
+        RepeatedZoom rz = t.parent.parent.parent.GetComponent<RepeatedZoom>();
+
+        if (rz == null) Debug.LogWarning("ScrollEvents: RepeatedZoom component was not found on expected camera parent.");
+
+        return rz;
+    }
+
     private void CameraZoomRepeat(float repeatValue, float smoothing)
     {
-        Camera.main.transform.parent.parent.parent.GetComponent<RepeatedZoom>()._zoomedValue = repeatValue;
-        Camera.main.transform.parent.parent.parent.GetComponent<RepeatedZoom>()._zoomedSmoothTime = smoothing;
+        RepeatedZoom rz = GetRepeatedZoom();
+        if (rz == null) return;
+
+        rz.targetZoom = repeatValue;
+        rz.zoomSmoothTime = smoothing;
     }
 
     private void CameraRotateTile(float rotateAmount, float smoothing)
     {
-        Camera.main.transform.parent.parent.parent.GetComponent<RepeatedZoom>()._smoothedZ = rotateAmount;
-        Camera.main.transform.parent.parent.parent.GetComponent<RepeatedZoom>()._zTime = smoothing;
+        RepeatedZoom rz = GetRepeatedZoom();
+        if (rz == null) return;
+
+        rz.targetZ = rotateAmount;
+        rz.zSmoothTime = smoothing;
     }
 
     private void CameraMoveTile(string axis, float moveAmount, float smoothing)
     {
+        RepeatedZoom rz = GetRepeatedZoom();
+        if (rz == null) return;
+
+        axis = (axis ?? "").Trim().ToUpperInvariant();
+
         if (axis == "X")
         {
-            Camera.main.transform.parent.parent.parent.GetComponent<RepeatedZoom>()._smoothedX = moveAmount;
-            Camera.main.transform.parent.parent.parent.GetComponent<RepeatedZoom>()._xTime = smoothing;
+            rz.targetX = moveAmount;
+            rz.xSmoothTime = smoothing;
         }
         else if (axis == "Y")
         {
-            Camera.main.transform.parent.parent.parent.GetComponent<RepeatedZoom>()._smoothedY = moveAmount;
-            Camera.main.transform.parent.parent.parent.GetComponent<RepeatedZoom>()._yTime = smoothing;
+            rz.targetY = moveAmount;
+            rz.ySmoothTime = smoothing;
         }
+        else Debug.LogWarning($"ScrollEvents: Unsupported axis '{axis}' for MoveTiles. Use 'X' or 'Y'.");
     }
 
-    private void PostProcessEffect(string effect, float value, float speed)
-    {
-        PP_Instance.SetEffect(effect, value, speed);
-    }
+    private void PostProcessEffect(string effect, float value, float speed) => PP_Instance.SetEffect(effect, value, speed);
 
-    private void AfterImageEffect(string player, bool display, bool flipX, bool flipY, int zIndex,float duration, float speed, float R, float G, float B, float A)
+    private void AfterImageEffect(string player, bool display, bool flipX, bool flipY, int zIndex, float duration, float speed, float R, float G, float B, float A)
     {
-        player = (player ?? "").Trim().ToLower();
+        player = (player ?? "").Trim().ToLowerInvariant();
 
-        // support both formats so mods don't break
         bool isLeft = (player == "left" || player == "leftplayer");
         bool isRight = (player == "right" || player == "rightplayer");
 
         float nr = (R > 1f) ? (R / 255f) : R;
         float ng = (G > 1f) ? (G / 255f) : G;
         float nb = (B > 1f) ? (B / 255f) : B;
-        float na = Mathf.Clamp01(A);
+        float na = (A > 1f) ? (A / 255f) : A;
 
-        var col = new Color(Mathf.Clamp01(nr), Mathf.Clamp01(ng), Mathf.Clamp01(nb), na);
+        Color col = new Color(Mathf.Clamp01(nr), Mathf.Clamp01(ng), Mathf.Clamp01(nb), Mathf.Clamp01(na));
 
         if (isLeft)
         {
             var s = Instance._aiScript.GetComponent<DreamwaveAICharacter>();
+            if (s == null) return;
+
             s.afterImage = display;
-            s.afterImageSpeed = duration;
             s.afterImageColour = col;
             s.afterImageSpeed = speed;
             s.afterImageDuration = duration;
             s.afterImageZIndex = zIndex;
-            if (flipX) s.flipXAfterImage = true;
-            if (flipY) s.flipYAfterImage = true;
+            s.flipXAfterImage = flipX;
+            s.flipYAfterImage = flipY;
         }
         else if (isRight)
         {
             var s = Instance._playerScript.GetComponent<DreamwaveCharacter>();
+            if (s == null) return;
+
             s.afterImage = display;
-            s.afterImageSpeed = duration;
             s.afterImageColour = col;
             s.afterImageSpeed = speed;
             s.afterImageDuration = duration;
             s.afterImageZIndex = zIndex;
-            if (flipX) s.flipXAfterImage = true;
-            if (flipY) s.flipYAfterImage = true;
+            s.flipXAfterImage = flipX;
+            s.flipYAfterImage = flipY;
         }
+        else Debug.LogWarning($"ScrollEvents: Unknown afterimage player '{player}'. Use left/right or leftplayer/rightplayer.");
     }
 
     private void ChangeSongSpeed() => Instance.scrollManager.scrollSpeedMultiplier = scrollSpeedModificationAmount;
 
-    private bool _fired = false;
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("ScrollEventTrigger"))
-        {
-            if (!_fired)
-            {
-                FireEvent(typeOfScrollEvent);
-                _fired = true;
-            }
-        }
+        if (!collision.gameObject.CompareTag("ScrollEventTrigger")) return;
+        if (_fired) return;
+
+        FireEvent(typeOfScrollEvent);
+        _fired = true;
     }
 
     private void OnTriggerStay2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("ScrollEventTrigger"))
-        {
-            if (!_fired)
-            {
-                FireEvent(typeOfScrollEvent);
-                _fired = true;
-            }
-        }
+        if (!collision.gameObject.CompareTag("ScrollEventTrigger")) return;
+        if (_fired) return;
+
+        FireEvent(typeOfScrollEvent);
+        _fired = true;
     }
 
     private void FireEvent(TypeOfScrollEvent ev)
@@ -184,7 +220,7 @@ public class ScrollEvents : MonoBehaviour
             case TypeOfScrollEvent.FocusPlayerLeft: FocusLeftPlayer(); break;
             case TypeOfScrollEvent.CameraFov: CameraFov(); break;
             case TypeOfScrollEvent.ChangeSongSpeed: ChangeSongSpeed(); break;
-            case TypeOfScrollEvent.Animation: eventAnim.Play(); break;
+            case TypeOfScrollEvent.Animation: if (eventAnim != null) eventAnim.Play(); break;
             case TypeOfScrollEvent.InstantRestart: SceneManager.LoadScene(SceneManager.GetActiveScene().name); break;
             case TypeOfScrollEvent.Cutscene: Instance.DreamwaveVideoStreamer.InitLoad(_cutscenePath); break;
             case TypeOfScrollEvent.RepeatedTile: CameraZoomRepeat(RepeatRate, RepeatTime); break;

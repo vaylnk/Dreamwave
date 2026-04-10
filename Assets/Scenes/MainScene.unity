@@ -8361,6 +8361,7 @@ MonoBehaviour:
   keyForSide: 39
   buttonForSide: 
   NoteHitParticle: {fileID: 3778646841318257463}
+  botLaneReleaseDelay: 0.05
 --- !u!61 &229887437
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8497,19 +8498,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd2fbb8350f99fe458d562d83b595e88, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _repeatedZoom: {fileID: 2100000, guid: e8ac9e4d07f3f80468ab595bf03b4809, type: 2}
-  _zoomedSmoothTime: 5
-  _zoomedValue: 1
-  _zoom: 1
-  _x: 0
-  _smoothedX: 0
-  _xTime: 0
-  _y: 0
-  _smoothedY: 0
-  _yTime: 0
-  _z: 0
-  _smoothedZ: 0
-  _zTime: 0
+  repeatedZoom: {fileID: 2100000, guid: e8ac9e4d07f3f80468ab595bf03b4809, type: 2}
+  zoom: 0
+  targetZoom: 0
+  zoomSmoothTime: 0.2
+  x: 0
+  targetX: 0
+  xSmoothTime: 0.15
+  y: 0
+  targetY: 0
+  ySmoothTime: 0.15
+  z: 0
+  targetZ: 0
+  zSmoothTime: 0.15
 --- !u!1 &236982075
 GameObject:
   m_ObjectHideFlags: 0
@@ -13728,6 +13729,7 @@ MonoBehaviour:
   keyForSide: 115
   buttonForSide: 
   NoteHitParticle: {fileID: 1821306573}
+  botLaneReleaseDelay: 0.05
 --- !u!61 &468820208
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -20187,6 +20189,7 @@ MonoBehaviour:
   keyForSide: 59
   buttonForSide: 
   NoteHitParticle: {fileID: 1444186459}
+  botLaneReleaseDelay: 0.05
 --- !u!61 &868015679
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -23528,6 +23531,7 @@ MonoBehaviour:
   keyForSide: 97
   buttonForSide: 
   NoteHitParticle: {fileID: 300072332}
+  botLaneReleaseDelay: 0.05
 --- !u!1 &1027174688
 GameObject:
   m_ObjectHideFlags: 0
@@ -24473,14 +24477,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::StrumManager
   _audioSource: {fileID: 1475031433}
-  SongTimeMs: 0
   ScrollSpeed: 0
   strumLineY: 0
-  visibleWindowMs: 8000
-  positionEpsilon: 0.01
-  physicsSimWindowMs: 500
   unitsPerSecond: 5
   _playerScrollMultiplier: 1
+  visibleWindowMs: 8000
+  spawnLeadMs: 1500
+  despawnLagMs: 400
+  positionEpsilon: 0.01
+  physicsSimWindowMs: 500
   activeNotes: []
 --- !u!1 &1076052200
 GameObject:

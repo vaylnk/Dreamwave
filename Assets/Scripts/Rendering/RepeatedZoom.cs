@@ -2,37 +2,49 @@ using UnityEngine;
 
 public class RepeatedZoom : MonoBehaviour
 {
-    public Material _repeatedZoom;
-    public float _zoomedSmoothTime;
-    public float _zoomedValue;
-    public float _zoom;
-    
-    public float _x;
-    public float _smoothedX;
-    public float _xTime;
+    public Material repeatedZoom;
 
-    public float _y;
-    public float _smoothedY;
-    public float _yTime;
+    [Header("Zoom")]
+    public float zoom;
+    public float targetZoom;
+    public float zoomSmoothTime = 0.2f;
+    private float zoomVelocity;
 
-    /// <summary>
-    /// This is for rotation, not positioning.
-    /// </summary>
-    public float _z; // this is for rotation
-    public float _smoothedZ; // this is for rotation
-    public float _zTime; // this is for rotation
+    [Header("Offset X")]
+    public float x;
+    public float targetX;
+    public float xSmoothTime = 0.15f;
+    private float xVelocity;
 
-    void Update()
+    [Header("Offset Y")]
+    public float y;
+    public float targetY;
+    public float ySmoothTime = 0.15f;
+    private float yVelocity;
+
+    [Header("Rotation")]
+    public float z;
+    public float targetZ;
+    public float zSmoothTime = 0.15f;
+    private float zVelocity;
+
+    private static readonly int ZoomId = Shader.PropertyToID("_Zoom");
+    private static readonly int OffsetXId = Shader.PropertyToID("_OffsetX");
+    private static readonly int OffsetYId = Shader.PropertyToID("_OffsetY");
+    private static readonly int RotationId = Shader.PropertyToID("_Rotation");
+
+    private void Update()
     {
-        _zoom = Mathf.Lerp(_zoom, _zoomedValue, Time.deltaTime * _zoomedSmoothTime);
-        _repeatedZoom.SetFloat("_Zoom", _zoom);
+        zoom = Mathf.SmoothDamp(zoom, targetZoom, ref zoomVelocity, zoomSmoothTime);
+        x = Mathf.SmoothDamp(x, targetX, ref xVelocity, xSmoothTime);
+        y = Mathf.SmoothDamp(y, targetY, ref yVelocity, ySmoothTime);
+        z = Mathf.SmoothDampAngle(z, targetZ, ref zVelocity, zSmoothTime);
 
-        _x = Mathf.Lerp(_x, _smoothedX, Time.deltaTime * _xTime);
-        _y = Mathf.Lerp(_y, _smoothedY, Time.deltaTime * _yTime);
-        _z = Mathf.Lerp(_z, _smoothedZ, Time.deltaTime * _zTime);
+        if (repeatedZoom == null) return;
 
-        _repeatedZoom.SetFloat("_OffsetX", _x);
-        _repeatedZoom.SetFloat("_OffsetY", _y);
-        _repeatedZoom.SetFloat("_Rotation", _z);
+        repeatedZoom.SetFloat(ZoomId, zoom);
+        repeatedZoom.SetFloat(OffsetXId, x);
+        repeatedZoom.SetFloat(OffsetYId, y);
+        repeatedZoom.SetFloat(RotationId, z);
     }
 }
