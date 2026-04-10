@@ -30,12 +30,12 @@ public class NoteHitbox : MonoBehaviour
     private void Start()
     {
         buttonForSide = side.ToString();
+        PlayerPrefs.SetInt("botPlay", 1);
     }
 
     private void Update()
     {
-        if (PauseMenu.instance._isPaused)
-            return;
+        if (PauseMenu.instance._isPaused) return;
 
         float songTime = StrumManager.SM_Instance.JudgementTimeMs;
 
@@ -59,14 +59,13 @@ public class NoteHitbox : MonoBehaviour
             }
         }
 
-        if (notesWithinHitBox.Count == 0)
-            return;
+        if (notesWithinHitBox.Count == 0) return;
 
-        if (Input.GetKeyDown(keyForSide) ||
-            MobileControls.instance.GetButtonsPressed(buttonForSide))
+        if (PlayerPrefs.GetInt("botPlay") == 0)
         {
-            TryHit();
+            if (Input.GetKeyDown(keyForSide) || MobileControls.instance.GetButtonsPressed(buttonForSide)) TryHit();
         }
+        else TryHitBot();
     }
 
     private void TryHit()
@@ -78,26 +77,45 @@ public class NoteHitbox : MonoBehaviour
         // always target the earliest unjudged note
         foreach (var note in notesWithinHitBox)
         {
-            if (note == null || note.wasJudged)
-                continue;
+            if (note == null || note.wasJudged) continue;
 
-            if (earliest == null || note.noteTimeMs < earliest.noteTimeMs)
-                earliest = note;
+            if (earliest == null || note.noteTimeMs < earliest.noteTimeMs) earliest = note;
         }
 
-        if (earliest == null)
-            return;
+        if (earliest == null) return;
 
         float signedDelta = songTime - earliest.noteTimeMs;
 
         // early-hit protection
-        if (signedDelta < -ratingThresholds[4])
-            return;
+        if (signedDelta < -ratingThresholds[4]) return;
 
         float absDelta = Mathf.Abs(signedDelta);
         string rating = GetRating(absDelta);
 
         Judge(earliest, rating, absDelta, false);
+        notesWithinHitBox.Remove(earliest);
+    }
+
+    private void TryHitBot()
+    {
+        float songTime = StrumManager.SM_Instance.JudgementTimeMs;
+
+        MsNote earliest = null;
+
+        foreach (var note in notesWithinHitBox)
+        {
+            if (note == null || note.wasJudged) continue;
+
+            if (earliest == null || note.noteTimeMs < earliest.noteTimeMs) earliest = note;
+        }
+
+        if (earliest == null) return;
+
+        float signedDelta = songTime - earliest.noteTimeMs;
+
+        if (signedDelta < 0f) return;
+
+        Judge(earliest, "Dreamy", 0f, false);
         notesWithinHitBox.Remove(earliest);
     }
 
@@ -107,20 +125,13 @@ public class NoteHitbox : MonoBehaviour
         note.enabled = false;
 
         var sr = note.GetComponent<SpriteRenderer>();
-        if (sr != null)
-            sr.enabled = false;
+        if (sr != null) sr.enabled = false;
 
         NoteHit?.Invoke(rating, delta, 0f, keyForSide.ToString());
 
-        if (!isMiss &&
-            (rating == "Dreamy" || rating == "Sick" || rating == "Cool") &&
-            GameManager.Instance.shouldDrawNoteSplashes)
+        if (!isMiss && (rating == "Dreamy" || rating == "Sick" || rating == "Cool") && GameManager.Instance.shouldDrawNoteSplashes)
         {
-            Instantiate(
-                NoteHitParticle,
-                NoteHitParticle.transform.position,
-                Quaternion.identity
-            ).SetActive(true);
+            Instantiate(NoteHitParticle, NoteHitParticle.transform.position, Quaternion.identity).SetActive(true);
         }
     }
 
@@ -137,25 +148,21 @@ public class NoteHitbox : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         var note = collision.GetComponent<MsNote>();
-        if (note == null || note.wasJudged)
-            return;
+        if (note == null || note.wasJudged) return;
 
         if (!notesWithinHitBox.Contains(note))
         {
             notesWithinHitBox.Add(note);
 
             // leep notes ordered by time - helps consistency
-            notesWithinHitBox.Sort(
-                (a, b) => a.noteTimeMs.CompareTo(b.noteTimeMs)
-            );
+            notesWithinHitBox.Sort((a, b) => a.noteTimeMs.CompareTo(b.noteTimeMs));
         }
     }
 
     private void OnTriggerExit2D(Collider2D collision)
     {
         var note = collision.GetComponent<MsNote>();
-        if (note == null || note.wasJudged)
-            return;
+        if (note == null || note.wasJudged) return;
 
         notesWithinHitBox.Remove(note);
     }
